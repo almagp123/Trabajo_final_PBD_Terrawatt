@@ -23,11 +23,11 @@ import pandas as pd
 
 # %%
 # Definimos de donde vamos a obtener los datos y donde vamos a guardar los datos limpios 
-input_folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_brutos_meteorologicos"  
-output_folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos"  
+input_folder = "../Trabajo_final_PBD_Terrawatt/Datos_Y_Limpieza/Datos_brutos/Datos_brutos_meteorologicos"  
+output_folder = "../Trabajo_final_PBD_Terrawatt/Datos_Y_Limpieza/Datos_limpios/Datos_limpios_metereologicos"  
 
 # Crear la carpeta de salida si no existe
-if not os.path.exists(output_folder):
+if not os.path.exists('output_folder'):
     os.makedirs(output_folder)
 
 # Procesar cada archivo CSV en la carpeta de entrada
@@ -81,8 +81,8 @@ print("Procesamiento completado.")
 
 # %%
 # Definimos las carpetas
-input_folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_brutos_meteorologicos"  
-output_folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos" 
+# input_folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_brutos_meteorologicos"  
+# output_folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos" 
 
 # Obtener listas de archivos en ambas carpetas
 input_files = set(os.listdir(input_folder))
@@ -112,12 +112,12 @@ else:
 
 # %%
 # Definir la carpeta de entrada
-input_folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos"
+# input_folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos"
 
 provincias_unicas = set()
 
 # Procesar cada archivo CSV en la carpeta
-for file_name in os.listdir(input_folder):
+for file_name in os.listdir(output_folder):
     if file_name.endswith(".csv"):  
         input_path = os.path.join(input_folder, file_name)
         
@@ -150,15 +150,15 @@ import os
 import pandas as pd
 
 # Definir las carpetas de entrada y salida
-folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos"
+# folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos"
 # Crear la carpeta de salida si no existe
-if not os.path.exists(folder):
-    os.makedirs(folder)
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
 
 # Recorrer todos los archivos en la carpeta de entrada
-for file_name in os.listdir(folder):
+for file_name in os.listdir(output_folder):
     if file_name.endswith(".csv"):  # Verificar que sea un archivo CSV
-        input_path = os.path.join(folder, file_name)
+        input_path = os.path.join(output_folder, file_name)
 
         try:
             # Leer el archivo CSV
@@ -181,7 +181,7 @@ for file_name in os.listdir(folder):
                 df = df[df["FECHA"] >= "2014-04-01"]
 
             # Guardar el archivo procesado
-            output_path = os.path.join(folder, file_name)
+            output_path = os.path.join(output_folder, file_name)
             df.to_csv(output_path, sep=';', index=False, encoding="latin1")
 
         except Exception as e:
@@ -195,19 +195,19 @@ print("Procesamiento completado.")
 # Además sustituimos todos estos datasets y los sustituimos por uno independiente por cada provincia, el nombre de cada archivo será el correspondiente a cada provincia.
 
 # %%
-folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos"
+# folder = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos"
 
-if not os.path.exists(folder):
-    os.makedirs(folder)
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
 
 # Crear un diccionario para almacenar los DataFrames por provincia
 dataframes_by_province = {}
 generated_files = []  # Lista para almacenar los nombres de los archivos consolidados
 
 # Leer todos los archivos y agruparlos por provincia
-for file_name in os.listdir(folder):
+for file_name in os.listdir(output_folder):
     if file_name.endswith(".csv"):  # Verificar que sea un archivo CSV
-        input_path = os.path.join(folder, file_name)
+        input_path = os.path.join(output_folder, file_name)
         try:
             # Leer el archivo CSV
             df = pd.read_csv(input_path, delimiter=';', encoding='latin1', engine='python')
@@ -241,7 +241,7 @@ for provincia, dfs in dataframes_by_province.items():
         
         # Guardar el archivo consolidado para la provincia
         output_file_name = f"{provincia.replace('/', '_')}.csv"
-        output_path = os.path.join(folder, output_file_name)  # Reemplazar '/' por '_' en nombres de archivos
+        output_path = os.path.join(output_folder, output_file_name)  # Reemplazar '/' por '_' en nombres de archivos
         aggregated_df.to_csv(output_path, sep=';', index=False, encoding='latin1')
         print(f"Archivo consolidado guardado: {output_path}")
         
@@ -252,9 +252,9 @@ for provincia, dfs in dataframes_by_province.items():
         print(f"Error procesando la provincia {provincia}: {e}")
 
 # Eliminar los archivos originales que no están en la lista de archivos generados
-for file_name in os.listdir(folder):
+for file_name in os.listdir(output_folder):
     if file_name not in generated_files and file_name.endswith(".csv"):
-        file_path = os.path.join(folder, file_name)
+        file_path = os.path.join(output_folder, file_name)
         os.remove(file_path)
         print(f"Archivo eliminado: {file_path}")
 
@@ -264,14 +264,14 @@ print("Consolidación y limpieza completadas.")
 # Por otro lado, nos vemos obligados a eliminar las ciudades de Ceuta y Melilla, ya que los datos que nos han proporcionado sobre el consumo no cuentan con datos de estas cuidades autónomas.
 
 # %%
-folder_path = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos"
+# folder_path = "../TerraWatt/Terrawatt/Limpieza_datos/Datos_limpios_meteorologicos"
 
 # Archivos a eliminar
 archivos_a_eliminar = ["CEUTA.csv", "MELILLA.csv"]
 
 # Recorrer los archivos en la carpeta y eliminar los especificados
 for archivo in archivos_a_eliminar:
-    archivo_path = os.path.join(folder_path, archivo)
+    archivo_path = os.path.join(output_folder, archivo)
     if os.path.exists(archivo_path):
         os.remove(archivo_path)
         print(f"Archivo eliminado: {archivo_path}")
@@ -279,6 +279,3 @@ for archivo in archivos_a_eliminar:
         print(f"Archivo no encontrado: {archivo_path}")
 
 print("Proceso de eliminación completado.")
-
-
-
