@@ -1,0 +1,122 @@
+<!-- Las explicaciones referentes al código se encuentran en la página en español, ya que son puramente iguales la única diferencia es el idioma del texto -->
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج الاتصال</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../estilos/estilos_comunes.css">
+    <link rel="stylesheet" href="../estilos/estilos_formulario.css">
+</head>
+
+<body>
+    <button id="toggleAccesible" aria-label="Enable accessible mode">🦻 وضع الوصول</button>
+
+    <script src="../Funciones/Funciones_comunes/accesibilidad.js"></script>
+
+    <section>
+        <div id="header-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+
+    <section>
+        <header class="encabezado">
+            <div class="encabezado-contenido">
+                <h1 id="contenido-formulario">
+                    <br>
+                    <br>
+                    تواصل معنا!
+                    <br>
+                    نحن هنا لمساعدتك
+                    <br>
+                </h1>
+                <button class="btn-voz accesible" onclick="leerTexto('contenido-formulario')" 
+                aria-label="Read title aloud">
+                    <span class="material-icons" aria-hidden="true">🔊</span>
+                </button>
+            </div>
+        </header>
+    </section>
+
+    <section class="formulario-contacto">
+        <h2>
+            <br>
+            أرسل لنا رسالة
+        </h2>
+        <div id="form-message"></div>
+        <form id="contact-form" class="formulario">
+            <div class="campo-formulario">
+                <label for="nombre">الاسم</label>
+                <input type="text" id="nombre" name="nombre" placeholder="أدخل اسمك" required aria-required="true">
+            </div>
+            <div class="campo-formulario">
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required aria-required="true">
+            </div>
+            <div class="campo-formulario">
+                <label for="telefono">الهاتف</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="أدخل رقم هاتفك">
+            </div>
+            <div class="campo-formulario">
+                <label for="mensaje">الرسالة</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="اكتب رسالتك هنا" required aria-required="true"></textarea>
+            </div>
+            <div class="campo-formulario">
+                <button type="submit" class="btn-enviar">إرسال</button>
+            </div>
+        </form>
+
+        <script>
+            const form = document.getElementById('contact-form');
+            const messageDiv = document.getElementById('form-message');
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault(); 
+
+                const nombre = form.querySelector('#nombre').value;
+                const email = form.querySelector('#email').value;
+                const telefono = form.querySelector('#telefono').value;
+                const mensaje = form.querySelector('#mensaje').value;
+
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    messageDiv.innerHTML = '<p class="error-message">بريد إلكتروني غير صالح</p>';
+                    return;
+                }
+
+                const contenido = `رسالة اتصال جديدة:\n\n`;
+                const contenidoConFecha = `${contenido}التاريخ: ${new Date().toISOString()}\nالاسم: ${nombre}\nالبريد الإلكتروني: ${email}\nالهاتف: ${telefono}\nالرسالة:\n${mensaje}\n----------------------------------------\n`;
+
+                const blob = new Blob([contenidoConFecha], { type: 'text/plain' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `contact_message_${new Date().toISOString().replace(/[:.]/g, '-')}.txt`; 
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                messageDiv.innerHTML = '<p class="success-message">تم حفظ الرسالة وتنزيلها بنجاح</p>';
+
+                form.reset();
+            });
+        </script>
+    </section>
+
+    <section>
+        <div id="footer-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+
+    <section>
+        <div id="boton-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Boton_subir.js"></script>
+    </section>
+    
+    <script src="../Funciones/Funciones_comunes/Idioma.js"> </script>
+</body>
+</html>

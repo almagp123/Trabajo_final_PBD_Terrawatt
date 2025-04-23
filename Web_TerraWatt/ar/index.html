@@ -1,0 +1,454 @@
+<!-- Las explicaciones referentes al código se encuentran en la página en español, ya que son puramente iguales la única diferencia es el idioma del texto -->
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية - TerraWatt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="../estilos/estilos_comunes.css">
+    <link rel="stylesheet" href="../estilos/estilos_inicio.css">
+</head>
+
+<body>
+    <button id="toggleAccesible" aria-label="Enable accessible mode">🦻 الوضع المتاح</button>
+
+    <script src="../Funciones/Funciones_comunes/accesibilidad.js"></script>
+
+    <section>
+        <div id="header-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+
+    <section>
+        <header class="encabezado">
+            <div class="encabezado-contenido">
+                <h1 id="texto-titulo">
+                    <br>
+                    اعرف استهلاكك!
+                    <br> قارن فواتيرك
+                    <br> وافهمها
+                </h1>
+                <button class="btn-voz accesible" onclick="leerTexto('texto-titulo')" aria-label="Read title aloud">
+                    <span class="material-icons" aria-hidden="true">&#128266;</span>
+                </button>
+                <ul class="Ticks">
+                    <li><span class="tick">✔</span> خدمة شخصية ومجانية</li>
+                    <li><span class="tick">✔</span> تعلم كيف تعمل فاتورة الكهرباء الخاصة بك!</li>
+                    <li><span class="tick">✔</span> سهل وبسيط!</li>
+                </ul>
+                <a href="Predice_tu_consumo.html">قارن</a>
+            </div>
+            <div class="rating-encabezado">
+                <div class="estrellas">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>4.8 | 956 تقييم على جوجل</span>
+            </div>
+            <script src="../Funciones/Funciones_comunes/Ajustar_secciones.js"></script>
+        </header>
+    </section>
+
+    <section class="introduccion">
+        <h2 id="texto-intro">
+            دعنا نرشدك للتحكم الكامل في استهلاك الطاقة الخاص بك
+        </h2>
+        <button class="btn-voz accesible" onclick="leerTexto('texto-intro')" aria-label="Read title aloud">
+            <span class="material-icons" aria-hidden="true">&#128266;</span>
+        </button>
+
+        <div class="explicacion">
+            <img src="../images/Equipo.svg" alt="تحليل الاستهلاك الشخصي" class="ajuste-vector">
+            <div class="texto-explicacion" id="texto-explicacion-analisis-consumo-personalziado">
+                <h3>
+                    تحليل الاستهلاك الشخصي
+                </h3>
+                <p>
+                    تقوم أداتنا بحساب استهلاك الكهرباء المتوقع بناءً على متوسط الاستهلاك في مقاطعتك وظروف الطقس المحلية.
+                    يتم أخذ كل نقطة من بيانات الطقس في الاعتبار، من درجة الحرارة إلى الرطوبة، لضمان التنبؤ الدقيق.
+                </p>
+            </div>
+            <button class="btn-voz accesible" onclick="leerTexto('texto-explicacion-analisis-consumo-personalziado')"
+                aria-label="Read this text aloud">
+                <span class="material-icons">&#128266;</span>
+            </button>
+        </div>
+
+        <div class="explicacion">
+            <img src="../images/Familia.svg" alt="العوامل الديموغرافية والمنزلية" class="ajuste-vector">
+            <div class="texto-explicacion" id="texto-explicacion-factores-demograficos">
+                <h3>
+                    العوامل الديموغرافية والمنزلية
+                </h3>
+                <p>
+                    لإنشاء تقدير دقيق وشخصي لاستهلاك الكهرباء الخاص بك، نأخذ في الاعتبار عدة عوامل أساسية في منزلك. نحلل
+                    عدد السكان الذين يعيشون في العقار، مما يؤثر مباشرة على استخدام الأجهزة والطلب على الطاقة. بالإضافة
+                    إلى ذلك، نأخذ في الاعتبار نوع السكن، سواء كان منزلاً عائلياً أو شقة، حيث أن لكل منهما أنماط استهلاك
+                    مختلفة بسبب هيكله وعزله. كما نشمل في التحليل القدرة المتعاقد عليها، وهي أساسية لتحديد حد استهلاك
+                    الطاقة المتاح، مما يضمن أن تقديرنا قريب قدر الإمكان من واقع منزلك.
+                </p>
+            </div>
+            <button class="btn-voz accesible" onclick="leerTexto('texto-explicacion-factores-demograficos')"
+                aria-label="Read this text aloud">
+                <span class="material-icons">&#128266;</span>
+            </button>
+        </div>
+
+        <div class="explicacion">
+            <img src="../images/Optimizacion.svg" alt="توقع التكاليف وتحسينها" class="ajuste-vector">
+            <div class="texto-explicacion" id="texto-explicacion-prediccion-optimizacion-costos">
+                <h3>
+                    توقع التكاليف وتحسينها
+                </h3>
+                <p>
+                    من خلال تحليل الأنماط والاتجاهات العامة، يجد نظامنا فرصاً لتقليل الاستهلاك. بالإضافة إلى ذلك، نساعدك
+                    على تصور كيف ستؤثر هذه العوامل على فاتورتك الشهرية، مما يوفر لك أدوات لتحسين استهلاكك وتقليل
+                    التكاليف.
+                </p>
+            </div>
+            <button class="btn-voz accesible" onclick="leerTexto('texto-explicacion-prediccion-optimizacion-costos')"
+                aria-label="Read this text aloud">
+                <span class="material-icons">&#128266;</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="reseñas">
+        <div class="reseñas-titulo" id="reseñas-titulo">
+            <h2>
+                لقد مروا عبر TerraWatt، وهذه آراؤهم
+            </h2>
+            <div class="reseñas-encabezado">
+                <div class="reseñas-rating">
+                    <span class="rating-num">4.8</span>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>                       
+                    <h2>956 تقييم على جوجل</h2>
+                </div>
+            </div>
+        </div>
+        <button class="btn-voz accesible" onclick="leerTexto('reseñas-titulo')" aria-label="Read title aloud">
+            <span class="material-icons">&#128266;</span>
+        </button>
+
+        <div class="slides-reseñas-conjunto">
+            <div class="reseñas-slider" id="reseñas-slider">
+                <div class="reseñas-individuales">
+                    <div id="reseña1">
+                        <h3>
+                            جيمس
+                        </h3>
+                        <p>
+                            منذ سنة
+                        </p>
+                        <p>
+                            كانت الخدمة جيدة جداً وأود أن أشكر ليديا، التي أرشدتني خلال عملية تغيير مزودي الكهرباء.
+                            سأعود إليهم كلما أردت إجراء تغيير.
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña1')" aria-label="Read James's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña2">
+                        <h3>
+                            كريستيان
+                        </h3>
+                        <p>
+                            منذ سنة
+                        </p>
+                        <p>
+                            كانت ماريا رائعة في كل جانب من جوانب مكالمتنا الهاتفية! شكراً جزيلاً لها. 👍
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div> 
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña2')"
+                        aria-label="Read Christian's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña3">
+                        <h3>
+                            إيما
+                        </h3>
+                        <p>
+                            منذ سنة
+                        </p>
+                        <p>
+                            مستشار من الدرجة الأولى وسريع الاستجابة. كانت لدي الفرصة للتحدث مع إدواردو، الذي عرف كيف
+                            يوجهني ويقدم لي التفسيرات التي احتجتها. شكراً جزيلاً.
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>                      
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña3')" aria-label="Read Emma's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña4">
+                        <h3>
+                            دنيز
+                        </h3>
+                        <p>
+                            منذ سنتين
+                        </p>
+                        <p>
+                            ساعدونا في فهم سبب ارتفاع فاتورتنا، وقدموا لنا النصائح حول كيفية تخفيضها، وحللوا ما إذا كان
+                            هناك أي أخطاء. أوصي بهم بدون شك!
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>                      
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña4')" aria-label="Read Deniz's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña5">
+                        <h3>
+                            ألبا
+                        </h3>
+                        <p>
+                            منذ 6 أشهر
+                        </p>
+                        <p>
+                            لطيفون جداً وصبورون. شرحوا جميع التعريفات وأفضل الخيارات لمنزلي. فريق رائع.
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>                    
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña5')" aria-label="Read Alba's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña6">
+                        <h3>
+                            بول
+                        </h3>
+                        <p>
+                            منذ 9 أشهر
+                        </p>
+                        <p>
+                            خدمة ممتازة! بفضل TerraWatt، أعرف الآن كيف أوفر في فاتورتي. موصى به.
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>                       
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña6')" aria-label="Read Paul's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña7">
+                        <h3>
+                            لوسيا
+                        </h3>
+
+                        <p>
+                            منذ 3 أشهر
+                        </p>
+                        <p>
+                            خدمة سريعة وفعالة للغاية. أجابوا على جميع أسئلتي حول الاستهلاك وأوصوا بتغييرات بدأت ألاحظها
+                            بالفعل في فاتورتي.
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>                     
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña7')" aria-label="Read Paul's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña8">
+                        <h3>
+                            أنطونيو
+                        </h3>
+                        <p>
+                            منذ سنة واحدة
+                        </p>
+                        <p>
+                            كانت العملية أبطأ قليلاً مما كنت أتوقع، ولكن في النهاية حصلت على شروط أفضل لعقد الكهرباء
+                            الخاص بي. سعيد بالنتيجة.
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>                     
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña8')" aria-label="Read Anthony's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña9">
+                        <h3>
+                            كارمن
+                        </h3>
+                        <p>
+                            منذ سنتين
+                        </p>
+                        <p>
+                            ساعدوني في تغيير المزود بسهولة كبيرة. ممتنة جدًا للخدمة وسرعة إنجاز كل شيء.
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>                      
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña9')" aria-label="Read Carmen's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña10">
+                        <h3>
+                            خوان
+                        </h3>
+                        <p>
+                            منذ 8 أشهر
+                        </p>
+                        <p>
+                            كانت الاستشارة مفيدة جدًا لمعرفة كيفية تحسين القدرة المتعاقد عليها وتقليل التكلفة الشهرية.
+                            بالتأكيد خدمة جيدة.
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>                    
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña10')" aria-label="Read John's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña11">
+                        <h3>
+                            سارة
+                        </h3>
+                        <p>
+                            منذ 5 أشهر
+                        </p>
+                        <p>
+                            خدمة جيدة، رغم أنني وجدت صعوبة بعض الشيء في فهم جميع المعلومات المقدمة. ومع ذلك، تمكنت من
+                            توفير المال في فاتورة الكهرباء الخاصة بي.
+                        </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>                     
+                    <button class="btn-voz accesible" onclick="leerTexto('reseña11')" aria-label="Read Sarah's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="navegacion-botones-reseñas">
+            <button type="button" aria-label="Previous" class="reseñas__control btn btn--dark-border" id="goPrevious">
+                <span class="reseñas__flecha">&#8249;</span>
+            </button>
+            <button type="button" aria-label="Next" class="reseñas__control btn btn--dark-border" id="goNext">
+                <span class="reseñas__flecha">&#8250;</span>
+            </button>
+        </div>
+    </section>
+
+    <script src="../Funciones/Funciones_Inicio/Boton_siguiente_anterior_reseñas.js"></script>
+
+    <section>
+        <div id="footer-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+
+    <section>
+        <div id="boton-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Boton_subir.js"></script>
+    </section>
+
+    <script src="../Funciones/Funciones_comunes/Idioma.js"> </script>
+
+</body>
+
+</html>

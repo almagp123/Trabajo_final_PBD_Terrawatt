@@ -1,0 +1,467 @@
+<!-- Las explicaciones referentes al código se encuentran en la página en español, ya que son puramente iguales la única diferencia es el idioma del texto -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - TerraWatt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="../estilos/estilos_comunes.css">
+    <link rel="stylesheet" href="../estilos/estilos_inicio.css">
+</head>
+
+<body>
+    <button id="toggleAccesible" aria-label="Enable accessible mode">🦻 Accessible Mode</button>
+
+    <script src="../Funciones/Funciones_comunes/accesibilidad.js"></script>
+
+    <section>
+        <div id="header-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+
+    </section>
+
+    <section>
+        <header class="encabezado">
+            <div class="encabezado-contenido">
+                <h1 id="texto-titulo">
+                    <br>
+                    Know your consumption!
+                    <br> Compare your bills
+                    <br> and understand them
+                </h1>
+                <button class="btn-voz accesible" onclick="leerTexto('texto-titulo')" 
+                aria-label="Read title aloud">
+                    <span class="material-icons" aria-hidden="true">&#128266;</span>
+                </button>
+                <ul class="Ticks">
+                    <li><span class="tick">✔</span> Personalized and free service</li>
+                    <li><span class="tick">✔</span> Learn how your electricity bill works!</li>
+                    <li><span class="tick">✔</span> Easy and simple!</li>
+                </ul>
+                <a href="Predice_tu_consumo.html">Compare</a>
+            </div>
+            <div class="rating-encabezado">
+                <div class="estrellas">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>                        
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>4.8 | 956 Google reviews</span>
+            </div>
+            <script src="../Funciones/Funciones_comunes/Ajustar_secciones.js"></script>
+        </header>
+    </section>
+
+    <section class="introduccion">
+        <h2 id="texto-intro">
+            Let us guide you to perfectly control your energy consumption
+        </h2>
+        <button class="btn-voz accesible" onclick="leerTexto('texto-intro')" 
+        aria-label="Read title aloud">
+            <span class="material-icons" aria-hidden="true">&#128266;</span>
+        </button>
+
+        <div class="explicacion">
+            <img src="../images/Equipo.svg" alt="Personalized Consumption Analysis" class="ajuste-vector">
+            <div class="texto-explicacion" id="texto-explicacion-analisis-consumo-personalziado">
+                <h3>
+                    Personalized Consumption Analysis
+                </h3>
+                <p>
+                    Our tool calculates expected electricity consumption based on your province's average consumption and local weather conditions. Every weather data point, from temperature to humidity, is taken into account to ensure accurate forecasting.
+                </p>
+            </div>
+            <button class="btn-voz accesible" 
+            onclick="leerTexto('texto-explicacion-analisis-consumo-personalziado')" 
+            aria-label="Read this text aloud">
+                <span class="material-icons">&#128266;</span>
+            </button>
+        </div>
+
+        <div class="explicacion">
+            <img src="../images/Familia.svg" alt="Demographic and Household Factors" class="ajuste-vector">
+            <div class="texto-explicacion" id="texto-explicacion-factores-demograficos">
+                <h3>
+                    Demographic and Household Factors
+                </h3>
+                <p>
+                    To create an accurate and personalized estimate of your electricity consumption, we take into account several essential factors of your home. We analyze the number of residents living in the property, which directly impacts the use of appliances and energy demand. Additionally, we consider the type of housing, whether it's a single-family home or an apartment, as each has different consumption patterns due to its structure and insulation. We also include in the analysis the contracted power, which is fundamental to determine the available energy consumption limit, ensuring our estimate is as close as possible to your household's reality.
+                </p>
+            </div>
+            <button class="btn-voz accesible" 
+            onclick="leerTexto('texto-explicacion-factores-demograficos')" 
+            aria-label="Read this text aloud">
+                <span class="material-icons">&#128266;</span>
+            </button>
+        </div>
+
+        <div class="explicacion">
+            <img src="../images/Optimizacion.svg" alt="Cost Prediction and Optimization" class="ajuste-vector">
+            <div class="texto-explicacion" id="texto-explicacion-prediccion-optimizacion-costos">
+                <h3>
+                    Cost Prediction and Optimization
+                </h3>
+                <p>
+                    Through analysis of patterns and general trends, our system finds opportunities to reduce consumption. Additionally, we help you visualize how these factors will influence your monthly bill, providing tools to optimize your consumption and reduce costs.
+                </p>
+            </div>
+            <button class="btn-voz accesible" 
+            onclick="leerTexto('texto-explicacion-prediccion-optimizacion-costos')" 
+            aria-label="Read this text aloud">
+                <span class="material-icons">&#128266;</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="reseñas">
+        <div class="reseñas-titulo" id="reseñas-titulo">
+            <h2>
+                They went through TerraWatt, here are their opinions
+            </h2>
+            <div class="reseñas-encabezado">
+                <div class="reseñas-rating">
+                    <span class="rating-num">4.8</span>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>   
+                    <h2>956 reviews on Google</h2>
+                </div>
+            </div>
+        </div>
+        <button class="btn-voz accesible" 
+        onclick="leerTexto('reseñas-titulo')" 
+        aria-label="Read title aloud">
+            <span class="material-icons">&#128266;</span>
+        </button>
+
+        <div class="slides-reseñas-conjunto">
+            <div class="reseñas-slider" id="reseñas-slider">
+                <div class="reseñas-individuales">
+                    <div id="reseña1">
+                    <h3>
+                        James
+                    </h3>
+                    <p>
+                        1 year ago
+                    </p>
+                    <p>
+                        The service was very good and I would like to thank Lidia, who guided me through the process of changing electricity providers. I will return to them whenever I want to make a change.
+                    </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>                       <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña1')" 
+                    aria-label="Read James's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña2">
+                    <h3>
+                        Christian
+                    </h3>
+                    <p>
+                        1 year ago
+                    </p>
+                    <p>
+                        Maria was incredible in every aspect of our phone call! Many thanks to her. 👍
+                    </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>                    
+                    <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña2')" 
+                    aria-label="Read Christian's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña3">
+                    <h3>
+                        Emma
+                    </h3>
+                    <p>
+                        1 year ago
+                    </p>
+                    <p>
+                        First-class advisor and very responsive. I had the opportunity to talk with Eduardo, who knew how to guide me and give me the explanations I needed. Thank you very much.
+                    </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>                     
+                    <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña3')" 
+                    aria-label="Read Emma's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña4">
+                    <h3>
+                        Deniz
+                    </h3>
+                    <p>
+                        2 years ago
+                    </p>
+                    <p>
+                        They helped us understand why our bill was very high, advised us on how to reduce it, and analyzed if there might be any errors. I would recommend them without a doubt!
+                    </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>                    
+                    <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña4')" 
+                    aria-label="Read Deniz's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña5">
+                    <h3>
+                        Alba
+                    </h3>
+                    <p>
+                        6 months ago
+                    </p>
+                    <p>
+                        Very kind and patient. They explained all the rates and which were the best options for my home. Great team.
+                    </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña5')" 
+                    aria-label="Read Alba's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña6">
+                    <h3>
+                        Paul
+                    </h3>
+                    <p>
+                        9 months ago
+                    </p>
+                    <p>
+                        Excellent service! Thanks to TerraWatt, I now know how to save on my bill. Recommended.
+                    </p>
+                    </div>  
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>                     
+                    <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña6')" 
+                    aria-label="Read Paul's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña7">
+                    <h3>
+                        Lucy
+                    </h3>
+                    <p>
+                        3 months ago
+                    </p>
+                    <p>
+                        A very quick and efficient service. They resolved all my questions about consumption and recommended changes that I'm already noticing in the bill.
+                    </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>                   
+                    <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña7')" 
+                    aria-label="Read Lucy's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña8">
+                    <h3>
+                        Anthony
+                    </h3>
+                    <p>
+                        1 year ago
+                    </p>
+                    <p>
+                        The process was a bit slower than expected, but in the end, they managed to get better conditions for my electricity contract. Happy with the result.
+                    </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>                    
+                    <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña8')" 
+                    aria-label="Read Anthony's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña9">
+                    <h3>
+                        Carmen
+                    </h3>
+                    <p>
+                        2 years ago
+                    </p>
+                    <p>
+                        They helped me change providers very easily. Very grateful for the treatment and speed in managing everything.
+                    </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>                      <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña9')" 
+                    aria-label="Read Carmen's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña10">
+                    <h3>
+                        John
+                    </h3>
+                    <p>
+                        8 months ago
+                    </p>
+                    <p>
+                        The advice was very useful to learn how to optimize the contracted power and reduce the monthly cost. Definitely a good service.
+                    </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña10')" 
+                    aria-label="Read John's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+
+                <div class="reseñas-individuales">
+                    <div id="reseña11">
+                    <h3>
+                        Sarah
+                    </h3>
+                    <p>
+                        5 months ago
+                    </p>
+                    <p>
+                        Good service, although it took me a while to understand all the information provided. Still, I managed to save on my electricity bill.
+                    </p>
+                    </div>
+                    <div class="estrellas-rating-reseñas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>   
+                    <button class="btn-voz accesible" 
+                    onclick="leerTexto('reseña11')" 
+                    aria-label="Read Sarah's review">
+                        <span class="material-icons">&#128266;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="navegacion-botones-reseñas">
+            <button type="button" 
+            aria-label="Previous" 
+            class="reseñas__control btn btn--dark-border" 
+            id="goPrevious">
+                <span class="reseñas__flecha">&#8249;</span>
+            </button>
+            <button type="button" 
+            aria-label="Next" 
+            class="reseñas__control btn btn--dark-border" 
+            id="goNext">
+                <span class="reseñas__flecha">&#8250;</span>
+            </button>
+        </div>
+    </section>
+
+    <script src="../Funciones/Funciones_Inicio/Boton_siguiente_anterior_reseñas.js"></script>
+
+    <section>    
+        <div id="footer-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+
+    <section>
+        <div id="boton-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Boton_subir.js"></script>
+    </section>
+
+    <script src="../Funciones/Funciones_comunes/Idioma.js"> </script>
+</body>
+</html>

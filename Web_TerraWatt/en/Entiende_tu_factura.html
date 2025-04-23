@@ -1,0 +1,249 @@
+<!-- Las explicaciones referentes al código se encuentran en la página en español, ya que son puramente iguales la única diferencia es el idioma del texto -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understand Your Bill</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../estilos/estilos_comunes.css">
+    <link rel="stylesheet" href="../estilos/estilos_entiende_tu_factura.css">
+</head>
+
+<body>
+    <button id="toggleAccesible" aria-label="Activate accessible mode">🦻 Accessible Mode</button>
+
+    <script src="../Funciones/Funciones_comunes/accesibilidad.js"></script>
+
+    <section>
+        <div id="header-placeholder"></div>
+        <script src=".../Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+    
+    <header class="encabezado">
+        <div class="encabezado-contenido">
+            <h1 id="texto-titulo"><br>
+                We help you understand 
+                <br> your bills!
+                <button class="btn-voz accesible" onclick="leerTexto('texto-titulo')" aria-label="Read title aloud">🔊</button>
+            </h1>
+
+            <h2 id="texto-titulo2">
+                Thanks to our interactive bills, you will perfectly understand 
+                <br>
+                each section of your bills. 
+                <br> 
+                <br>
+                If you still have questions, contact us!
+                <button class="btn-voz accesible" onclick="leerTexto('texto-titulo2')" aria-label="Read title aloud">🔊</button>
+            </h2>
+        </div>
+        <script src="../Funciones/Funciones_comunes/Ajustar_secciones.js"></script>
+    </header>
+
+    <section>
+        <section>
+            <div class="seccion-facturas">
+                <div class="factura-pagina-1">
+                    <div class="factura">
+                        <div class="factura-section datos_personales" tabindex="0" role="button"
+                            data-title="Bill Information"
+                            data-info="In this section, we can view our personal information as well as the billing period for our electricity bill, which in this case is 36 days."
+                            data-subinfo="Period: 36 days, Issue Date: 12/09/2024">
+                        </div>
+
+                        <div class="factura-section resumen" tabindex="0"
+                            data-title="Bill Summary"
+                            data-info="The electricity bill summary details how the total cost of your energy consumption is composed. In this section, you can find:
+                            Contracted Power: The fixed cost associated with the power you have contracted, expressed in euros.
+                            Energy Consumption: The variable cost based on the amount of energy consumed during the billing period.
+                            Discounts: If specific discounts apply due to promotions or plans, they are detailed here.
+                            Taxes: Applicable taxes, such as VAT or any electricity-specific tax.
+                            Other Charges: Other additional charges that may apply, such as extra contracted services.
+                            Payment Method: Information about the payment method, such as bank transfer details, IBAN, and related data.">
+                        </div>
+
+                        <div class="factura-section consumo_total" tabindex="0"
+                            data-title="Total Consumption"
+                            data-info="In this case, we can see the total consumption in kWh for our period, as well as the average price per kWh we paid."
+                            data-subinfo="Period: 36 days, Average Price per kWh: 0.089272€">
+                        </div>
+
+                        <div class="factura-section evolucion_consumo" tabindex="0"
+                            data-title="Consumption Trend"
+                            data-info="We can see the trend of our consumption based on the months in which the distributor monitored our usage."
+                            data-subinfo="Period: 36 days, Average Price per kWh: 0.089272€">
+                        </div>
+                    </div>                   
+                </div>
+
+                <div class="factura-pagina-2">
+                    <div class="factura">
+                        <div class="factura-section datos" tabindex="0"
+                            data-title="Contract Details"
+                            data-info="The electricity contract details include specific information related to the electricity supply and the user’s contract terms.
+
+                            Personal Information: We can review the personal information associated with the contract.
+                            Market Contract: The type of electricity contract (regulated or free market) and the name of the associated rate.
+                            Supply Contract Reference: A unique number associated with the contract.
+                            Contracted Power:
+                            - Peak: The maximum contracted power during high-demand hours.
+                            - Off-Peak: The contracted power during low-demand hours.
+                            Contract End Date: The date on which the current contract term ends. It may automatically renew if stipulated.
+                            Commitment Period: If the contract has a commitment period, it indicates the end date of the mandatory term.
+                            CUPS: Universal Supply Point Code, a unique identifier for the exact location where the electricity service is provided.
+                            Distributor: Name of the distributing company responsible for the supply.
+                            Access Contract Reference: A unique number identifying access to the electricity grid.
+                            Transport and Distribution Fee: Cost associated with the use of electricity transport and distribution networks.
+                            Charges Segment: Classification of charges associated with the electricity supply.
+                            Meter Number: Unique number of the electricity meter that measures the user’s consumption."
+                            data-subinfo="Contracted Power: 2.5kWh">
+                        </div>
+
+                        <div class="factura-section detalles" tabindex="0"
+                            data-title="Bill Details"
+                            data-info="
+                            - Peak Power: This section details the cost associated with the contracted power during high-demand hours. In the example, it shows a unit cost of 0.089431 Eur/kW x 35 days, resulting in a total of 8.95 €.
+                            - Off-Peak Power: Refers to the cost of the contracted power during low-demand hours, with a unit cost of 0.032702 Eur/kW x 35 days, totaling 2.54 €.
+                            Energy:
+                            - Consumption: The total cost of the energy consumed during the billing period, calculated as 110.000 kWh x 0.144000 Eur/kWh, resulting in a total of 15.84 €.
+                            Discounts:
+                            - Formidable Service Discount: Appears multiple times with different amounts, such as 3.00 €, 3.17 €, and 1.98 €, indicating discounts applied for promotions or additional services.
+                            - Promotional Discount: An additional discount of 1.18 €.
+                            Other Charges:
+                            - Social Bonus Funding: Represents a cost related to social aid or programs, for example, 0.26 €.
+                            - Meter Rental: This concept indicates the monthly cost for using the meter, in this case, 1.02 €.
+                            Taxes:
+                            - Electricity Tax: Applies a percentage to the total electricity consumption (21.94 Eur x 5.112696%). In this case, the tax amounts to 1.12 €.
+                            - VAT: The Value Added Tax (VAT) is calculated at 10%, resulting in an additional cost of 2.42 €.
+                            Total: The final price, summing all the above concepts, amounts to 26.42 €."
+                            data-subinfo="Contracted Power: 2.5kWh">
+                        </div>
+
+                        <div class="factura-section informacion_consumo" tabindex="0"
+                            data-title="Consumption Information"
+                            data-info="Electricity consumption data during the period from 10/08/2024 to 11/13/2024:
+                            Actual Reading: The initial and final meter readings recorded during the billing period. In this example:
+                            - Initial Reading: 10/08/2024.
+                            - Final Reading: 11/13/2024.
+
+                            Multiplier: The factor applied to convert the readings into billable values. Here, the multiplier is 1.00, meaning no additional adjustments are made.
+
+                            Adjustment: Represents any correction in the calculated consumption. This is used if previous bills had estimates that differ from the actual readings. In this case, the adjustment is 0.00.
+
+                            Consumption in kWh: The amount of energy consumed during the period, divided by time slots:
+                            - Peak: Consumption during high-demand hours, equivalent to 35.00 kWh.
+                            - Flat: Consumption during medium-demand hours, equivalent to 28.00 kWh.
+                            - Off-Peak: Consumption during low-demand hours, equivalent to 46.00 kWh.
+
+                            Billing and Adjustments: Electricity bills are often calculated based on estimated consumption if actual readings are not available at the time of issuance. When an actual meter reading is performed:
+                            - Differences between estimated and actual consumption are adjusted.
+                            - If the actual consumption is higher, the customer will pay an additional amount in the next bill.
+                            - If the actual consumption is lower, the customer will receive a discount or refund."
+                            data-subinfo="Contracted Power: 2.5kWh">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="seccion-facturas">
+                <div class="factura-pagina-3">
+                    <div class="factura">
+                        <div class="factura-section detalles_de_la_factura" tabindex="0"
+                            data-title="Bill Information"
+                            data-info="Period: This refers to the specific time interval during which electricity consumption is measured, in this case from 10/08/2024 to 11/13/2024.
+
+                            Actual Reading: The initial and final meter readings recorded during the billing period. In this example:
+                            - Initial Reading: 10/08/2024.
+                            - Final Reading: 11/13/2024.
+
+                            Multiplier: The factor applied to convert the readings into billable values. Here, the multiplier is 1.00, meaning no additional adjustments are made.
+
+                            Adjustment: Represents any correction in the calculated consumption. This is used if previous bills had estimates that differ from the actual readings. In this case, the adjustment is 0.00.
+
+                            Consumption in kWh: The amount of energy consumed during the period, divided by time slots:
+                            - Peak: Consumption during high-demand hours, equivalent to 35.00 kWh.
+                            - Flat: Consumption during medium-demand hours, equivalent to 28.00 kWh.
+                            - Off-Peak: Consumption during low-demand hours, equivalent to 46.00 kWh.
+
+                            Billing and Adjustments:
+                            Electricity bills are often calculated based on estimated consumption if actual readings are not available at the time of issuance. When an actual meter reading is performed:
+                            - Differences between estimated and actual consumption are adjusted.
+                            - If the actual consumption is higher, the customer will pay an additional amount in the next bill.
+                            - If the actual consumption is lower, the customer will receive a discount or refund."
+                            data-subinfo="Period: 36 days, Issue Date: 12/09/2024">
+                        </div>
+
+                        <div class="factura-section resumen_total" tabindex="0"
+                            data-title="Total Bill Summary"
+                            data-info="
+                            Electricity Bill:
+                            - The amount corresponding to electricity consumption and related services.
+                            - Total: 26.42 €.
+
+                            Services Bill:
+                            - Includes the details of additional contracted services, such as protections or subscriptions.
+                            - Total: 4.95 €.
+
+                            Total Amount Due:
+                            - The total sum of the electricity and services bills.
+                            - Final Amount Due: 31.37 €.">
+                        </div>      
+                    </div>                   
+                </div>
+
+                <div class="factura-pagina-4">
+                    <div class="factura">
+                        <div class="factura-section graficos" tabindex="0"
+                            data-title="Charts"
+                            data-info="Origin of Electricity:
+
+                            This section details the energy sources used by the supplier in 2023 and compares them with the national generation mix:
+                            
+                            - Renewable: 40.5% (Supplier) compared to 50.8% (National Mix).
+                            - High-Efficiency Cogeneration: 22.6% (Supplier) compared to 11.3% (National Mix).
+                            - Natural Gas CC: 22.4% (Supplier) compared to 15.4% (National Mix).
+                            - Coal: 4.1% (Supplier) compared to 3.1% (National Mix).
+                            - Fuel/Gas: 2.1% (Supplier) compared to 1.5% (National Mix).
+                            - Other Non-Renewables: 5.3% (Supplier) compared to 4.7% (National Mix).
+
+                            Environmental Impact: This chart measures the environmental impact of electricity generation, assessed in terms of CO₂ emissions and high-activity radioactive waste.
+                            - Equivalent CO₂ Emissions:
+                                - Supplier: 151 g CO₂/kWh (Classification: E).
+                                - National Average: 132 g CO₂/kWh.
+                            - High-Activity Radioactive Waste:
+                                - Supplier: 602 µg/kWh (Classification: E).
+                                - National Average: 522 µg/kWh."
+                            data-subinfo="You can check the detailed origin of your electricity at [https://gdo.cnmc.es](https://gdo.cnmc.es).">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="modal" class="modal">
+            <div class="modal-content" tabindex="0">
+                <span class="close" tabindex="0">×</span>
+                <h1 id="modal-title"></h1>
+                <p id="modal-info"></p>
+                <ul id="modal-subinfo"></ul> 
+            </div>
+        </div>
+
+        <div>
+            <script src="../Funciones/Funciones_Entiende/Ventanas_emergentes_accesibilidad_permanente.js"></script>
+        </div>       
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script src="../Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    <div id="boton-placeholder"></div>
+    <script src="../Funciones/Funciones_comunes/Boton_subir.js"></script>
+
+    <script src="../Funciones/Funciones_comunes/Idioma.js"></script>
+</body>
+</html>

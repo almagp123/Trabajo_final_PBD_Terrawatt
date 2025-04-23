@@ -1,0 +1,46 @@
+<!-- La mayoria de las clases delencabezado estan ligadas a funciones, ya sea para poder realizar el menu hamburguesa cuando se reduce el ancho de la pantalla o para que la funcionalidad del menu de selector de idioma funcione. -->
+<div class="cabecera">
+    <!-- Contenedor del logo y texto -->
+    <div class="logo-container">
+        <a href="./index.html" class="logo">
+            <img src="images/logo.png" alt="Logo TerraWatt" style="width: 7vw;">
+        </a>
+        <span href="./index.html">TerraWatt</span>
+    </div>
+
+    <!-- Selector de idioma con menú desplegable -->
+    <div class="idioma-selector">
+        <button class="idioma-boton">
+            <img src="images/bandera_es.svg" alt="Español" class="bandera">
+        </button>
+        <ul class="idioma-menu">
+            <li><a href="./index.html">
+                <img src="images/bandera_es.svg" alt="Español" class="bandera"> Español</a></li>
+            <li><a href="./en/index.html">
+                <img src="images/bandera_gb.svg" alt="English" class="bandera"> English</a></li>
+            <li><a href="./ar/index.html">
+                <img src="images/bandera_moroc.png" alt="Arabic" class="bandera"> عر</a></li>
+        </ul>
+    </div>
+
+    <!-- Botón del menú hamburguesa -->
+    <button class="hamburguesa" aria-label="Menú">
+        <span class="hamburguesa-linea"></span>
+        <span class="hamburguesa-linea"></span>
+        <span class="hamburguesa-linea"></span>
+    </button>
+
+    <!-- Barra de navegación -->
+    <nav class="barra-navegacion">
+        <ul class="menu">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./Entiende_tu_factura.html">Entiende tu factura</a></li>
+            <li><a href="./Predice_tu_consumo.html">Predice tu consumo</a></li>
+            <li class="boton-llamar-barra-navegacion">
+                <button class="boton-llamar" onclick="window.location.href='./Formulario_contacto.html'">
+                    <i class="fa fa-phone" aria-hidden="true"></i> 917 40 72 72
+                </button>
+            </li>
+        </ul>
+    </nav>
+</div>

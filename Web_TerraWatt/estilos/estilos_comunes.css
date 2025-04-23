@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ==========================
+            CABECERA
+========================== */
+.cabecera {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    z-index: 1000;
+    top: 0;
+}
+
+/* Contenedor para el logo y el texto "TerraWatt" */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.logo-container img {
+    width: 7vw;
+    min-width: 80px; 
+}
+
+.logo-container span {
+    color: rgb(11, 72, 126);
+    font-size: 1.5rem;
+    font-weight: 800;
+    white-space: nowrap; 
+}
+
+/* ================================
+            BARRA DE NAVEGACION
+================================ */
+.barra-navegacion ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; 
+}
+
+.barra-navegacion ul li a {
+    font-size: 1.2rem;
+    color: rgb(16, 88, 152);
+    font-weight: 600;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.barra-navegacion ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* ================================
+            BOTON LLAMAR
+================================ */
+.boton-llamar-barra-navegacion {
+    margin-left: 1rem;
+}
+
+.boton-llamar {
+    background-color: #00bfff;
+    color: #000000;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.boton-llamar i {
+    margin-right: 0.5rem;
+}
+
+:lang(ar) .boton-llamar i {
+    margin-left: 0.5rem; 
+    margin-right: 0; 
+}
+
+
+.boton-llamar:hover {
+    background-color: #008fcc;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1030px) {
+    .cabecera {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .logo-container {
+        margin-bottom: 1rem; 
+    }
+
+    .barra-navegacion ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .boton-llamar-barra-navegacion {
+        margin: 1rem 0 0 0;
+    }
+
+    .boton-llamar {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-container img {
+        width: 80px; 
+    }
+
+    .logo-container span {
+        font-size: 1.2rem; 
+    }
+
+    .barra-navegacion ul li a {
+        font-size: 0.9rem;
+    }
+
+    .boton-llamar {
+        font-size: 0.9rem;
+    }
+}
+
+/* ================================
+            IDIOMA
+================================ */
+
+.idioma-selector {
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.idioma-boton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.idioma-boton img {
+    width: 30px;
+    height: auto;
+}
+
+.idioma-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: white;
+    list-style: none;
+    padding: 5px 10px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.idioma-menu.activo {
+    display: block;
+}
+
+.idioma-menu img {
+    width: 20px; 
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .idioma-selector {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 9999; 
+        direction: ltr;
+    }
+    .idioma-menu img {
+        width: 20px; 
+        height: auto;
+    }
+
+    .idioma-menu {
+        position: absolute;
+        top: 40px;
+        left: auto;
+        right: auto;
+        width: max-content; 
+        min-width: 100px; 
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: none; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: visible; 
+        white-space: nowrap; 
+    }
+
+    .idioma-menu.activo {
+        display: block;
+    }
+
+    .idioma-boton img {
+        width: 25px; 
+    }
+}
+
+/* =========================================
+            BARRA DE NAVEGACION - COMPRIMIDA
+========================================= */
+
+.hamburguesa {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    cursor: pointer;
+    background: none;
+    display: none; 
+    border: none;
+
+
+}
+
+.hamburguesa-linea {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #105F75;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.hamburguesa.active .hamburguesa-linea:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburguesa.active .hamburguesa-linea:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburguesa.active .hamburguesa-linea:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 1030px) {
+    .hamburguesa {
+        display: block; 
+    }
+
+    .barra-navegacion {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .barra-navegacion.active {
+        max-height: 500px; 
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .boton-llamar {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+
+
+/* ================================
+        PIE DE PAGINA
+================================ */
+.pie-de-pagina {
+    background-color: #001f29;
+    color: #ffffff;
+    padding: 40px 20px;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.contenido-pie-de-pagina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10vw; 
+}
+
+.logo-pie-de-pagina img {
+    width: 150px;
+    
+}
+
+.rating-pie-de-pagina .estrellas {
+    color: #ffd700;
+    font-size: 20px;
+}
+
+.apps-pie-de-pagina {
+    display: flex;
+}
+
+.apps-pie-de-pagina .boton-descarga {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.links-pie-de-pagina h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.links-pie-de-pagina a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links-pie-de-pagina a:hover {
+    color: #00bfff;
+}
+
+.legal-pie-de-pagina {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+
+/* ================================
+            BOTON SUBIR
+================================ */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #003366; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: none; 
+}
+:lang(ar) #backToTop {
+    right: auto; 
+    left: 20px; 
+}
+
+
+#backToTop:hover {
+    background-color: #002244; 
+}
+
+#backToTop:focus {
+    outline: 2px solid white; 
+}
+
+#backToTop.show {
+    display: block;
+    position: fixed;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ================================
+            BOTON ACCESIBLE
+================================ */
+
+.accesible {
+    display: none;
+}
+
+body.modo-accesible .accesible {
+    display: inline-block;
+}
+
+#toggleAccesible {
+    position: fixed;
+    bottom: 20px;  
+    left: 20px;
+    z-index: 999; 
+    background-color: #005f99;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+}
+:lang(ar) #toggleAccesible {
+    left: auto; 
+    right: 20px; 
+}
+
+#toggleAccesible:hover {
+    background-color: #003366;
+}
+
+.btn-voz {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-voz:hover {
+    transform: scale(1.1);
+}

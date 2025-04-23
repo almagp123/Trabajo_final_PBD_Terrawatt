@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entiende tu factura</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="estilos/estilos_comunes.css">
+    <link rel="stylesheet" href="estilos/estilos_entiende_tu_factura.css">
+</head>
+
+<body>
+    <!-- Botón de Modo Accesible -->
+    <button id="toggleAccesible" aria-label="Activar modo accesible">🦻 Modo Accesible</button>
+
+    <script src="./Funciones/Funciones_comunes/accesibilidad.js"></script>
+
+    <section>
+            <div id="header-placeholder"></div>
+        <script src="./Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+    </section>
+        <header class="encabezado">
+            <div class="encabezado-contenido">
+                <h1 id="texto-titulo"><br>
+                    Te ayudamos a entender 
+                    <br> tus facturas! 
+                    <button class="btn-voz accesible" onclick="leerTexto('texto-titulo')" aria-label="Leer título en voz alta">🔊</button>
+                </h1>
+
+                <h2 id="texto-titulo2">
+                    Gracias a nuestras facturas interactivas entenderas a la perfección 
+                    <br>
+                    cada apartado de tus facturas. 
+                    <br> 
+                    <br>
+                    Si aún tienes dudas, ¡Contactanos!
+                    <button class="btn-voz accesible" onclick="leerTexto('texto-titulo2')" aria-label="Leer título en voz alta">🔊</button>
+                </h2>
+
+            </div>
+            <script src="./Funciones/Funciones_comunes/Ajustar_secciones.js"></script>
+        </header>
+    </section>
+    <section>
+        
+        <section>
+            <div class="seccion-facturas">
+                <!-- Página 1 -->
+                <div class="factura-pagina-1">
+                    <div class="factura" >
+                        <div class="factura-section datos_personales" tabindex="0" role="button"
+                            data-title="Datos de la factura" 
+                            data-info="En este apartado podremos visualizar nuestros datos personales así como cuál es el periodo de nuestra factura de la luz, en este caso como podemos ver es de 36 días." 
+                            data-subinfo="Periodo: 36 días, Fecha de emisión: 09/12/2024">
+                        </div>
+
+                        <div class="factura-section resumen" tabindex="0"
+                            data-title="Resumen de la factura"
+                            data-info="El resumen de la factura de electricidad detalla cómo se compone el costo total de tu consumo energético. En esta sección puedes encontrar
+                            Potencia Contratada: El coste fijo asociado a la potencia que tienes contratada, expresado en euros.
+                            Consumo de Energía: El coste variable basado en la cantidad de energía consumida durante el período de facturación.
+                            Descuentos: Si aplican descuentos específicos por promociones o planes, estos se detallan aquí.
+                            Impuestos: Los impuestos aplicables, como el IVA o cualquier impuesto específico a la electricidad.
+                            Otros Cargos: Otros conceptos adicionales que puedan aplicarse, como servicios extra contratados.
+                            Forma de Pago: Información sobre el método de pago, como domiciliación bancaria, IBAN y datos relacionados.">
+                        </div>
+                        <div class="factura-section consumo_total" tabindex="0"
+                            data-title="Consumo Total" 
+                            data-info="En este caso podemos ver el conusmo en kWh total en en nuestro periodo, así como el precio medio del kWh que hemos pagado." 
+                            data-subinfo="Periodo: 36 días, Precio medio del kWh: 0.089272€">
+                        </div>
+                        <div class="factura-section evolucion_consumo" tabindex="0"
+                            data-title="Evolución del consumo" 
+                            data-info="Podemos ver la evolución de nuestro consumo en función de los meses en los cuales la distribuidora haya monitorizado nuetsro consumo. " 
+                            data-subinfo="Periodo: 36 días, Precio medio del kWh: 0.089272€">
+                        </div>
+                    </div>                   
+                </div>
+
+                <!-- Página 2 -->
+                <div class="factura-pagina-2">
+                    <div class="factura">
+                        <div class="factura-section datos" tabindex="0"
+                        data-title="Datos del contrato" 
+                        data-info="Los datos del contrato de electricidad incluyen información específica relacionada con el suministro eléctrico y las condiciones del contrato del usuario.
+
+                        Datos personales: Podemos revisar los datos personales asociados al contrato.
+                        Contrato de mercado: El tipo de contrato de electricidad (regulado o libre) y el nombre de la tarifa asociada.
+                        Referencia del contrato de suministro: Número único asociado al contrato.
+                        Potencia contratada:
+                        - Punta: La máxima potencia contratada en horarios de mayor demanda.
+                        - Valle: La potencia contratada en horarios de menor demanda.
+                        Fin de contrato de suministro: La fecha en la que finaliza la vigencia del contrato actual. Puede renovarse automáticamente si así está estipulado.
+                        Permanencia: Si el contrato tiene permanencia, indica la fecha de finalización del periodo obligatorio.
+                        CUPS: Código Universal del Punto de Suministro, un identificador único para la ubicación exacta donde se entrega el servicio eléctrico.
+                        Distribuidor: Nombre de la empresa distribuidora responsable del suministro.
+                        Referencia del contrato de acceso: Número único que identifica el acceso a la red eléctrica.
+                        Peaje de transporte y distribución: Coste asociado al uso de las redes de transporte y distribución de electricidad.
+                        Segmento de cargos: Clasificación de los cargos asociados al suministro eléctrico.
+                        Nº contador: Número único del contador de electricidad que mide el consumo eléctrico del usuario."
+                        data-subinfo="Potencia contratada: 2.5kWh">
+                        </div>
+                        <div class="factura-section detalles" tabindex="0"
+                            data-title="Detalles de la factura" 
+                            data-info="
+                            - Pot. Punta: Este concepto detalla el costo asociado a la potencia contratada en el horario de mayor demanda. En el ejemplo, se refleja un costo unitario de 0,089431 Eur/kW x 35 días, que resulta en un total de 8,95 €.
+                            - Pot. Valle: Se refiere al costo de la potencia contratada durante los horarios de menor demanda, con un costo unitario de 0,032702 Eur/kW x 35 días, sumando 2,54 €.
+                            Energía:
+                            - Consumo: El costo total de la energía consumida durante el periodo facturado, calculado como 110,000 kWh x 0,144000 Eur/kWh, que da un total de 15,84 €.
+                            Descuentos:
+                            - Descuento servicio Formidable: Aparece varias veces con diferentes importes, como 3,00 €, 3,17 €, y 1,98 €, indicando los descuentos aplicados por promociones o servicios adicionales.
+                            - Descuento promocional: Un descuento adicional de 1,18 €.
+                            Varios:
+                            - Financiación Bono Social: Representa un coste relacionado con ayudas o programas sociales, por ejemplo, 0,26 €.
+                            - Alquiler del contador: Este concepto indica el costo mensual por el uso del contador, en este caso, 1,02 €.
+                            Impuestos:
+                            - Impuesto de electricidad: Aplica un porcentaje sobre el consumo total de electricidad (21,94 Eur x 5,112696%). En este caso, el impuesto asciende a 1,12 €.
+                            - IVA: El Impuesto al Valor Agregado (IVA) se calcula al 10%, resultando en un costo adicional de 2,42 €.
+                            Total: El precio final, sumando todos los conceptos anteriores, asciende a 26,42 €."
+                            data-subinfo="Potencia contratada: 2.5kWh">
+                        </div>
+                        <div class="factura-section informacion_consumo" tabindex="0"
+                            data-title="Información del consumo" 
+                            data-info=" Datos del consumo eléctrico durante el período del 08/10/2024 al 13/11/2024
+                            Lectura real: La medición inicial y final registrada por el contador durante el período facturado. En este ejemplo:
+                            - Lectura inicial: 08/10/2024.
+                            - Lectura final: 13/11/2024.
+                        
+                            Multiplicador: Es el factor aplicado para convertir las lecturas en valores facturables. Aquí, el multiplicador es 1,00, lo que significa que no se realizan ajustes adicionales.
+                        
+                            Ajuste: Representa cualquier corrección en el consumo calculado. Esto se usa si hubo estimaciones en facturas previas que difieren de las lecturas reales. En este caso, el ajuste es 0,00.
+                        
+                            Consumo en kWh: Es la cantidad de energía consumida durante el período dividido por tramos horarios:
+                            - Punta: Consumo en horarios de alta demanda, equivalente a 35,00 kWh.
+                            - Llano: Consumo en horarios de demanda media, equivalente a 28,00 kWh.
+                            - Valle: Consumo en horarios de baja demanda, equivalente a 46,00 kWh.
+                        
+                            Facturación y ajustes: Las facturas de electricidad a menudo se calculan basándose en estimaciones de consumo si las lecturas reales no están disponibles al momento de la emisión. Cuando se realiza una lectura real del contador
+                            - Se ajustan las diferencias entre el consumo estimado y el consumo real.
+                            - Si el consumo real fue mayor, el cliente pagará un monto adicional en la siguiente factura.
+                            - Si el consumo real fue menor, el cliente recibirá un descuento o reembolso.
+                            "
+                            data-subinfo="Potencia contratada: 2.5kWh">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="seccion-facturas">
+                <!-- Página 3 -->
+                <div class="factura-pagina-3">
+                    <div class="factura">
+                        <div class="factura-section detalles_de_la_factura" tabindex="0"
+                            data-title="Datos de la factura" 
+                            data-info="Período: Se considera el intervalo de tiempo específico en el que se mide el consumo eléctrico, que en este caso es del 08/10/2024 al 13/11/2024.
+                        
+                            Lectura real: La medición inicial y final registrada por el contador durante el período facturado. En este ejemplo:
+                            - Lectura inicial: 08/10/2024.
+                            - Lectura final: 13/11/2024.
+                        
+                            Multiplicador: Es el factor aplicado para convertir las lecturas en valores facturables. Aquí, el multiplicador es 1,00, lo que significa que no se realizan ajustes adicionales.
+                        
+                            Ajuste: Representa cualquier corrección en el consumo calculado. Esto se usa si hubo estimaciones en facturas previas que difieren de las lecturas reales. En este caso, el ajuste es 0,00.
+                        
+                            Consumo en kWh: Es la cantidad de energía consumida durante el período dividido por tramos horarios:
+                            - Punta: Consumo en horarios de alta demanda, equivalente a 35,00 kWh.
+                            - Llano: Consumo en horarios de demanda media, equivalente a 28,00 kWh.
+                            - Valle: Consumo en horarios de baja demanda, equivalente a 46,00 kWh.
+                        
+                            Facturación y ajustes: 
+                            Las facturas de electricidad a menudo se calculan basándose en estimaciones de consumo si las lecturas reales no están disponibles al momento de la emisión. Cuando se realiza una lectura real del contador
+                            - Se ajustan las diferencias entre el consumo estimado y el consumo real.
+                            - Si el consumo real fue mayor, el cliente pagará un monto adicional en la siguiente factura.
+                            - Si el consumo real fue menor, el cliente recibirá un descuento o reembolso." 
+                            data-subinfo="Periodo: 36 días, Fecha de emisión: 09/12/2024">
+                        </div>
+
+                        <div class="factura-section resumen_total" tabindex="0"
+                            data-title="Resumen total de las facturas"
+                            data-info="
+                            Factura de Electricidad:
+                            - El importe correspondiente al consumo eléctrico y servicios relacionados. 
+                            - Total: 26,42 €.
+                        
+                            Factura de Servicios:
+                            - Incluye el detalle de los servicios adicionales contratados, como protecciones o suscripciones.
+                            - Total: 4,95 €.
+                        
+                            Total importe a pagar:
+                            - La suma total de las facturas de electricidad y servicios.
+                            - Importe final a pagar: 31,37 €.">
+                        </div>      
+                    </div>                   
+                </div>
+
+                <!-- Página 4 -->
+                <div class="factura-pagina-4">
+                    <div class="factura">
+                        <div class="factura-section graficos" tabindex="0"
+                        data-title="Gráficos" 
+                        data-info="    Origen de la electricidad:
+
+                        Este apartado detalla las fuentes de energía utilizadas por la comercializadora en el año 2023 y las compara con el mix de generación nacional:
+                    
+                        - Renovable: 40,5% (Comercializadora) frente al 50,8% (Mix nacional).
+                        - Cogeneración de Alta Eficiencia: 22,6% (Comercializadora) frente al 11,3% (Mix nacional).
+                        - CC Gas Natural: 22,4% (Comercializadora) frente al 15,4% (Mix nacional).
+                        - Carbón: 4,1% (Comercializadora) frente al 3,1% (Mix nacional).
+                        - Fuel/Gas: 2,1% (Comercializadora) frente al 1,5% (Mix nacional).
+                        - Otras no renovables: 5,3% (Comercializadora) frente al 4,7% (Mix nacional).
+                    
+                        Impacto Ambiental: Este gráfico mide el impacto ambiental de la generación de electricidad, evaluado en términos de emisiones de CO₂ y residuos radiactivos de alta actividad.
+                        - Emisiones de CO₂ equivalentes:
+                            - Comercializadora: 151 g CO₂/kWh (Clasificación: E).
+                            - Media nacional: 132 g CO₂/kWh.
+                        - Residuos radiactivos de alta actividad:
+                            - Comercializadora: 602 µg/kWh (Clasificación: E).
+                            - Media nacional: 522 µg/kWh."
+                        data-subinfo="Puedes consultar el origen detallado de tu electricidad en [https://gdo.cnmc.es](https://gdo.cnmc.es).">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <div id="modal" class="modal">
+            <div class="modal-content" tabindex="0">
+                <span class="close" tabindex="0" >&times; </span>
+                <h1 id="modal-title"></h1>
+                <p id="modal-info"></p>
+                <ul id="modal-subinfo"></ul> 
+            </div>
+        </div>
+        
+
+        <div>
+            <script src="./Funciones/Funciones_Entiende/Ventanas_emergentes_accesibilidad_permanente.js"></script>
+        </div>       
+    </section>
+    <div id="footer-placeholder"></div>
+    <script src="./Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    <div id="boton-placeholder"></div>
+    <script src="./Funciones/Funciones_comunes/Boton_subir.js"></script>
+
+    <!-- Este script nos permite poder seleccionar el idioma, es decir cada vez que clikamos la bandera se nos abre un desplegable en el cual podemos elegir el idioma, este permanece hasta que hagamos click en alguna sitio de la pantalla fuera de este.  -->
+    <script src="./Funciones/Funciones_comunes/Idioma.js"> </script>
+
+</section>
+    
+<body>
+    

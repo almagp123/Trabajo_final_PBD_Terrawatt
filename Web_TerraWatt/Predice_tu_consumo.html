@@ -1,0 +1,211 @@
+<!-- NO TENER EN CUENTA SEGURAMENTE HAYA QUE CAMBIAR TODO EL PROCESO DE RECOGIDA DE DATOS CUANDO 
+ SE CREE LA BASE DE DATOS Y SE CONECTE A DOCKER
+ NO BORRAR, PARA TENER EL CÓDIGO DE REFERENCIA!!!!!!!!
+  -->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="estilos/estilos_comunes.css">
+    <link rel="stylesheet" href="estilos/estilos_predice_tu_consumo.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section>
+        <header>
+            <div id="header-placeholder"></div>
+            <script src="./Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+        </header>
+    </section>
+
+    <section>
+        
+          <div class="encabezado3">
+            <div class="encabezado-contenido3">
+              <h1> <br>Predice tu consumo!</h1>
+            </div>
+                <div class="datos_consumo_luz">
+                    <h3>Datos de consumo de luz</h3>
+                    <div class="botones">
+                        <div id="opcion-base" class="boton">
+                            <img src="images/alarm-clock-check.svg" alt="Tarifa-base" class="icono">
+                            
+                            Base
+                        </div>
+
+                        <div id="opcion-valle" class="boton">
+                            <img src="images/sunset.svg" alt="Tarifa-variable" class="icono">
+                            
+                            Valle/Llano/Punta
+                        </div>
+                    </div>
+                    <div id="aviso-trabajando" class="aviso oculto">
+                        <p>Estamos trabajando en esta funcionalidad. ¡Gracias por tu paciencia!</p>
+                    </div>
+
+
+                  
+                    <div id="seccion-desplegable-base" class="seccion-desplegable oculto">
+                      <div class="row">
+                        <label for="potencia" class="label">Potencia en kW</label>
+                        <div class="input-container">
+                          <button id="decrement" class="input-btn">-</button>
+                          <input type="number" id="potencia" min="1" max="10" step="0.5" value="4">
+                          <button id="increment" class="input-btn">+</button>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                          <label for="numero_residentes" class="label">Número de residentes en la vivienda</label>
+                          <div class="input-container">
+                            <button id="decrement-residentes" class="input-btn">-</button>
+                            <input type="number" id="numero_residentes" min="1" max="10" step="1" value="4">
+                            <button id="increment-residentes" class="input-btn">+</button>
+                          </div>
+                      </div>
+
+                      <div class="row">
+                          <label for="tipo_vivienda" class="label">Tipo de vivienda</label>
+                          <select id="tipo_vivienda" class="select-vivienda">
+                            <option value="">Selecciona un tipo de vivienda</option>
+                            <option value="Piso">Piso</option>
+                            <option value="Casa-unifamiliar">Casa Unifamiliar</option>
+                            <option value="Duplex">Dúplex</option>
+                            <option value="Adosado">Adosado</option>
+                          </select>
+                      </div>
+
+
+                      <div class="row">
+                        <label for="provincia" class="label">Provincia</label>
+                        <select id="provincia" class="select-provincia">
+                          <option value="">Selecciona una provincia</option>
+                          <option value="A CORUÑA">A CORUÑA</option>
+                          <option value="ALAVA">Álava</option>
+                          <option value="ALBACETE">Albacete</option>
+                          <option value="ALICANTE">Alicante</option>
+                          <option value="ALMERIA">Almería</option>
+                          <option value="ASTURIAS">Asturias</option>
+                          <option value="AVILA">Ávila</option>
+                          <option value="BADAJOZ">Badajoz</option>
+                          <option value="BARCELONA">Barcelona</option>
+                          <option value="BIZKAIA">Bizkaia</option>
+                          <option value="BURGOS">Burgos</option>
+                          <option value="CACERES">Cáceres</option>
+                          <option value="CADIZ">Cádiz</option>
+                          <option value="CANTABRIA">Cantabria</option>
+                          <option value="CASTELLON">Castellón</option>
+                          <option value="CIUDAD REAL">Ciudad Real</option>
+                          <option value="CORDOBA">Córdoba</option>
+                          <option value="CUENCA">Cuenca</option>
+                          <option value="GIRONA">Girona</option>
+                          <option value="GRANADA">Granada</option>
+                          <option value="GUADALAJARA">Guadalajara</option>
+                          <option value="HUELVA">Huelva</option>
+                          <option value="HUESCA">Huesca</option>
+                          <option value="ILLES BALEARS">Illes Balears</option>
+                          <option value="JAEN">Jaén</option>
+                          <option value="LA RIOJA">La Rioja</option>
+                          <option value="LAS PALMAS">Las Palmas</option>
+                          <option value="LEON">León</option>
+                          <option value="LLEIDA">Lleida</option>
+                          <option value="LUGO">Lugo</option>
+                          <option value="MADRID">Madrid</option>
+                          <option value="MALAGA">Málaga</option>
+                          <option value="MURCIA">Murcia</option>
+                          <option value="NAVARRA">Navarra</option>
+                          <option value="OURENSE">Ourense</option>
+                          <option value="PALENCIA">Palencia</option>
+                          <option value="PONTEVEDRA">Pontevedra</option>
+                          <option value="SALAMANCA">Salamanca</option>
+                          <option value="SANTA CRUZ DE TENERIFE">Santa Cruz de Tenerife</option>
+                          <option value="SEGOVIA">Segovia</option>
+                          <option value="SEVILLA">Sevilla</option>
+                          <option value="SORIA">Soria</option>
+                          <option value="TARRAGONA">Tarragona</option>
+                          <option value="TERUEL">Teruel</option>
+                          <option value="TOLEDO">Toledo</option>
+                          <option value="VALENCIA">Valencia</option>
+                          <option value="VALLADOLID">Valladolid</option>
+                          <option value="ZAMORA">Zamora</option>
+                          <option value="ZARAGOZA">Zaragoza</option>
+                        </select>
+                      </div>
+                      
+                      
+
+                      <div class="row">
+                        <label for="mes" class="label">Mes a predecir</label>
+                        <select id="mes" class="select-meses">
+                          <option value="">Selecciona un mes</option>
+                          <option value="1">Enero</option>
+                          <option value="2">Febrero</option>
+                          <option value="3">Marzo</option>
+                          <option value="4">Abril</option>
+                          <option value="5">Mayo</option>
+                          <option value="6">Junio</option>
+                          <option value="7">Julio</option>
+                          <option value="8">Agosto</option>
+                          <option value="9">Septiembre</option>
+                          <option value="10">Octubre</option>
+                          <option value="11">Noviembre</option>
+                          <option value="12">Diciembre</option>
+                        </select>
+                      </div>
+
+
+
+                  
+                      
+
+
+
+                      <div class="row boton-centro">
+                        <button id="calcular" class="boton-calcular" onclick="enviarDatos()">Calcular</button>
+                      </div>
+
+
+                      <div id="resultado" style="margin-top: 20px; font-size: 18px; color: #333;">
+                      </div>
+
+                  
+                      <div id="resultado2"></div>
+
+
+                  
+                    
+
+                    
+                          
+                          
+  
+                    </div>
+                      
+                      
+                </div>
+            </div>
+          </div>
+        
+      </section>
+      
+    <script src="Funciones/Botones_predice_tu_consumo.js"></script>
+
+    <div id="footer-placeholder"></div>
+    <script src="Funciones/Barra_navegacion_Pie_de_pagina.js"></script>
+    <div id="boton-placeholder"></div>
+    <script src="Funciones/Boton_subir.js"></script>
+  </section>
+  
+<body>
+
+
+

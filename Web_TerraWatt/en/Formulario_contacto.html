@@ -1,0 +1,122 @@
+<!-- Las explicaciones referentes al código se encuentran en la página en español, ya que son puramente iguales la única diferencia es el idioma del texto -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../estilos/estilos_comunes.css">
+    <link rel="stylesheet" href="../estilos/estilos_formulario.css">
+</head>
+
+<body>
+    <button id="toggleAccesible" aria-label="Enable accessible mode">🦻 Accessible Mode</button>
+
+    <script src="../Funciones/Funciones_comunes/accesibilidad.js"></script>
+
+    <section>
+        <div id="header-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+
+    <section>
+        <header class="encabezado">
+            <div class="encabezado-contenido">
+                <h1 id="contenido-formulario">
+                    <br>
+                    <br>
+                    Contact Us!
+                    <br>
+                    We are here to help you
+                    <br>
+                </h1>
+                <button class="btn-voz accesible" onclick="leerTexto('contenido-formulario')" 
+                aria-label="Read title aloud">
+                    <span class="material-icons" aria-hidden="true">🔊</span>
+                </button>
+            </div>
+        </header>
+    </section>
+
+    <section class="formulario-contacto">
+        <h2>
+            <br>
+            Send us a message
+        </h2>
+        <div id="form-message"></div>
+        <form id="contact-form" class="formulario">
+            <div class="campo-formulario">
+                <label for="nombre">Name</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Enter your name" required aria-required="true">
+            </div>
+            <div class="campo-formulario">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required aria-required="true">
+            </div>
+            <div class="campo-formulario">
+                <label for="telefono">Phone</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Enter your phone number">
+            </div>
+            <div class="campo-formulario">
+                <label for="mensaje">Message</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Write your message here" required aria-required="true"></textarea>
+            </div>
+            <div class="campo-formulario">
+                <button type="submit" class="btn-enviar">Send</button>
+            </div>
+        </form>
+
+        <script>
+            const form = document.getElementById('contact-form');
+            const messageDiv = document.getElementById('form-message');
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault(); 
+
+                const nombre = form.querySelector('#nombre').value;
+                const email = form.querySelector('#email').value;
+                const telefono = form.querySelector('#telefono').value;
+                const mensaje = form.querySelector('#mensaje').value;
+
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    messageDiv.innerHTML = '<p class="error-message">Invalid email</p>';
+                    return;
+                }
+
+                const contenido = `New contact message:\n\n`;
+                const contenidoConFecha = `${contenido}Date: ${new Date().toISOString()}\nName: ${nombre}\nEmail: ${email}\nPhone: ${telefono}\nMessage:\n${mensaje}\n----------------------------------------\n`;
+
+                const blob = new Blob([contenidoConFecha], { type: 'text/plain' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `contact_message_${new Date().toISOString().replace(/[:.]/g, '-')}.txt`; 
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                messageDiv.innerHTML = '<p class="success-message">Message saved and downloaded successfully</p>';
+
+                form.reset();
+            });
+        </script>
+    </section>
+
+    <section>
+        <div id="footer-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+
+    <section>
+        <div id="boton-placeholder"></div>
+        <script src="../Funciones/Funciones_comunes/Boton_subir.js"></script>
+    </section>
+    
+    <script src="../Funciones/Funciones_comunes/Idioma.js"> </script>
+</body>
+</html>

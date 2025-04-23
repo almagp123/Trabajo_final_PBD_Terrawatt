@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./estilos/estilos_comunes.css">
+    <link rel="stylesheet" href="./estilos/estilos_formulario.css">
+</head>
+
+<body>
+    <!-- Boton de accesibilidad -->
+    <button id="toggleAccesible" aria-label="Activar modo accesible">🦻 Modo Accesible</button>
+
+    <!-- Llamamos el script que activa la función de accesibilidad que nos permite leer el texto que seleccionamos -->
+    <script src="./Funciones/Funciones_comunes/accesibilidad.js"></script>
+
+    <!-- Llamamos a la función que nos permite obtener tanto la barra de navegación como el pie de página, dependiendo del ID la función determina si debe de introducir o la barra de navegación o el pie de página, en este caso como el id es "header-placeholder", introducir la barra de navegación -->
+    <section>
+        <div id="header-placeholder"></div>
+        <script src="./Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+
+    <section>
+        <header class="encabezado">
+            <div class="encabezado-contenido">
+                <h1 id = "contenido-formulario">
+                    <br>
+                    <br>
+                    ¡Contáctanos!
+                    <br>
+                    Estamos aquí para ayudarte
+                    <br>
+                </h1>
+                <button class="btn-voz accesible" onclick="leerTexto('contenido-formulario')" 
+                aria-label="Leer título en voz alta">
+                    <span class="material-icons" aria-hidden="true" >&#128266;</span>
+                </button>
+            </div>
+
+
+        </header>
+    </section>
+
+    <section class="formulario-contacto">
+        <h2>
+            <br>
+            Envíanos un mensaje
+        </h2>
+        <!-- Mostrar mensajes de éxito o error -->
+        <div id="form-message"></div>
+        <form id="contact-form" class="formulario">
+            <div class="campo-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required aria-required="true">
+            </div>
+            <div class="campo-formulario">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Escribe tu correo" required aria-required="true">
+            </div>
+            <div class="campo-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono">
+            </div>
+            <div class="campo-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required aria-required="true"></textarea>
+            </div>
+            <div class="campo-formulario">
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </div>
+        </form>
+
+
+        <!-- Script provisional hasta que se suba la página para intentar que se envie al correo de la "empresa" con node -->
+        <script>
+            const form = document.getElementById('contact-form');
+            const messageDiv = document.getElementById('form-message');
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault(); 
+
+                const nombre = form.querySelector('#nombre').value;
+                const email = form.querySelector('#email').value;
+                const telefono = form.querySelector('#telefono').value;
+                const mensaje = form.querySelector('#mensaje').value;
+
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    messageDiv.innerHTML = '<p class="error-message">Correo inválido</p>';
+                    return;
+                }
+
+                const contenido = `Nuevo mensaje de contacto:\n\n`;
+                const contenidoConFecha = `${contenido}Fecha: ${new Date().toISOString()}\nNombre: ${nombre}\nCorreo Electrónico: ${email}\nTeléfono: ${telefono}\nMensaje:\n${mensaje}\n----------------------------------------\n`;
+
+                const blob = new Blob([contenidoConFecha], { type: 'text/plain' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `mensaje_contacto_${new Date().toISOString().replace(/[:.]/g, '-')}.txt`; 
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                messageDiv.innerHTML = '<p class="success-message">Mensaje guardado y descargado con éxito</p>';
+
+                form.reset();
+            });
+        </script>
+    </section>
+
+    <section>
+        <div id="footer-placeholder"></div>
+        <script src="./Funciones/Funciones_comunes/Barra_navegacion_Pie_de_pagina.js"></script>
+    </section>
+
+    <!-- Definimos a siguiente seccion en el boton que te lleva al principio de la pagina, y añadimos tambien el script que nos permite que esto sea posible -->
+    <section>
+        <div id="boton-placeholder"></div>
+        <script src="./Funciones/Funciones_comunes/Boton_subir.js"></script>
+    </section>
+    
+    <!-- Este script nos permite poder seleccionar el idioma, es decir cada vez que clikamos la bandera se nos abre un desplegable en el cual podemos elegir el idioma, este permanece hasta que hagamos click en alguna sitio de la pantalla fuera de este.  -->
+    <script src="./Funciones/Funciones_comunes/Idioma.js"> </script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ==========================
+            CABECERA
+========================== */
+.cabecera {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    z-index: 1000;
+    top: 0;
+}
+
+/* ==========================
+        ENCABEZADO
+========================== */
+.encabezado {
+    background: #105F75 url('../images/Vector_pag_principal.svg') right 10% bottom 70%/40% no-repeat;
+    min-height: 50vh;
+    padding-bottom: 9rem;
+    clip-path: polygon(100% 0%,0% 0%,0% 98%,1% 97.98%,2% 97.9%,3% 97.8%,4% 97.65%,5% 97.45%,6% 97.23%,7% 96.95%,8% 96.63%,9% 96.28%,10% 95.9%,11% 95.48%,12% 95.03%,13% 94.55%,14% 94.05%,15% 93.53%,16% 93%,17% 92.45%,18% 91.9%,19% 91.33%,20% 90.75%,21% 90.18%,22% 89.6%,23% 89.03%,24% 88.45%,25% 87.9%,26% 87.38%,27% 86.88%,28% 86.38%,29% 85.9%,30% 85.45%,31% 85.05%,32% 84.68%,33% 84.33%,34% 84.03%,35% 83.75%,36% 83.53%,37% 83.33%,38% 83.18%,39% 83.08%,40% 83.03%,41% 83%,42% 83.03%,43% 83.1%,44% 83.23%,45% 83.38%,46% 83.58%,47% 83.83%,48% 84.1%,49% 84.43%,50% 84.78%,51% 85.18%,52% 85.6%,53% 86.05%,54% 86.53%,55% 87.03%,56% 87.55%,57% 88.08%,58% 88.65%,59% 89.2%,60% 89.78%,61% 90.35%,62% 90.93%,63% 91.5%,64% 92.08%,65% 92.63%,66% 93.18%,67% 93.7%,68% 94.23%,69% 94.7%,70% 95.18%,71% 95.6%,72% 96.03%,73% 96.4%,74% 96.73%,75% 97.03%,76% 97.3%,77% 97.53%,78% 97.7%,79% 97.85%,80% 97.93%,81% 98%,82% 98%,83% 97.95%,84% 97.88%,85% 97.75%,86% 97.6%,87% 97.38%,88% 97.13%,89% 96.85%,90% 96.53%,91% 96.15%,92% 95.75%,93% 95.33%,94% 94.88%,95% 94.4%,96% 93.9%,97% 93.38%,98% 92.83%,99% 92.28%,100% 91.7%);
+}
+
+@media (max-width: 1025px) {
+    .encabezado {
+        background-position: right 10% bottom 10%;
+        clip-path: none;
+    }
+}
+
+@media (max-width: 1020px) {
+    .encabezado {
+        background-image: none;
+    }
+}
+:lang(ar) .encabezado {
+    background: #105F75 url('../images/Vector_pag_principal.svg') left 10% bottom 70%/40% no-repeat;
+    direction: rtl;
+    text-align: right;
+    padding: 9%;
+}
+
+@media (max-width: 1025px) {
+    :lang(ar) .encabezado {
+        background-position: left 10% bottom 10%;
+        clip-path: none; 
+    }
+}
+
+@media (max-width: 1020px) {
+    :lang(ar) .encabezado {
+        background-image: none;
+    }
+}
+
+.encabezado-contenido {
+    margin: 5% 0 0 10%;
+}
+
+.encabezado-contenido h1 {
+    font-size: 2.7rem;
+    color: #fcfcfc;
+    text-transform: uppercase;
+}
+
+.encabezado-contenido a {
+    margin-top: 2vw;
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: bisque;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.encabezado-contenido a:hover {
+    background-color: #fff;
+}
+
+.rating-encabezado {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 20px 0 0 10%;
+}
+
+.estrellas {
+    display: flex;
+    margin-right: 10px;
+}
+
+.estrellas i {
+    color: #FFD700;
+    font-size: 1.5rem;
+    margin-right: 2px;
+}
+
+:lang(ar) .estrellas {
+    direction: ltr;
+}
+
+li, span {
+    color: white;
+}
+
+/* ==========================
+       INTRODUCCION
+========================== */
+.introduccion {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.introduccion h2 {
+    font-size: 2em;
+}
+
+.explicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.ajuste-vector {
+    max-width: 300px;
+    height: auto;
+}
+
+.texto-explicacion h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.texto-explicacion p {
+    line-height: 1.6;
+}
+
+/* ================================
+            RESEÑAS
+================================ */
+.reseñas {
+    background-color: #e0f4ff;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.reseñas-encabezado h2 {
+    font-size: 24px;
+    color: #00334e;
+}
+
+.reseñas-rating {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-num {
+    font-weight: bold;
+    color: #00334e;
+}
+
+.slides-reseñas-conjunto {
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.reseñas-slider {
+    display: flex;
+}
+
+.reseñas-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 20px;
+}
+
+.reseñas-individuales {
+    flex: 0 0 100%;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    background: #e6f7ff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    border-radius: 15px;
+
+}
+
+.reseñas-individuales h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.reseña p {
+    font-size: 16px;
+    color: #00334e;
+    margin-bottom: 10px;
+} 
+
+.reseñas-navegacion {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.reseñas-boton {
+    background-color: #00334e;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.reseñas-boton:hover {
+    background-color: #005f9e;
+}
+
+.estrellas-rating-reseñas {
+    color: #C70000;
+    font-size: 20px;
+    direction: ltr;
+}
+
+.navegacion-botones-reseñas {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reseñas__control {
+    background-color: #00334e;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 20%;
+    font-size: 24px;
+    margin: 0 15px;
+    transition: background-color 0.3s ease;
+}
+
+.reseñas__control:hover {
+    background-color: #f0f0f0;
+    color: #00334e;
+}
