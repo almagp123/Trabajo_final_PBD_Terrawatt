@@ -1,108 +1,117 @@
-import pandas as pd 
+import pandas as pd
 import os
 
-# Ruta de los archivos
-meteorologicos_path = "../Limpieza_datos/Datos_limpios_meteorologicos"
-precios_path = "../Limpieza_datos/Datos_brutos_generales/precios_energia.csv"
-festivos_path = "../Limpieza_datos/Datos_brutos_generales/Festivos.csv"
+# --- Rutas de los archivos ---
+meteorologicos_path = "../Trabajo_final_PBD_Terrawatt/Datos_Y_Limpieza/Datos_limpios/Datos_limpios_metereologicos"
+precios_path = "../Trabajo_final_PBD_Terrawatt/Datos_Y_Limpieza/Datos_brutos/Precios_energia.csv"
+festivos_path = "../Trabajo_final_PBD_Terrawatt/Datos_Y_Limpieza/Datos_brutos/Festivos.csv"
+output_path = "../Trabajo_final_PBD_Terrawatt/Datos_Y_Limpieza/Datos_limpios/Modelo_Precios_Met_Fest.csv"
 
-# Leer los festivos
+# --- Paso 1: Convertir todos los meteorológicos a UTF-8 ---
+for file_name in os.listdir(meteorologicos_path):
+    if file_name.endswith(".csv"):
+        file_path = os.path.join(meteorologicos_path, file_name)
+        
+        with open(file_path, 'r', encoding='ISO-8859-1') as f:
+            contenido = f.read()
+        
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(contenido)
+        
+        print(f"Archivo convertido a UTF-8: {file_name}")
+
+# --- Paso 2: Leer festivos y precios ---
 df_festivos = pd.read_csv(festivos_path, delimiter=';', encoding='utf-8')
-
-# Estandarizar las columnas "Provincia" y "Fecha" en el dataset de festivos
 df_festivos["Provincia"] = df_festivos["Provincia"].str.strip().str.upper()
 df_festivos["Fecha"] = pd.to_datetime(df_festivos["Fecha"], format='%d/%m/%Y', errors='coerce')
 
-# Leer los precios con el delimitador original (coma) y ajustarlo directamente
 df_precios = pd.read_csv(precios_path, delimiter=',', encoding='utf-8')
-
-# Convertir la columna "Fecha" a formato datetime en precios
 df_precios["Fecha"] = pd.to_datetime(df_precios["Fecha"], format='%Y-%m-%d', errors='coerce')
 
-# Inicializar una lista para almacenar los DataFrames combinados
+# --- Paso 3: Procesar meteorológicos y combinar ---
 combined_dfs = []
 
-# Procesar cada archivo en la carpeta de datos meteorológicos
 for file_name in os.listdir(meteorologicos_path):
-    if file_name.endswith(".csv"):  # Asegurarse de que sean archivos CSV
+    if file_name.endswith(".csv"):
         file_path = os.path.join(meteorologicos_path, file_name)
-
-        # Extraer el nombre de la provincia del archivo (sin extensión)
         provincia = os.path.splitext(file_name)[0].upper()
-
-        # Leer el archivo meteorológico
+        
         df_meteorologico = pd.read_csv(file_path, delimiter=';', encoding='utf-8')
-
-        # Convertir la columna "FECHA" a formato datetime en meteorológicos
         df_meteorologico["FECHA"] = pd.to_datetime(df_meteorologico["FECHA"], format='%Y-%m-%d', errors='coerce')
-
-        # Añadir la columna Provincia al DataFrame meteorológico
-        df_meteorologico.insert(1, "Provincia", provincia)  # Añadir la columna como segunda
-
-        # Combinar con el archivo de precios de energía mediante la columna "Fecha"
-        df_combinado = pd.merge(df_meteorologico, df_precios, left_on="FECHA", right_on="Fecha", how="left")
-
-        # Eliminar la columna redundante "Fecha" después de la combinación
+        
+        # Añadir columna de Provincia
+        df_meteorologico.insert(1, "Provincia", provincia)
+        
+        # Combinar meteorológicos con precios
+        df_combinado = pd.merge(df_meteorologico, df_precios, left_on="FECHA", right_on="Fecha", how="inner")
+        
+        # Eliminar columna redundante "Fecha"
         df_combinado.drop(columns=["Fecha"], inplace=True)
-
-        # Crear una clave de combinación basada en Fecha y Provincia para identificar festivos
+        
+        # Crear columna "Clave" para unir con festivos
         df_combinado["Clave"] = df_combinado["FECHA"].astype(str) + "_" + df_combinado["Provincia"]
-
-        # Añadir la columna "Festivo"
+        
+        # Añadir columna "Festivo"
         df_combinado["Festivo"] = df_combinado["Clave"].isin(
             df_festivos["Fecha"].astype(str) + "_" + df_festivos["Provincia"]
         ).map({True: "SI", False: "NO"})
-
-        # Añadir la columna "Entre semana"
+        
+        # Añadir columna "Entre semana"
         df_combinado["Entre semana"] = df_combinado["FECHA"].dt.dayofweek.apply(lambda x: "SI" if x < 5 else "NO")
-
-        # Eliminar la columna auxiliar "Clave"
+        
+        # Eliminar columna auxiliar "Clave"
         df_combinado.drop(columns=["Clave"], inplace=True)
-
-        # Añadir al listado de DataFrames combinados
+        
         combined_dfs.append(df_combinado)
 
-# Concatenar todos los DataFrames combinados
+# --- Paso 4: Unir todos los datasets ---
 df_final = pd.concat(combined_dfs, ignore_index=True)
 
-# Dropear las columnas de precios que no sean necesarias
-columns_to_drop = [
-    "Precio medio diario sin impuestos (€/MWh)",
-    "Impuesto eléctrico (€/MWh)",
-    "IVA (€/MWh)"
+# --- Paso 5: Seleccionar las columnas deseadas ---
+columnas_finales = [
+    "FECHA", "Provincia", "ALTITUD", "TMEDIA", "TMIN", "TMAX",
+    "DIR", "VELMEDIA", "RACHA", "SOL", "PRESMAX", "PRESMIN",
+    "Precio total con impuestos (€/MWh)", "Festivo", "Entre semana"
 ]
-df_final.drop(columns=columns_to_drop, inplace=True, errors='ignore')
 
-# Guardar el archivo combinado
-output_path = "../TerraWatt/Terrawatt/Limpieza_datos/Modelo_Precios_Met_Fest.csv"
-# output_path = "Modelo_Precios_Met_Fest.csv"
+df_final = df_final[columnas_finales]
 
+# --- Paso 6: Reportar porcentaje de valores nulos por columna ---
+print("\n--- Informe de valores faltantes ---")
+total_filas = len(df_final)
+
+for col in columnas_finales:
+    num_nulos = df_final[col].isnull().sum()
+    porcentaje = (num_nulos / total_filas) * 100
+
+    if num_nulos > 0:
+        if porcentaje <= 5:
+            print(f"La variable '{col}' falta en el {porcentaje:.2f}% de los datos. Se rellenará con la media de su provincia.")
+            
+            # --- Rellenar valores faltantes con la media de su provincia ---
+            def rellenar_con_media_provincia(row):
+                if pd.isna(row[col]):
+                    provincia = row['Provincia']
+                    media = df_final[df_final['Provincia'] == provincia][col].mean()
+                    return media
+                else:
+                    return row[col]
+
+            df_final[col] = df_final.apply(rellenar_con_media_provincia, axis=1)
+
+        else:
+            print(f"La variable '{col}' falta en el {porcentaje:.2f}% de los datos. No se rellenará automáticamente (requiere otra estrategia).")
+    else:
+        print(f"La variable '{col}' no tiene valores faltantes.")
+
+# --- Paso 7: Calcular medias por columna numérica (informativo) ---
+numeric_columns = df_final.select_dtypes(include=['number']).columns
+
+print("\n--- Medias de columnas numéricas ---")
+for col in numeric_columns:
+    mean_value = df_final[col].mean()
+    print(f"Columna '{col}': media = {mean_value:.4f}")
+
+# --- Paso 8: Guardar resultado final ---
 df_final.to_csv(output_path, sep=';', index=False, encoding='utf-8')
-
-print(f"Archivo combinado guardado en: {output_path}")
-
-
-# Debemos de rellenar todas las filas que no contengan datos, en este caso lo rellenaremos con la media de la columna (ya que el unico dataset que tiene datos faltantes es el de datos metereologicos), paorque elastic search no admite que tenga elementos faltantes.
-
-
-# Lista de archivos a procesar
-files = [ "../TerraWatt/Terrawatt/Limpieza_datos/Modelo_Precios_Met_Fest.csv"]
-
-# Procesar cada archivo
-for file in files:
-    # Leer el archivo CSV
-    df = pd.read_csv(file, delimiter=';')
-    
-    # Eliminar filas donde todas las columnas tengan valores faltantes
-    df.dropna(how='all', inplace=True)
-    
-    # Reemplazar valores faltantes en columnas numéricas con la media de la columna
-    numeric_columns = df.select_dtypes(include=['number']).columns
-    for col in numeric_columns:
-        mean_value = df[col].mean()  # Calcular la media de la columna
-        df[col].fillna(mean_value)
-    
-    # Guardar el archivo procesado con un prefijo "Procesado_"
-    output_file = f"{file}"
-    df.to_csv(output_file, index=False, sep=';')
-    print(f"Archivo procesado y guardado como: {output_file}")
+print(f"\nArchivo final guardado en: {output_path}")

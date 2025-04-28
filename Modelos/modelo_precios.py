@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pickle
 import os 
 # 1. Cargar el dataset
-file_path = "../Limpieza_datos/Modelo_Precios_Met_Fest.csv"
+file_path = "../Trabajo_final_PBD_Terrawatt/Datos_Y_Limpieza/Datos_limpios/Modelo_Precios_Met_Fest.csv"
 data = pd.read_csv(file_path, delimiter=';')
 
 # 2. Preprocesamiento del dataset
@@ -17,15 +17,13 @@ data = data.sort_values(by='FECHA')
 serie_temporal = data.set_index('FECHA')['Precio total con impuestos (€/MWh)'].dropna()
 
 # 3. Construir el dataset para predicción
-# Usaremos la técnica de ventanas de tamaño 1:
-#   X[i] = precio en t, y[i] = precio en t+1
+
 
 prices = serie_temporal.values
-X = prices[:-1].reshape(-1, 1)  # características: precio actual
+X = prices[:-1].reshape(-1, 1) 
 
-y = prices[1:]                  # etiquetas: precio siguiente
+y = prices[1:]                  
 
-# Dividir en conjunto de entrenamiento y prueba (80% - 20%)
 train_size = int(len(X) * 0.8)
 X_train, X_test = X[:train_size], X[train_size:]
 y_train, y_test = y[:train_size], y[train_size:]
@@ -62,7 +60,7 @@ plt.show()
 
 
 # Ruta del archivo .pkl
-modelo_pkl_path = "../TerraWatt/Terrawatt/modelos_guardados/AModelo_precios_mlp.pkl"
+modelo_pkl_path = "../Trabajo_final_PBD_Terrawatt/Modelos/Modelos_generados/Modelo_precios_mlp.pkl"
 
 # Crear la carpeta si no existe
 directorio = os.path.dirname(modelo_pkl_path)
@@ -75,3 +73,6 @@ with open(modelo_pkl_path, "wb") as f:
     pickle.dump(model, f)
 
 print("Modelo guardado en formato .pkl exitosamente.")
+
+
+print(serie_temporal.autocorr(lag=1))
