@@ -214,6 +214,4 @@ async def transformar_datos(datos: Datos):
         print("❌ Modelo de precios no disponible en la ruta especificada.")
         datos_transformados["precio"] = "Modelo de precios no disponible"
 
-    # ... (resto del código, incluyendo la sección de MySQL comentada)
-
     return {"datos_transformados": datos_transformados}
