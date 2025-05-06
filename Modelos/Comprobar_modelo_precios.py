@@ -4,7 +4,7 @@ from datetime import datetime
 import pickle
 
 # 1. Cargar el modelo guardado (asegúrate de que la ruta sea correcta)
-modelo_pkl_path = "../TerraWatt/Terrawatt/modelos_guardados/AModelo_precios_mlp.pkl"
+modelo_pkl_path = "../Modelos/Modelos_generados/Modelo_precios_mlp.pkl" 
 
 # Cargar el modelo
 with open(modelo_pkl_path, "rb") as f:

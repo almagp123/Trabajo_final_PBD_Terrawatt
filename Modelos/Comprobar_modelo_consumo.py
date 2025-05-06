@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 # Cargar el modelo
-modelo_path = '../TerraWatt/Terrawatt/modelos_guardados/Modelo_ALAVA.pkl'  # Cambia esta ruta a la correcta
+modelo_path = '../Modelos/Modelos_generados/Modelos_consumo_por_provincia/Modelo_ALAVA.pkl' 
 modelo = joblib.load(modelo_path)
 
 
