@@ -9,46 +9,94 @@ import calendar
 from datetime import datetime
 import numpy as np
 import mysql.connector
+import unicodedata
 
-
-# Ruta base del proyecto (donde está este script)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Rutas relativas
 RUTA_METEOROLOGICA = os.path.join(BASE_DIR, "..", "..", "Datos_Y_Limpieza", "Datos_limpios", "Datos_limpios_metereologicos")
 RUTA_MODELOS = os.path.join(BASE_DIR, "..", "..", "Modelos", "Modelos_generados", "Modelos_consumo_por_provincia")
 RUTA_MODELO_PRECIOS = os.path.join(BASE_DIR, "..", "..", "Modelos", "Modelos_generados")
 modelo_precios_path = os.path.join(BASE_DIR, "..", "..", "Datos_Y_Limpieza", "Datos_limpios", "Modelo_Precios_Met_Fest.csv")
 
-
-# Crear la instancia de la API y configurar CORS
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Para producción: restringir orígenes
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Definir el modelo de entrada para el endpoint de transformación
 class Datos(BaseModel):
     potencia: float
     numero_residentes: float
     tipo_vivienda: str
     provincia: str
-    mes: int  
+    mes: int
 
+db_config = {
+    "user": "uhmzmxoizkatmdsu",
+    "password": "hcG4aHLWkwV4KrjM9re",
+    "host": "hv-par8-022.clvrcld.net",
+    "port": "10532",
+    "database": "brqtr1tzuvatzxwisgpf"
+}
 
+def normalizar_texto(texto):
+    texto = ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn')
+    return texto.upper()
 
+def obtener_id_dimension(cursor, tabla, columna, valor, columna_id, es_rango=False):
+    try:
+        if es_rango:
+            consulta = f"SELECT {columna_id} FROM {tabla} WHERE {columna}_min <= %s AND {columna}_max > %s"
+            cursor.execute(consulta, (valor, valor))
+        else:
+            if tabla == "dim_vivienda":
+                valor = valor.replace("-", " ")
+            if tabla == "dim_provincia":
+                valor_normalizado = normalizar_texto(valor)
+                consulta = f"SELECT {columna_id} FROM {tabla} WHERE UPPER({columna}) = %s"
+                cursor.execute(consulta, (valor_normalizado,))
+            else:
+                consulta = f"SELECT {columna_id} FROM {tabla} WHERE {columna} = %s"
+                cursor.execute(consulta, (valor,))
+        resultado = cursor.fetchone()
+        while cursor.fetchone() is not None:
+            pass
+        if resultado:
+            return resultado[0]
+        else:
+            raise ValueError(f"No se encontró un registro en {tabla} para el valor {valor} en la columna {columna}")
+    except mysql.connector.Error as error:
+        while cursor.fetchone() is not None:
+            pass
+        raise ValueError(f"Error en la consulta a {tabla}: {str(error)}")
+
+def obtener_o_insertar_fecha(cursor):
+    hoy = datetime.today()
+    dia = hoy.day
+    mes = hoy.month
+    ano = hoy.year
+    fecha = hoy.strftime("%Y-%m-%d")
+    consulta = "SELECT ID_Tiempo_Dia FROM dim_fecha_dia WHERE Fecha = %s"
+    cursor.execute(consulta, (fecha,))
+    resultado = cursor.fetchone()
+    if resultado:
+        return resultado[0]
+    id_fecha = int(f"{dia:02d}{mes:02d}{ano}")
+    trimestre = f"{ano}Q{(mes - 1) // 3 + 1}"
+    nombre_mes = calendar.month_name[mes]
+    consulta_insertar = """
+    INSERT INTO dim_fecha_dia (ID_Tiempo_Dia, Fecha, Año, MES, DÍA, Trimestre, Nombre_Mes)
+    VALUES (%s, %s, %s, %s, %s, %s, %s)
+    """
+    cursor.execute(consulta_insertar, (id_fecha, fecha, ano, mes, dia, trimestre, nombre_mes))
+    return id_fecha
 
 @app.post("/transformar")
 async def transformar_datos(datos: Datos):
-    # ---------------------------
-    # Parte 1: Predicción de Consumo
-    # ---------------------------
-    # Variables dummies para el tipo de vivienda
     tipos_vivienda = [
         'Tipo de vivienda_Adosado',
         'Tipo de vivienda_Casa Unifamiliar',
@@ -65,22 +113,20 @@ async def transformar_datos(datos: Datos):
     elif datos.tipo_vivienda == "Piso":
         variables_vivienda['Tipo de vivienda_Piso'] = True
     else:
-        return {"error": "Tipo de vivienda no reconocido. Por favor, revisa tu entrada."}
+        return {"error": "Tipo de vivienda no reconocido."}
 
-    # Cargar y filtrar datos meteorológicos
     provincia = datos.provincia
     archivo_provincia = os.path.join(RUTA_METEOROLOGICA, f"{provincia}.csv")
     if not os.path.exists(archivo_provincia):
         return {"error": f"No se encontró el archivo de la provincia: {provincia}"}
 
     df_meteorologico = pd.read_csv(archivo_provincia, delimiter=";")
-    df_meteorologico["MES"] = pd.to_datetime(df_meteorologico["FECHA"]).dt.month
+    df_meteorologico["MES"] = pd.to_datetime(df_meteorologico["FECHA"], errors='coerce').dt.month
     df_filtrado = df_meteorologico[df_meteorologico["MES"] == datos.mes]
     columnas_meteorologicas = ["TMEDIA", "TMIN", "TMAX", "VELMEDIA", "SOL", "PRESMAX", "PRESMIN"]
     medias_meteorologicas = df_filtrado[columnas_meteorologicas].mean()
     medias_dict = medias_meteorologicas.to_dict()
 
-    # Construir datos transformados (para el modelo de consumo)
     datos_transformados = {
         "potencia": datos.potencia,
         "numero_residentes": datos.numero_residentes,
@@ -89,21 +135,19 @@ async def transformar_datos(datos: Datos):
     }
     datos_transformados = {**datos_transformados, **medias_dict, **variables_vivienda}
 
-
-
-    modelo_path = os.path.join(RUTA_MODELOS, f"Modelo_{provincia}.pkl")
-    if not os.path.exists(modelo_path):
-        print(f"El modelo para {provincia} no se encontró en la ruta: {modelo_path}")
+    ruta_modelo = os.path.join(RUTA_MODELOS, f"Modelo_{provincia}.pkl")
+    if not os.path.exists(ruta_modelo):
         return {"error": f"No se encontró el modelo para la provincia: {provincia}"}
-    modelo_consumo = joblib.load(modelo_path)
 
-    feature_names = [
+    modelo_consumo = joblib.load(ruta_modelo)
+
+    nombres_columnas = [
         "TMEDIA", "TMIN", "TMAX", "VELMEDIA", "SOL", "PRESMAX", "PRESMIN",
         "Potencia contratada (kW)", "Mes", "Media de residentes",
         "Tipo de vivienda_Adosado", "Tipo de vivienda_Casa Unifamiliar", 
         "Tipo de vivienda_Duplex", "Tipo de vivienda_Piso"
     ]
-    features = [
+    valores = [
         datos_transformados["TMEDIA"],
         datos_transformados["TMIN"],
         datos_transformados["TMAX"],
@@ -119,91 +163,61 @@ async def transformar_datos(datos: Datos):
         datos_transformados["Tipo de vivienda_Duplex"],
         datos_transformados["Tipo de vivienda_Piso"]
     ]
-    features_df = pd.DataFrame([features], columns=feature_names)
-    scaler = StandardScaler()
-    features_to_normalize = ["TMEDIA", "TMIN", "TMAX", "VELMEDIA", "SOL", "PRESMAX", "PRESMIN", "Potencia contratada (kW)"]
-    features_df[features_to_normalize] = scaler.fit_transform(features_df[features_to_normalize])
+    df_caracteristicas = pd.DataFrame([valores], columns=nombres_columnas)
+    escalador = StandardScaler()
+    columnas_normalizar = ["TMEDIA", "TMIN", "TMAX", "VELMEDIA", "SOL", "PRESMAX", "PRESMIN", "Potencia contratada (kW)"]
+    df_caracteristicas[columnas_normalizar] = escalador.fit_transform(df_caracteristicas[columnas_normalizar])
 
- 
-
-    # Realizar la predicción de consumo
-    prediccion_consumo = modelo_consumo.predict(features_df)
+    prediccion_consumo = modelo_consumo.predict(df_caracteristicas)
     prediccion_consumo = max(0, prediccion_consumo[0])
     datos_transformados["prediccion_consumo"] = prediccion_consumo
 
-    # ---------------------------
-    # Parte 2: Predicción de Precio (por intervalo de fechas)
-    # ---------------------------
-    # Definir la ruta del modelo de precios al inicio
-    modelo_precios_path = os.path.join(RUTA_MODELO_PRECIOS, "Modelo_precios_mlp.pkl")
-    print(f"📁 Verificando existencia del modelo de precios en: {modelo_precios_path}")
+    ruta_modelo_precios = os.path.join(RUTA_MODELO_PRECIOS, "Modelo_precios_mlp.pkl")
 
-    # Verificar si el modelo de precios existe
-    if os.path.exists(modelo_precios_path):
-        print("✅ Modelo de precios encontrado. Cargando...")
-        modelo_precios = joblib.load(modelo_precios_path)
-
-        # Configuración de fechas
-        año = 2025
-        fecha_inicio = datetime(año, datos.mes, 1)
-        ultimo_dia = calendar.monthrange(año, datos.mes)[1]
-        fecha_fin = datetime(año, datos.mes, ultimo_dia)
-
+    if os.path.exists(ruta_modelo_precios):
+        modelo_precios = joblib.load(ruta_modelo_precios)
+        ano = 2025
+        fecha_inicio = datetime(ano, datos.mes, 1)
+        ultimo_dia = calendar.monthrange(ano, datos.mes)[1]
+        fecha_fin = datetime(ano, datos.mes, ultimo_dia)
         rango_fechas = pd.date_range(start=fecha_inicio, end=fecha_fin, freq='D')
-        n_dias = len(rango_fechas)
-        print(f"📆 Prediciendo precios para {n_dias} días: {fecha_inicio} -> {fecha_fin}")
 
-        # Leer archivo de datos de precios
-        file_path_precios = r"C:\Users\Alma\Desktop\Trabajo_final_PBD_Terrawatt\Datos_Y_Limpieza\Datos_limpios\Modelo_Precios_Met_Fest.csv"
+        ruta_archivo_precios = os.path.join(BASE_DIR, "..", "..", "Datos_Y_Limpieza", "Datos_limpios", "Modelo_Precios_Met_Fest.csv")
+
         try:
-            print(f"📄 Leyendo archivo de precios: {file_path_precios}")
-            data_precios = pd.read_csv(file_path_precios, delimiter=';')
-            data_precios['FECHA'] = pd.to_datetime(data_precios['FECHA'], errors='coerce')
-            data_precios = data_precios.dropna(subset=['FECHA', 'Precio total con impuestos (€/MWh)']).sort_values(by='FECHA')
+            datos_precios = pd.read_csv(ruta_archivo_precios, delimiter=';')
+            datos_precios['FECHA'] = pd.to_datetime(datos_precios['FECHA'], errors='coerce')
+            datos_precios = datos_precios.dropna(subset=['FECHA', 'Precio total con impuestos (€/MWh)']).sort_values(by='FECHA')
         except FileNotFoundError:
-            print("❌ Archivo de precios no encontrado.")
             datos_transformados["precio"] = {"error": "Archivo de datos de precios no encontrado"}
             return datos_transformados
 
-        # Filtrar datos por provincia
-        print(f"🔍 Filtrando precios para provincia: {provincia}")
-        data_provincia_precios = data_precios[data_precios['Provincia'].str.upper() == provincia.upper()]
-        if data_provincia_precios.empty:
-            print("❌ No se encontraron datos para la provincia.")
+        datos_provincia = datos_precios[datos_precios['Provincia'].str.upper() == provincia.upper()]
+        if datos_provincia.empty:
             datos_transformados["precio"] = {"error": f"No se encontraron datos de precios para la provincia: {provincia}"}
             return datos_transformados
 
-        ultimo_precio = data_provincia_precios['Precio total con impuestos (€/MWh)'].values[-1]
-        print(f"💶 Último precio disponible: {ultimo_precio}")
-
+        ultimo_precio = datos_provincia['Precio total con impuestos (€/MWh)'].values[-1]
         if np.isnan(ultimo_precio):
-            print("⚠️ El último precio es NaN.")
-            datos_transformados["precio"] = {"error": "El último precio contiene valores NaN"}
+            datos_transformados["precio"] = {"error": "El último precio contiene valores no válidos"}
             return datos_transformados
 
         predicciones_precio = []
         precio_actual = ultimo_precio
 
-        print("🧠 Iniciando predicciones día a día...")
         for dia in rango_fechas:
             entrada_precio = np.array([[precio_actual]])
             if np.isnan(entrada_precio).any():
-                print(f"⚠️ NaN detectado en entrada para {dia}. Se usará último precio válido.")
                 entrada_precio = np.nan_to_num(entrada_precio, nan=precio_actual)
-
             try:
                 precio_siguiente = modelo_precios.predict(entrada_precio)[0]
             except Exception as e:
-                print(f"❌ Error en la predicción para {dia}: {e}")
-                datos_transformados["precio"] = {"error": f"Error en la predicción para el día {dia}: {str(e)}"}
+                datos_transformados["precio"] = {"error": f"Error en la prediccion del dia {dia}: {str(e)}"}
                 return datos_transformados
-
             predicciones_precio.append(precio_siguiente)
             precio_actual = precio_siguiente
 
         precio_medio = np.mean(predicciones_precio)
-        print(f"📊 Precio medio predicho para el mes: {precio_medio:.2f} €/MWh")
-
         datos_transformados["precio"] = {
             "fecha_inicio": fecha_inicio.strftime("%Y-%m-%d"),
             "fecha_fin": fecha_fin.strftime("%Y-%m-%d"),
@@ -211,7 +225,70 @@ async def transformar_datos(datos: Datos):
             "predicciones_diarias": predicciones_precio
         }
     else:
-        print("❌ Modelo de precios no disponible en la ruta especificada.")
         datos_transformados["precio"] = "Modelo de precios no disponible"
+        return datos_transformados
+
+    coste_potencia = 12.91
+    coste_total = 71.10
+    precio_medio_kwh = datos_transformados["precio"]["precio_medio"] / 1000
+
+    try:
+        conexion = mysql.connector.connect(**db_config)
+        cursor = conexion.cursor()
+
+        id_provincia = obtener_id_dimension(cursor, "dim_provincia", "Nombre_provincia", datos.provincia, "ID_provincia", es_rango=False)
+        id_vivienda = obtener_id_dimension(cursor, "dim_vivienda", "tipo_de_vivienda", datos.tipo_vivienda, "ID_vivienda", es_rango=False)
+        id_potencia = obtener_id_dimension(cursor, "dim_potencia", "Potencia", datos.potencia, "ID_potencia", es_rango=True)
+        id_residentes = obtener_id_dimension(cursor, "dim_residentes", "Residentes", datos.numero_residentes, "ID_residentes", es_rango=True)
+        id_fecha = obtener_o_insertar_fecha(cursor)
+
+        datos_para_base = {
+            "PREDICCION_CONSUMO": datos_transformados["prediccion_consumo"],
+            "PREDICCION_PRECIO": float(precio_medio_kwh),
+            "COSTE_POTENCIA": coste_potencia,
+            "COSTE_ESTIMADO": coste_total,
+            "ID_Tiempo_Dia": id_fecha,
+            "ID_vivienda": id_vivienda,
+            "ID_provincia": id_provincia,
+            "ID_potencia": id_potencia,
+            "ID_residentes": id_residentes
+        }
+
+        cursor.execute("SELECT COALESCE(MAX(ID_predicciones), 0) FROM Datos_predicciones_SQL_ID")
+        max_id = cursor.fetchone()[0]
+        nuevo_id = max_id + 1
+
+        consulta_insertar = """
+        INSERT INTO Datos_predicciones_SQL_ID (
+            ID_predicciones, PREDICCION_CONSUMO, PREDICCION_PRECIO, COSTE_POTENCIA, COSTE_ESTIMADO,
+            ID_Tiempo_Dia, ID_vivienda, ID_provincia, ID_potencia, ID_residentes
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+        valores = (
+            nuevo_id,
+            datos_para_base["PREDICCION_CONSUMO"],
+            datos_para_base["PREDICCION_PRECIO"],
+            datos_para_base["COSTE_POTENCIA"],
+            datos_para_base["COSTE_ESTIMADO"],
+            datos_para_base["ID_Tiempo_Dia"],
+            datos_para_base["ID_vivienda"],
+            datos_para_base["ID_provincia"],
+            datos_para_base["ID_potencia"],
+            datos_para_base["ID_residentes"]
+        )
+        cursor.execute(consulta_insertar, valores)
+        conexion.commit()
+    except mysql.connector.Error as err:
+        datos_transformados["db_error"] = f"Error al guardar en la base de datos: {str(err)}"
+    except ValueError as ve:
+        datos_transformados["db_error"] = str(ve)
+    finally:
+        try:
+            while cursor.fetchone() is not None:
+                pass
+        except:
+            pass
+        cursor.close()
+        conexion.close()
 
     return {"datos_transformados": datos_transformados}

@@ -15,7 +15,7 @@ headers = {
     'x-api-key': '7d3f64408f1761c249267d044924fb41d7e5aa73303c9875747a8b02258c7fd6'
 }
 
-# Tasas fiscales
+# Impuestos
 tasa_impuesto_electrico = 0.0511269632
 tasa_iva = 0.21
 
@@ -42,7 +42,7 @@ while fecha_actual <= fecha_fin:
     try:
         data = response.json()
     except json.JSONDecodeError:
-        print(f"⚠️ JSON malformado en {fecha_str}")
+        print(f"JSON malformado en {fecha_str}")
         fecha_actual += timedelta(days=1)
         continue
 
@@ -96,4 +96,4 @@ os.makedirs(output_dir, exist_ok=True)
 output_file = os.path.join(output_dir, 'precios_energia.csv')
 df_resultados.to_csv(output_file, index=False, encoding='utf-8')
 
-print(f"✅ Archivo guardado en: {output_file}")
+print(f"Archivo guardado en: {output_file}")

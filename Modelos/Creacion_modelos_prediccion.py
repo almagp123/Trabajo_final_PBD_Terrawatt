@@ -49,23 +49,21 @@ CREATE TABLE Error_modelo_consumo (
 )
 """
 
-print("Configurando tablas en MySQL...")
 with engine.connect() as connection:
-    # Configurar tabla para precios
     result_precios = connection.execute(text("SHOW TABLES LIKE 'Error_modelo_precios'"))
     if not result_precios.fetchone():
         connection.execute(text(table_definition_precios))
-        print("✅ Tabla 'Error_modelo_precios' creada en MySQL.")
+        print("Tabla 'Error_modelo_precios' creada en MySQL.")
     else:
-        print("✅ Tabla 'Error_modelo_precios' ya existe.")
+        print("Tabla 'Error_modelo_precios' ya existe.")
 
     # Configurar tabla para consumo
     result_consumo = connection.execute(text("SHOW TABLES LIKE 'Error_modelo_consumo'"))
     if not result_consumo.fetchone():
         connection.execute(text(table_definition_consumo))
-        print("✅ Tabla 'Error_modelo_consumo' creada en MySQL.")
+        print("Tabla 'Error_modelo_consumo' creada en MySQL.")
     else:
-        print("✅ Tabla 'Error_modelo_consumo' ya existe.")
+        print("Tabla 'Error_modelo_consumo' ya existe.")
 
 # === DEFINIR RUTAS BASE ===
 base_folder = os.path.dirname(__file__)  # Obtiene la carpeta donde está el script
@@ -117,7 +115,6 @@ def train_price_model():
     )
 
     # Entrenar el modelo
-    print("🔍 Entrenando modelo de precios...")
     model.fit(X_train, y_train)
 
     # Realizar predicciones
@@ -150,13 +147,12 @@ def train_price_model():
     print(f"Métricas guardadas en 'Error_modelo_precios' con {len(model_metrics)} registro.")
 
     # Guardar el modelo en formato .pkl
-    print("Guardando modelo de precios en formato .pkl...")
     modelo_pkl_path = os.path.join(output_folder, "Modelo_precios_mlp.pkl")
     with open(modelo_pkl_path, "wb") as f:
         pickle.dump(model, f)
-    print("✅ Modelo de precios guardado en formato .pkl exitosamente.")
+    print("Modelo de precios guardado .pkl .")
 
-    # Visualización (opcional, descomentar para usar)
+    # Visualización 
     """
     plt.figure(figsize=(10, 6))
     plt.plot(serie_temporal.index[train_size+1:], serie_temporal.values[train_size+1:], label='Datos Reales')
@@ -206,11 +202,11 @@ def train_consumption_model():
                 print(f"Directorio {input_folder_consumo} no existe.")
             continue
         
-        data = pd.read_csv(data_file, delimiter=',')  # Cargar los datos
+        data = pd.read_csv(data_file, delimiter=',')
         
         # Preprocesar los datos
-        data = pd.get_dummies(data, columns=["Tipo de vivienda"], drop_first=False)  # Codificar variables categóricas
-        data['Fecha'] = pd.to_datetime(data['Fecha'], errors='coerce')  # Convertir la columna 'Fecha' a tipo datetime
+        data = pd.get_dummies(data, columns=["Tipo de vivienda"], drop_first=False)  
+        data['Fecha'] = pd.to_datetime(data['Fecha'], errors='coerce') 
         
         # Crear nuevas características a partir de la fecha
         data['Mes'] = data['Fecha'].dt.month
@@ -229,9 +225,7 @@ def train_consumption_model():
         # Variables independientes (X) y dependiente (y)
         X = data_final
         y = data["Consumo energético (kWh/m²)"]
-        print(X.columns)
-        print(X.head())
-        print(X.dtypes)
+   
 
         # Dividir en conjuntos de entrenamiento y prueba
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -269,7 +263,6 @@ def train_consumption_model():
         print(f"MAE: {mae:.2f} kWh/m²")
 
         # Guardar métricas en MySQL para el mejor modelo
-        print("Guardando métricas de consumo en MySQL...")
         model_metrics = pd.DataFrame([{
             'Fecha_generacion': datetime.now(),
             'RMSE': rmse,
@@ -278,7 +271,7 @@ def train_consumption_model():
             'Comunidad': province
         }])
         model_metrics.to_sql('Error_modelo_consumo', con=engine, if_exists='append', index=False)
-        print(f"Métricas guardadas en 'Error_modelo_consumo' para {province}.")
+        print(f"Métricas guardadas de manera correcta para la provincia: {province}.")
 
         # Guardar el mejor modelo para esta provincia
         model_filename = os.path.join(output_folder, f"Modelo_{province}.pkl")
@@ -300,10 +293,7 @@ def train_consumption_model():
 
 # === EJECUTAR AMBOS MODELOS ===
 if __name__ == "__main__":
-    # Entrenar modelo de precios
     train_price_model()
 
-    # Entrenar modelo de consumo
     train_consumption_model()
 
-    print("\n✅ Ejecución completada. Ambos modelos han sido entrenados y las métricas guardadas en MySQL.")
