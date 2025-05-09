@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../estilos/estilos_comunes.css">
+    <link rel="stylesheet" href="../estilos/estilos_predice_tu_consumo.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <section>
+        <header>
+            <div id="header-placeholder"></div>
+            <script src="../Funciones/Funciones_comunes/Cabecera_idioma_footer.js"></script>
+        </header>
+    </section>
+
+    <section>
+        <div class="encabezado3">
+            <div class="encabezado-contenido3">
+                <h1> <br>توقع استهلاكك!</h1>
+            </div>
+            <div class="datos_consumo_luz">
+                <h3>بيانات استهلاك الكهرباء</h3>
+                <div class="botones">
+                    <div id="opcion-base" class="boton">
+                        <img src="../images/alarm-clock-check.svg" alt="Base-rate" class="icono">
+                        أساسي
+                    </div>
+
+                    <div id="opcion-valle" class="boton">
+                        <img src="../images/sunset.svg" alt="Variable-rate" class="icono">
+                        ساعات الذروة/المتوسطة/المنخفضة
+                    </div>
+                </div>
+                <div id="aviso-trabajando" class="aviso oculto">
+                    <p>نعمل على هذه الميزة. شكرًا لصبرك!</p>
+                </div>
+
+                <div id="seccion-desplegable-base" class="seccion-desplegable oculto">
+                    <div class="row">
+                        <label for="potencia" class="label">الطاقة بالكيلوواط</label>
+                        <div class="input-container">
+                            <button id="decrement" class="input-btn">-</button>
+                            <input type="number" id="potencia" min="1" max="10" step="0.5" value="4">
+                            <button id="increment" class="input-btn">+</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label for="numero_residentes" class="label">عدد السكان في المنزل</label>
+                        <div class="input-container">
+                            <button id="decrement-residentes" class="input-btn">-</button>
+                            <input type="number" id="numero_residentes" min="1" max="10" step="1" value="4">
+                            <button id="increment-residentes" class="input-btn">+</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label for="tipo_vivienda" class="label">نوع المسكن</label>
+                        <select id="tipo_vivienda" class="select-vivienda">
+                            <option value="">اختر نوع المسكن</option>
+                            <option value="Piso">شقة</option>
+                            <option value="Casa-unifamiliar">منزل عائلي منفرد</option>
+                            <option value="Duplex">دوبلكس</option>
+                            <option value="Adosado">منزل متصل</option>
+                        </select>
+                    </div>
+
+                    <div class="row">
+                        <label for="provincia" class="label">المحافظة</label>
+                        <select id="provincia" class="select-provincia">
+                            <option value="">اختر محافظة</option>
+                            <!-- Las provincias se mantienen en español ya que son nombres propios -->
+                            <option value="A CORUÑA">A CORUÑA</option>
+                            <option value="ALAVA">آلافا</option>
+                            <option value="ALBACETE">ألباسيتي</option>
+                            <option value="ALICANTE">أليكانتي</option>
+                            <option value="ALMERIA">ألميريا</option>
+                            <option value="ASTURIAS">أستورياس</option>
+                            <option value="AVILA">آفيلا</option>
+                            <option value="BADAJOZ">باداخوز</option>
+                            <option value="BARCELONA">برشلونة</option>
+                            <option value="BIZKAIA">بيزكايا</option>
+                            <option value="BURGOS">بورغوس</option>
+                            <option value="CACERES">كاسيريس</option>
+                            <option value="CADIZ">قادس</option>
+                            <option value="CANTABRIA">كانتابريا</option>
+                            <option value="CASTELLON">كاستيون</option>
+                            <option value="CIUDAD REAL">سيوداد ريال</option>
+                            <option value="CORDOBA">قرطبة</option>
+                            <option value="CUENCA">كوينكا</option>
+                            <option value="GIRONA">جيرونا</option>
+                            <option value="GRANADA">غرناطة</option>
+                            <option value="GUADALAJARA">غوادالاخارا</option>
+                            <option value="HUELVA">هويلفا</option>
+                            <option value="HUESCA">ويسكا</option>
+                            <option value="ILLES BALEARS">جزر البليار</option>
+                            <option value="JAEN">خايين</option>
+                            <option value="LA RIOJA">لا ريوخا</option>
+                            <option value="LAS PALMAS">لاس بالماس</option>
+                            <option value="LEON">ليون</option>
+                            <option value="LLEIDA">لييدا</option>
+                            <option value="LUGO">لوغو</option>
+                            <option value="MADRID">مدريد</option>
+                            <option value="MALAGA">ملقة</option>
+                            <option value="MURCIA">مورسيا</option>
+                            <option value="NAVARRA">نافارا</option>
+                            <option value="OURENSE">أورينسي</option>
+                            <option value="PALENCIA">بالنسيا</option>
+                            <option value="PONTEVEDRA">بونتيفيدرا</option>
+                            <option value="SALAMANCA">سالامانكا</option>
+                            <option value="SANTA CRUZ DE TENERIFE">سانتا كروز دي تينيريفي</option>
+                            <option value="SEGOVIA">سيغوفيا</option>
+                            <option value="SEVILLA">إشبيلية</option>
+                            <option value="SORIA">سوريا</option>
+                            <option value="TARRAGONA">تاراغونا</option>
+                            <option value="TERUEL">تيرويل</option>
+                            <option value="TOLEDO">توليدو</option>
+                            <option value="VALENCIA">فالنسيا</option>
+                            <option value="VALLADOLID">بلد الوليد</option>
+                            <option value="ZAMORA">زامورا</option>
+                            <option value="ZARAGOZA">سرقسطة</option>
+                        </select>
+                    </div>
+
+                    <div class="row">
+                        <label for="mes" class="label">الشهر المراد التنبؤ به</label>
+                        <select id="mes" class="select-meses">
+                            <option value="">اختر شهرًا</option>
+                            <option value="1">يناير</option>
+                            <option value="2">فبراير</option>
+                            <option value="3">مارس</option>
+                            <option value="4">أبريل</option>
+                            <option value="5">مايو</option>
+                            <option value="6">يونيو</option>
+                            <option value="7">يوليو</option>
+                            <option value="8">أغسطس</option>
+                            <option value="9">سبتمبر</option>
+                            <option value="10">أكتوبر</option>
+                            <option value="11">نوفمبر</option>
+                            <option value="12">ديسمبر</option>
+                        </select>
+                    </div>
+
+                    <div class="row boton-centro">
+                        <button id="calcular" class="boton-calcular" onclick="enviarDatos()">احسب</button>
+                    </div>
+
+                    <div id="resultado" style="margin-top: 20px; font-size: 18px; color: #333;"></div>
+                    <div id="resultado2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../Funciones/Funciones_Predice/Botones_predice_tu_consumo.js"></script>
+
+    <div id="footer-placeholder"></div>
+    <script src="../Funciones/Funciones_comunes/Cabecera_idioma_footer.js"></script>
+    <div id="boton-placeholder"></div>
+    <script src="../Funciones/Funciones_comunes/Boton_subir.js"></script>
+
+</body>
+</html>

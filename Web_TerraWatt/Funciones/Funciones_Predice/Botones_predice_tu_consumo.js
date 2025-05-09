@@ -1,20 +1,18 @@
 // Definir enviarDatos en el ámbito global
 window.enviarDatos = function() {
-  console.log("12. Iniciando enviarDatos");
 
   const potencia = parseFloat(document.getElementById("potencia").value);
-  console.log("13. Potencia capturada:", potencia);
 
   const numero_residentes = parseInt(document.getElementById("numero_residentes").value, 10);
   const tipo_vivienda = document.getElementById("tipo_vivienda").value;
   const provincia = document.getElementById("provincia").value;
   const mes = parseInt(document.getElementById("mes").value);
 
-  console.log("14. Valores capturados:", { potencia, numero_residentes, tipo_vivienda, provincia, mes });
+  console.log("Valores que a introducido el usuario", { potencia, numero_residentes, tipo_vivienda, provincia, mes });
 
   // Validar que los valores no estén vacíos
   if (!potencia || isNaN(numero_residentes) || !tipo_vivienda || !provincia || isNaN(mes)) {
-      console.error("15. Error: Faltan datos requeridos");
+      console.error("No se han rellenado todos los campos necesarios.");
       document.getElementById("resultado").innerHTML = "<p style='color: red;'>Por favor, completa todos los campos.</p>";
       return;
   }
@@ -26,7 +24,6 @@ window.enviarDatos = function() {
       provincia: provincia,
       mes: mes
   };
-  console.log("16. Datos enviados al backend:", datos);
 
   fetch("http://127.0.0.1:8000/transformar", {
       method: "POST",
@@ -34,23 +31,21 @@ window.enviarDatos = function() {
       body: JSON.stringify(datos),
   })
   .then(response => {
-      console.log("17. Respuesta recibida del servidor:", response);
+      console.log("Respuesta recibida del servidor:", response);
       if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
       }
       return response.json();
   })
   .then(data => {
-      console.log("18. Datos procesados del backend:", data);
       const resultadoDiv = document.getElementById("resultado");
       const transformados = data.datos_transformados;
 
       if (!transformados) {
-          console.error("19. Error: No se encontraron datos transformados en la respuesta del backend.");
+          console.error("No se encontraron datos transformados en la respuesta del backend.");
           resultadoDiv.innerHTML = "<p style='color: red;'>Error al obtener datos transformados.</p>";
           return;
       }
-      console.log("20. Datos transformados:", transformados);
 
       const consumo = transformados.prediccion_consumo;
       const consumoFormateado = consumo.toFixed(2) + " kWh";
@@ -78,8 +73,7 @@ window.enviarDatos = function() {
       downloadLink.setAttribute("href", encodedUri);
 
       const idioma = document.documentElement.lang;
-      console.log("idioma", idioma);
-      let rutaImagen = "/Web_TerraWatt/images/imagen_descarga.png"; // Ruta absoluta desde la raíz del proyecto
+      let rutaImagen = "/Web_TerraWatt/images/imagen_descarga.png"; 
 
       const imagen = document.createElement("img");
       imagen.src = rutaImagen;
@@ -90,26 +84,21 @@ window.enviarDatos = function() {
 
       downloadLink.appendChild(imagen);
       resultadoDiv.innerHTML = resultadosHTML + "<br>" + downloadLink.outerHTML;
-      console.log("21. Resultados mostrados en el DOM");
   })
   .catch(error => {
-      console.error("22. Error al procesar la solicitud:", error);
       document.getElementById("resultado").innerHTML = "<p style='color: red;'>Hubo un error al conectar con la API: " + error.message + "</p>";
   });
 };
 
 // Código para manejar el desplegable y los botones de incremento/decremento
 document.addEventListener('DOMContentLoaded', () => {
-  console.log("1. DOM completamente cargado, iniciando script");
 
   // Seleccionar los elementos
   const botonesOpciones = document.querySelectorAll('.boton');
   const seccionDesplegableBase = document.getElementById("seccion-desplegable-base");
   const avisoTrabajando = document.getElementById("aviso-trabajando");
 
-  console.log("2. Botones encontrados:", botonesOpciones);
-  console.log("3. Sección desplegable base:", seccionDesplegableBase);
-  console.log("4. Aviso trabajando:", avisoTrabajando);
+
 
   // Verificar si los elementos existen
   if (botonesOpciones.length === 0) {
@@ -125,27 +114,20 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
   }
 
-  console.log("5. Todos los elementos encontrados, añadiendo eventos");
 
   // Añadir eventos a los botones
   botonesOpciones.forEach(boton => {
-      console.log("6. Añadiendo evento a botón con id:", boton.id);
       boton.addEventListener('click', () => {
-          console.log("7. Botón clicado con id:", boton.id);
           if (boton.id === "opcion-base") {
-              console.log("8. Activando sección desplegable base");
               seccionDesplegableBase.classList.remove("oculto");
               seccionDesplegableBase.classList.add("activo");
               avisoTrabajando.classList.add("oculto");
               avisoTrabajando.classList.remove("activo");
-              console.log("9. Clases de seccion-desplegable-base después del cambio:", seccionDesplegableBase.className);
           } else if (boton.id === "opcion-valle") {
-              console.log("10. Activando aviso trabajando");
               seccionDesplegableBase.classList.add("oculto");
               seccionDesplegableBase.classList.remove("activo");
               avisoTrabajando.classList.remove("oculto");
               avisoTrabajando.classList.add("activo");
-              console.log("11. Clases de aviso-trabajando después del cambio:", avisoTrabajando.className);
           }
       });
   });
