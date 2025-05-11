@@ -47,7 +47,7 @@ table_definitions = {
             PRESMAX FLOAT,
             PRESMIN FLOAT,
             Precio_total_con_impuestos FLOAT,
-            Festivo VARCHAR(10),
+            ID_Festivo INT,
             Entre_semana VARCHAR(10),
             ID_Tiempo_Dia INT,
             ID_provincia INT
@@ -140,7 +140,14 @@ table_definitions = {
             ID_mes INT PRIMARY KEY,
             Nombre_mes VARCHAR(50)
         )
+    """, 
+    "dim_festivo": """
+    CREATE TABLE dim_festivo (
+        ID_festivo INT PRIMARY KEY,
+        Es_festivo VARCHAR(10)
+    )
     """
+
 }
 
 # === PROCESAMIENTO DE ARCHIVO DE PRECIOS ===
@@ -359,6 +366,28 @@ meses = [
 ]
 dim_mes = pd.DataFrame(meses)
 
+# 8. Dimension Festivo
+# Igual que en el anterior creamos una tabla fija básica 
+dim_festivo = pd.DataFrame({
+    'ID_festivo': [0, 1],
+    'Es_festivo': ['No', 'Sí']
+})
+# Normalizar los valores por si hay mayúsculas o espacios
+df_precios['Festivo'] = df_precios['Festivo'].str.strip().str.lower()
+
+# Mapeo
+mapa_festivo = {'sí': 1, 'si': 1, 'no': 0}
+df_precios['ID_festivo'] = df_precios['Festivo'].map(mapa_festivo)
+
+# Verificación por si hay valores no mapeados
+if df_precios['ID_festivo'].isnull().any():
+    print("⚠️ Hay valores de 'Festivo' que no se pudieron mapear correctamente:")
+    print(df_precios[df_precios['ID_festivo'].isnull()]['Festivo'].unique())
+
+# Eliminar la columna antigua
+df_precios.drop(columns=['Festivo'], inplace=True)
+
+
 # === AÑADIR IDs DE DIMENSIONES A TABLAS PRINCIPALES ===
 # 1. Tabla de Precios
 # Vamos a añadir los IDs de fecha y provincia a la tabla de precios, para que cada fila se pueda relacionar con las dimensiones.
@@ -477,6 +506,9 @@ df_consumo.to_sql('Datos_consumo_SQL_ID', con=engine, if_exists='append', index=
 print(f"Tabla 'Datos_consumo_SQL_ID' actualizada con {len(df_consumo)} registros.")
 df_predicciones.to_sql('Datos_predicciones_SQL_ID', con=engine, if_exists='append', index=False)
 print(f"Tabla 'Datos_predicciones_SQL_ID' actualizada con {len(df_predicciones)} registros.")
+dim_festivo.to_sql('dim_festivo', con=engine, if_exists='append', index=False)
+print(f"Tabla 'dim_festivo' actualizada con {len(dim_festivo)} registros.")
+
 
 
 
@@ -505,4 +537,6 @@ dim_provincia.to_csv(os.path.join(ruta_salida_dim, "dim_provincia.csv"), sep=';'
 dim_potencia.to_csv(os.path.join(ruta_salida_dim, "dim_potencia.csv"), sep=';', index=False, encoding='utf-8')
 dim_residentes.to_csv(os.path.join(ruta_salida_dim, "dim_residentes.csv"), sep=';', index=False, encoding='utf-8')
 dim_mes.to_csv(os.path.join(ruta_salida_dim, "dim_mes.csv"), sep=';', index=False, encoding='utf-8')
+dim_festivo.to_csv(os.path.join(ruta_salida_dim, "dim_festivo.csv"), sep=';', index=False, encoding='utf-8')
+
 """
