@@ -1,13 +1,12 @@
 Fecha;Provincia;Festividad
 01/01/2010;A CORUÑA;Año Nuevo
+01/01/2010;ALAVA;Año Nuevo
 01/01/2010;ALBACETE;Año Nuevo
 01/01/2010;ALICANTE;Año Nuevo
 01/01/2010;ALMERIA;Año Nuevo
-01/01/2010;ALAVA;Año Nuevo
 01/01/2010;ASTURIAS;Año Nuevo
 01/01/2010;AVILA;Año Nuevo
 01/01/2010;BADAJOZ;Año Nuevo
-01/01/2010;ILLES BALEARS;Año Nuevo
 01/01/2010;BARCELONA;Año Nuevo
 01/01/2010;BIZKAIA;Año Nuevo
 01/01/2010;BURGOS;Año Nuevo
@@ -45,7 +44,6 @@ Fecha;Provincia;Festividad
 01/01/2010;SEGOVIA;Año Nuevo
 01/01/2010;SEVILLA;Año Nuevo
 01/01/2010;SORIA;Año Nuevo
-01/01/2010;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2010;TARRAGONA;Año Nuevo
 01/01/2010;TERUEL;Año Nuevo
 01/01/2010;TOLEDO;Año Nuevo
@@ -54,14 +52,13 @@ Fecha;Provincia;Festividad
 01/01/2010;ZAMORA;Año Nuevo
 01/01/2010;ZARAGOZA;Año Nuevo
 06/01/2010;A CORUÑA;Epifanía del Señor
+06/01/2010;ALAVA;Epifanía del Señor
 06/01/2010;ALBACETE;Epifanía del Señor
 06/01/2010;ALICANTE;Epifanía del Señor
 06/01/2010;ALMERIA;Epifanía del Señor
-06/01/2010;ALAVA;Epifanía del Señor
 06/01/2010;ASTURIAS;Epifanía del Señor
 06/01/2010;AVILA;Epifanía del Señor
 06/01/2010;BADAJOZ;Epifanía del Señor
-06/01/2010;ILLES BALEARS;Epifanía del Señor
 06/01/2010;BARCELONA;Epifanía del Señor
 06/01/2010;BIZKAIA;Epifanía del Señor
 06/01/2010;BURGOS;Epifanía del Señor
@@ -99,7 +96,6 @@ Fecha;Provincia;Festividad
 06/01/2010;SEGOVIA;Epifanía del Señor
 06/01/2010;SEVILLA;Epifanía del Señor
 06/01/2010;SORIA;Epifanía del Señor
-06/01/2010;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2010;TARRAGONA;Epifanía del Señor
 06/01/2010;TERUEL;Epifanía del Señor
 06/01/2010;TOLEDO;Epifanía del Señor
@@ -107,15 +103,26 @@ Fecha;Provincia;Festividad
 06/01/2010;VALLADOLID;Epifanía del Señor
 06/01/2010;ZAMORA;Epifanía del Señor
 06/01/2010;ZARAGOZA;Epifanía del Señor
+28/02/2010;ALMERIA;Festivo Regional
+28/02/2010;CADIZ;Festivo Regional
+28/02/2010;CORDOBA;Festivo Regional
+28/02/2010;GRANADA;Festivo Regional
+28/02/2010;HUELVA;Festivo Regional
+28/02/2010;JAEN;Festivo Regional
+28/02/2010;MALAGA;Festivo Regional
+28/02/2010;SEVILLA;Festivo Regional
+01/03/2010;ILLES BALEARS;Festivo Regional
+23/04/2010;HUESCA;Festivo Regional
+23/04/2010;TERUEL;Festivo Regional
+23/04/2010;ZARAGOZA;Festivo Regional
 01/05/2010;A CORUÑA;Fiesta del Trabajo
+01/05/2010;ALAVA;Fiesta del Trabajo
 01/05/2010;ALBACETE;Fiesta del Trabajo
 01/05/2010;ALICANTE;Fiesta del Trabajo
 01/05/2010;ALMERIA;Fiesta del Trabajo
-01/05/2010;ALAVA;Fiesta del Trabajo
 01/05/2010;ASTURIAS;Fiesta del Trabajo
 01/05/2010;AVILA;Fiesta del Trabajo
 01/05/2010;BADAJOZ;Fiesta del Trabajo
-01/05/2010;ILLES BALEARS;Fiesta del Trabajo
 01/05/2010;BARCELONA;Fiesta del Trabajo
 01/05/2010;BIZKAIA;Fiesta del Trabajo
 01/05/2010;BURGOS;Fiesta del Trabajo
@@ -153,7 +160,6 @@ Fecha;Provincia;Festividad
 01/05/2010;SEGOVIA;Fiesta del Trabajo
 01/05/2010;SEVILLA;Fiesta del Trabajo
 01/05/2010;SORIA;Fiesta del Trabajo
-01/05/2010;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2010;TARRAGONA;Fiesta del Trabajo
 01/05/2010;TERUEL;Fiesta del Trabajo
 01/05/2010;TOLEDO;Fiesta del Trabajo
@@ -161,15 +167,26 @@ Fecha;Provincia;Festividad
 01/05/2010;VALLADOLID;Fiesta del Trabajo
 01/05/2010;ZAMORA;Fiesta del Trabajo
 01/05/2010;ZARAGOZA;Fiesta del Trabajo
+17/05/2010;A CORUÑA;Festivo Regional
+17/05/2010;LUGO;Festivo Regional
+17/05/2010;OURENSE;Festivo Regional
+17/05/2010;PONTEVEDRA;Festivo Regional
+30/05/2010;LAS PALMAS;Festivo Regional
+30/05/2010;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2010;LA RIOJA;Festivo Regional
+09/06/2010;MURCIA;Festivo Regional
+25/07/2010;A CORUÑA;Festivo Regional
+25/07/2010;LUGO;Festivo Regional
+25/07/2010;OURENSE;Festivo Regional
+25/07/2010;PONTEVEDRA;Festivo Regional
 15/08/2010;A CORUÑA;Asunción de la Virgen
+15/08/2010;ALAVA;Asunción de la Virgen
 15/08/2010;ALBACETE;Asunción de la Virgen
 15/08/2010;ALICANTE;Asunción de la Virgen
 15/08/2010;ALMERIA;Asunción de la Virgen
-15/08/2010;ALAVA;Asunción de la Virgen
 15/08/2010;ASTURIAS;Asunción de la Virgen
 15/08/2010;AVILA;Asunción de la Virgen
 15/08/2010;BADAJOZ;Asunción de la Virgen
-15/08/2010;ILLES BALEARS;Asunción de la Virgen
 15/08/2010;BARCELONA;Asunción de la Virgen
 15/08/2010;BIZKAIA;Asunción de la Virgen
 15/08/2010;BURGOS;Asunción de la Virgen
@@ -207,7 +224,6 @@ Fecha;Provincia;Festividad
 15/08/2010;SEGOVIA;Asunción de la Virgen
 15/08/2010;SEVILLA;Asunción de la Virgen
 15/08/2010;SORIA;Asunción de la Virgen
-15/08/2010;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2010;TARRAGONA;Asunción de la Virgen
 15/08/2010;TERUEL;Asunción de la Virgen
 15/08/2010;TOLEDO;Asunción de la Virgen
@@ -215,15 +231,21 @@ Fecha;Provincia;Festividad
 15/08/2010;VALLADOLID;Asunción de la Virgen
 15/08/2010;ZAMORA;Asunción de la Virgen
 15/08/2010;ZARAGOZA;Asunción de la Virgen
+11/09/2010;BARCELONA;Festivo Regional
+11/09/2010;GIRONA;Festivo Regional
+11/09/2010;LLEIDA;Festivo Regional
+11/09/2010;TARRAGONA;Festivo Regional
+09/10/2010;ALICANTE;Festivo Regional
+09/10/2010;CASTELLON;Festivo Regional
+09/10/2010;VALENCIA;Festivo Regional
 12/10/2010;A CORUÑA;Fiesta Nacional de España
+12/10/2010;ALAVA;Fiesta Nacional de España
 12/10/2010;ALBACETE;Fiesta Nacional de España
 12/10/2010;ALICANTE;Fiesta Nacional de España
 12/10/2010;ALMERIA;Fiesta Nacional de España
-12/10/2010;ALAVA;Fiesta Nacional de España
 12/10/2010;ASTURIAS;Fiesta Nacional de España
 12/10/2010;AVILA;Fiesta Nacional de España
 12/10/2010;BADAJOZ;Fiesta Nacional de España
-12/10/2010;ILLES BALEARS;Fiesta Nacional de España
 12/10/2010;BARCELONA;Fiesta Nacional de España
 12/10/2010;BIZKAIA;Fiesta Nacional de España
 12/10/2010;BURGOS;Fiesta Nacional de España
@@ -261,7 +283,6 @@ Fecha;Provincia;Festividad
 12/10/2010;SEGOVIA;Fiesta Nacional de España
 12/10/2010;SEVILLA;Fiesta Nacional de España
 12/10/2010;SORIA;Fiesta Nacional de España
-12/10/2010;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2010;TARRAGONA;Fiesta Nacional de España
 12/10/2010;TERUEL;Fiesta Nacional de España
 12/10/2010;TOLEDO;Fiesta Nacional de España
@@ -270,14 +291,13 @@ Fecha;Provincia;Festividad
 12/10/2010;ZAMORA;Fiesta Nacional de España
 12/10/2010;ZARAGOZA;Fiesta Nacional de España
 01/11/2010;A CORUÑA;Todos los Santos
+01/11/2010;ALAVA;Todos los Santos
 01/11/2010;ALBACETE;Todos los Santos
 01/11/2010;ALICANTE;Todos los Santos
 01/11/2010;ALMERIA;Todos los Santos
-01/11/2010;ALAVA;Todos los Santos
 01/11/2010;ASTURIAS;Todos los Santos
 01/11/2010;AVILA;Todos los Santos
 01/11/2010;BADAJOZ;Todos los Santos
-01/11/2010;ILLES BALEARS;Todos los Santos
 01/11/2010;BARCELONA;Todos los Santos
 01/11/2010;BIZKAIA;Todos los Santos
 01/11/2010;BURGOS;Todos los Santos
@@ -315,7 +335,6 @@ Fecha;Provincia;Festividad
 01/11/2010;SEGOVIA;Todos los Santos
 01/11/2010;SEVILLA;Todos los Santos
 01/11/2010;SORIA;Todos los Santos
-01/11/2010;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2010;TARRAGONA;Todos los Santos
 01/11/2010;TERUEL;Todos los Santos
 01/11/2010;TOLEDO;Todos los Santos
@@ -324,14 +343,13 @@ Fecha;Provincia;Festividad
 01/11/2010;ZAMORA;Todos los Santos
 01/11/2010;ZARAGOZA;Todos los Santos
 06/12/2010;A CORUÑA;Día de la Constitución Española
+06/12/2010;ALAVA;Día de la Constitución Española
 06/12/2010;ALBACETE;Día de la Constitución Española
 06/12/2010;ALICANTE;Día de la Constitución Española
 06/12/2010;ALMERIA;Día de la Constitución Española
-06/12/2010;ALAVA;Día de la Constitución Española
 06/12/2010;ASTURIAS;Día de la Constitución Española
 06/12/2010;AVILA;Día de la Constitución Española
 06/12/2010;BADAJOZ;Día de la Constitución Española
-06/12/2010;ILLES BALEARS;Día de la Constitución Española
 06/12/2010;BARCELONA;Día de la Constitución Española
 06/12/2010;BIZKAIA;Día de la Constitución Española
 06/12/2010;BURGOS;Día de la Constitución Española
@@ -369,7 +387,6 @@ Fecha;Provincia;Festividad
 06/12/2010;SEGOVIA;Día de la Constitución Española
 06/12/2010;SEVILLA;Día de la Constitución Española
 06/12/2010;SORIA;Día de la Constitución Española
-06/12/2010;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2010;TARRAGONA;Día de la Constitución Española
 06/12/2010;TERUEL;Día de la Constitución Española
 06/12/2010;TOLEDO;Día de la Constitución Española
@@ -378,14 +395,13 @@ Fecha;Provincia;Festividad
 06/12/2010;ZAMORA;Día de la Constitución Española
 06/12/2010;ZARAGOZA;Día de la Constitución Española
 08/12/2010;A CORUÑA;Inmaculada Concepción
+08/12/2010;ALAVA;Inmaculada Concepción
 08/12/2010;ALBACETE;Inmaculada Concepción
 08/12/2010;ALICANTE;Inmaculada Concepción
 08/12/2010;ALMERIA;Inmaculada Concepción
-08/12/2010;ALAVA;Inmaculada Concepción
 08/12/2010;ASTURIAS;Inmaculada Concepción
 08/12/2010;AVILA;Inmaculada Concepción
 08/12/2010;BADAJOZ;Inmaculada Concepción
-08/12/2010;ILLES BALEARS;Inmaculada Concepción
 08/12/2010;BARCELONA;Inmaculada Concepción
 08/12/2010;BIZKAIA;Inmaculada Concepción
 08/12/2010;BURGOS;Inmaculada Concepción
@@ -423,7 +439,6 @@ Fecha;Provincia;Festividad
 08/12/2010;SEGOVIA;Inmaculada Concepción
 08/12/2010;SEVILLA;Inmaculada Concepción
 08/12/2010;SORIA;Inmaculada Concepción
-08/12/2010;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2010;TARRAGONA;Inmaculada Concepción
 08/12/2010;TERUEL;Inmaculada Concepción
 08/12/2010;TOLEDO;Inmaculada Concepción
@@ -432,14 +447,13 @@ Fecha;Provincia;Festividad
 08/12/2010;ZAMORA;Inmaculada Concepción
 08/12/2010;ZARAGOZA;Inmaculada Concepción
 25/12/2010;A CORUÑA;Natividad del Señor
+25/12/2010;ALAVA;Natividad del Señor
 25/12/2010;ALBACETE;Natividad del Señor
 25/12/2010;ALICANTE;Natividad del Señor
 25/12/2010;ALMERIA;Natividad del Señor
-25/12/2010;ALAVA;Natividad del Señor
 25/12/2010;ASTURIAS;Natividad del Señor
 25/12/2010;AVILA;Natividad del Señor
 25/12/2010;BADAJOZ;Natividad del Señor
-25/12/2010;ILLES BALEARS;Natividad del Señor
 25/12/2010;BARCELONA;Natividad del Señor
 25/12/2010;BIZKAIA;Natividad del Señor
 25/12/2010;BURGOS;Natividad del Señor
@@ -477,7 +491,6 @@ Fecha;Provincia;Festividad
 25/12/2010;SEGOVIA;Natividad del Señor
 25/12/2010;SEVILLA;Natividad del Señor
 25/12/2010;SORIA;Natividad del Señor
-25/12/2010;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2010;TARRAGONA;Natividad del Señor
 25/12/2010;TERUEL;Natividad del Señor
 25/12/2010;TOLEDO;Natividad del Señor
@@ -486,14 +499,13 @@ Fecha;Provincia;Festividad
 25/12/2010;ZAMORA;Natividad del Señor
 25/12/2010;ZARAGOZA;Natividad del Señor
 01/01/2011;A CORUÑA;Año Nuevo
+01/01/2011;ALAVA;Año Nuevo
 01/01/2011;ALBACETE;Año Nuevo
 01/01/2011;ALICANTE;Año Nuevo
 01/01/2011;ALMERIA;Año Nuevo
-01/01/2011;ALAVA;Año Nuevo
 01/01/2011;ASTURIAS;Año Nuevo
 01/01/2011;AVILA;Año Nuevo
 01/01/2011;BADAJOZ;Año Nuevo
-01/01/2011;ILLES BALEARS;Año Nuevo
 01/01/2011;BARCELONA;Año Nuevo
 01/01/2011;BIZKAIA;Año Nuevo
 01/01/2011;BURGOS;Año Nuevo
@@ -531,7 +543,6 @@ Fecha;Provincia;Festividad
 01/01/2011;SEGOVIA;Año Nuevo
 01/01/2011;SEVILLA;Año Nuevo
 01/01/2011;SORIA;Año Nuevo
-01/01/2011;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2011;TARRAGONA;Año Nuevo
 01/01/2011;TERUEL;Año Nuevo
 01/01/2011;TOLEDO;Año Nuevo
@@ -540,14 +551,13 @@ Fecha;Provincia;Festividad
 01/01/2011;ZAMORA;Año Nuevo
 01/01/2011;ZARAGOZA;Año Nuevo
 06/01/2011;A CORUÑA;Epifanía del Señor
+06/01/2011;ALAVA;Epifanía del Señor
 06/01/2011;ALBACETE;Epifanía del Señor
 06/01/2011;ALICANTE;Epifanía del Señor
 06/01/2011;ALMERIA;Epifanía del Señor
-06/01/2011;ALAVA;Epifanía del Señor
 06/01/2011;ASTURIAS;Epifanía del Señor
 06/01/2011;AVILA;Epifanía del Señor
 06/01/2011;BADAJOZ;Epifanía del Señor
-06/01/2011;ILLES BALEARS;Epifanía del Señor
 06/01/2011;BARCELONA;Epifanía del Señor
 06/01/2011;BIZKAIA;Epifanía del Señor
 06/01/2011;BURGOS;Epifanía del Señor
@@ -585,7 +595,6 @@ Fecha;Provincia;Festividad
 06/01/2011;SEGOVIA;Epifanía del Señor
 06/01/2011;SEVILLA;Epifanía del Señor
 06/01/2011;SORIA;Epifanía del Señor
-06/01/2011;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2011;TARRAGONA;Epifanía del Señor
 06/01/2011;TERUEL;Epifanía del Señor
 06/01/2011;TOLEDO;Epifanía del Señor
@@ -593,15 +602,26 @@ Fecha;Provincia;Festividad
 06/01/2011;VALLADOLID;Epifanía del Señor
 06/01/2011;ZAMORA;Epifanía del Señor
 06/01/2011;ZARAGOZA;Epifanía del Señor
+28/02/2011;ALMERIA;Festivo Regional
+28/02/2011;CADIZ;Festivo Regional
+28/02/2011;CORDOBA;Festivo Regional
+28/02/2011;GRANADA;Festivo Regional
+28/02/2011;HUELVA;Festivo Regional
+28/02/2011;JAEN;Festivo Regional
+28/02/2011;MALAGA;Festivo Regional
+28/02/2011;SEVILLA;Festivo Regional
+01/03/2011;ILLES BALEARS;Festivo Regional
+23/04/2011;HUESCA;Festivo Regional
+23/04/2011;TERUEL;Festivo Regional
+23/04/2011;ZARAGOZA;Festivo Regional
 01/05/2011;A CORUÑA;Fiesta del Trabajo
+01/05/2011;ALAVA;Fiesta del Trabajo
 01/05/2011;ALBACETE;Fiesta del Trabajo
 01/05/2011;ALICANTE;Fiesta del Trabajo
 01/05/2011;ALMERIA;Fiesta del Trabajo
-01/05/2011;ALAVA;Fiesta del Trabajo
 01/05/2011;ASTURIAS;Fiesta del Trabajo
 01/05/2011;AVILA;Fiesta del Trabajo
 01/05/2011;BADAJOZ;Fiesta del Trabajo
-01/05/2011;ILLES BALEARS;Fiesta del Trabajo
 01/05/2011;BARCELONA;Fiesta del Trabajo
 01/05/2011;BIZKAIA;Fiesta del Trabajo
 01/05/2011;BURGOS;Fiesta del Trabajo
@@ -639,7 +659,6 @@ Fecha;Provincia;Festividad
 01/05/2011;SEGOVIA;Fiesta del Trabajo
 01/05/2011;SEVILLA;Fiesta del Trabajo
 01/05/2011;SORIA;Fiesta del Trabajo
-01/05/2011;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2011;TARRAGONA;Fiesta del Trabajo
 01/05/2011;TERUEL;Fiesta del Trabajo
 01/05/2011;TOLEDO;Fiesta del Trabajo
@@ -647,15 +666,26 @@ Fecha;Provincia;Festividad
 01/05/2011;VALLADOLID;Fiesta del Trabajo
 01/05/2011;ZAMORA;Fiesta del Trabajo
 01/05/2011;ZARAGOZA;Fiesta del Trabajo
+17/05/2011;A CORUÑA;Festivo Regional
+17/05/2011;LUGO;Festivo Regional
+17/05/2011;OURENSE;Festivo Regional
+17/05/2011;PONTEVEDRA;Festivo Regional
+30/05/2011;LAS PALMAS;Festivo Regional
+30/05/2011;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2011;LA RIOJA;Festivo Regional
+09/06/2011;MURCIA;Festivo Regional
+25/07/2011;A CORUÑA;Festivo Regional
+25/07/2011;LUGO;Festivo Regional
+25/07/2011;OURENSE;Festivo Regional
+25/07/2011;PONTEVEDRA;Festivo Regional
 15/08/2011;A CORUÑA;Asunción de la Virgen
+15/08/2011;ALAVA;Asunción de la Virgen
 15/08/2011;ALBACETE;Asunción de la Virgen
 15/08/2011;ALICANTE;Asunción de la Virgen
 15/08/2011;ALMERIA;Asunción de la Virgen
-15/08/2011;ALAVA;Asunción de la Virgen
 15/08/2011;ASTURIAS;Asunción de la Virgen
 15/08/2011;AVILA;Asunción de la Virgen
 15/08/2011;BADAJOZ;Asunción de la Virgen
-15/08/2011;ILLES BALEARS;Asunción de la Virgen
 15/08/2011;BARCELONA;Asunción de la Virgen
 15/08/2011;BIZKAIA;Asunción de la Virgen
 15/08/2011;BURGOS;Asunción de la Virgen
@@ -693,7 +723,6 @@ Fecha;Provincia;Festividad
 15/08/2011;SEGOVIA;Asunción de la Virgen
 15/08/2011;SEVILLA;Asunción de la Virgen
 15/08/2011;SORIA;Asunción de la Virgen
-15/08/2011;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2011;TARRAGONA;Asunción de la Virgen
 15/08/2011;TERUEL;Asunción de la Virgen
 15/08/2011;TOLEDO;Asunción de la Virgen
@@ -701,15 +730,21 @@ Fecha;Provincia;Festividad
 15/08/2011;VALLADOLID;Asunción de la Virgen
 15/08/2011;ZAMORA;Asunción de la Virgen
 15/08/2011;ZARAGOZA;Asunción de la Virgen
+11/09/2011;BARCELONA;Festivo Regional
+11/09/2011;GIRONA;Festivo Regional
+11/09/2011;LLEIDA;Festivo Regional
+11/09/2011;TARRAGONA;Festivo Regional
+09/10/2011;ALICANTE;Festivo Regional
+09/10/2011;CASTELLON;Festivo Regional
+09/10/2011;VALENCIA;Festivo Regional
 12/10/2011;A CORUÑA;Fiesta Nacional de España
+12/10/2011;ALAVA;Fiesta Nacional de España
 12/10/2011;ALBACETE;Fiesta Nacional de España
 12/10/2011;ALICANTE;Fiesta Nacional de España
 12/10/2011;ALMERIA;Fiesta Nacional de España
-12/10/2011;ALAVA;Fiesta Nacional de España
 12/10/2011;ASTURIAS;Fiesta Nacional de España
 12/10/2011;AVILA;Fiesta Nacional de España
 12/10/2011;BADAJOZ;Fiesta Nacional de España
-12/10/2011;ILLES BALEARS;Fiesta Nacional de España
 12/10/2011;BARCELONA;Fiesta Nacional de España
 12/10/2011;BIZKAIA;Fiesta Nacional de España
 12/10/2011;BURGOS;Fiesta Nacional de España
@@ -747,7 +782,6 @@ Fecha;Provincia;Festividad
 12/10/2011;SEGOVIA;Fiesta Nacional de España
 12/10/2011;SEVILLA;Fiesta Nacional de España
 12/10/2011;SORIA;Fiesta Nacional de España
-12/10/2011;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2011;TARRAGONA;Fiesta Nacional de España
 12/10/2011;TERUEL;Fiesta Nacional de España
 12/10/2011;TOLEDO;Fiesta Nacional de España
@@ -756,14 +790,13 @@ Fecha;Provincia;Festividad
 12/10/2011;ZAMORA;Fiesta Nacional de España
 12/10/2011;ZARAGOZA;Fiesta Nacional de España
 01/11/2011;A CORUÑA;Todos los Santos
+01/11/2011;ALAVA;Todos los Santos
 01/11/2011;ALBACETE;Todos los Santos
 01/11/2011;ALICANTE;Todos los Santos
 01/11/2011;ALMERIA;Todos los Santos
-01/11/2011;ALAVA;Todos los Santos
 01/11/2011;ASTURIAS;Todos los Santos
 01/11/2011;AVILA;Todos los Santos
 01/11/2011;BADAJOZ;Todos los Santos
-01/11/2011;ILLES BALEARS;Todos los Santos
 01/11/2011;BARCELONA;Todos los Santos
 01/11/2011;BIZKAIA;Todos los Santos
 01/11/2011;BURGOS;Todos los Santos
@@ -801,7 +834,6 @@ Fecha;Provincia;Festividad
 01/11/2011;SEGOVIA;Todos los Santos
 01/11/2011;SEVILLA;Todos los Santos
 01/11/2011;SORIA;Todos los Santos
-01/11/2011;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2011;TARRAGONA;Todos los Santos
 01/11/2011;TERUEL;Todos los Santos
 01/11/2011;TOLEDO;Todos los Santos
@@ -810,14 +842,13 @@ Fecha;Provincia;Festividad
 01/11/2011;ZAMORA;Todos los Santos
 01/11/2011;ZARAGOZA;Todos los Santos
 06/12/2011;A CORUÑA;Día de la Constitución Española
+06/12/2011;ALAVA;Día de la Constitución Española
 06/12/2011;ALBACETE;Día de la Constitución Española
 06/12/2011;ALICANTE;Día de la Constitución Española
 06/12/2011;ALMERIA;Día de la Constitución Española
-06/12/2011;ALAVA;Día de la Constitución Española
 06/12/2011;ASTURIAS;Día de la Constitución Española
 06/12/2011;AVILA;Día de la Constitución Española
 06/12/2011;BADAJOZ;Día de la Constitución Española
-06/12/2011;ILLES BALEARS;Día de la Constitución Española
 06/12/2011;BARCELONA;Día de la Constitución Española
 06/12/2011;BIZKAIA;Día de la Constitución Española
 06/12/2011;BURGOS;Día de la Constitución Española
@@ -855,7 +886,6 @@ Fecha;Provincia;Festividad
 06/12/2011;SEGOVIA;Día de la Constitución Española
 06/12/2011;SEVILLA;Día de la Constitución Española
 06/12/2011;SORIA;Día de la Constitución Española
-06/12/2011;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2011;TARRAGONA;Día de la Constitución Española
 06/12/2011;TERUEL;Día de la Constitución Española
 06/12/2011;TOLEDO;Día de la Constitución Española
@@ -864,14 +894,13 @@ Fecha;Provincia;Festividad
 06/12/2011;ZAMORA;Día de la Constitución Española
 06/12/2011;ZARAGOZA;Día de la Constitución Española
 08/12/2011;A CORUÑA;Inmaculada Concepción
+08/12/2011;ALAVA;Inmaculada Concepción
 08/12/2011;ALBACETE;Inmaculada Concepción
 08/12/2011;ALICANTE;Inmaculada Concepción
 08/12/2011;ALMERIA;Inmaculada Concepción
-08/12/2011;ALAVA;Inmaculada Concepción
 08/12/2011;ASTURIAS;Inmaculada Concepción
 08/12/2011;AVILA;Inmaculada Concepción
 08/12/2011;BADAJOZ;Inmaculada Concepción
-08/12/2011;ILLES BALEARS;Inmaculada Concepción
 08/12/2011;BARCELONA;Inmaculada Concepción
 08/12/2011;BIZKAIA;Inmaculada Concepción
 08/12/2011;BURGOS;Inmaculada Concepción
@@ -909,7 +938,6 @@ Fecha;Provincia;Festividad
 08/12/2011;SEGOVIA;Inmaculada Concepción
 08/12/2011;SEVILLA;Inmaculada Concepción
 08/12/2011;SORIA;Inmaculada Concepción
-08/12/2011;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2011;TARRAGONA;Inmaculada Concepción
 08/12/2011;TERUEL;Inmaculada Concepción
 08/12/2011;TOLEDO;Inmaculada Concepción
@@ -918,14 +946,13 @@ Fecha;Provincia;Festividad
 08/12/2011;ZAMORA;Inmaculada Concepción
 08/12/2011;ZARAGOZA;Inmaculada Concepción
 25/12/2011;A CORUÑA;Natividad del Señor
+25/12/2011;ALAVA;Natividad del Señor
 25/12/2011;ALBACETE;Natividad del Señor
 25/12/2011;ALICANTE;Natividad del Señor
 25/12/2011;ALMERIA;Natividad del Señor
-25/12/2011;ALAVA;Natividad del Señor
 25/12/2011;ASTURIAS;Natividad del Señor
 25/12/2011;AVILA;Natividad del Señor
 25/12/2011;BADAJOZ;Natividad del Señor
-25/12/2011;ILLES BALEARS;Natividad del Señor
 25/12/2011;BARCELONA;Natividad del Señor
 25/12/2011;BIZKAIA;Natividad del Señor
 25/12/2011;BURGOS;Natividad del Señor
@@ -963,7 +990,6 @@ Fecha;Provincia;Festividad
 25/12/2011;SEGOVIA;Natividad del Señor
 25/12/2011;SEVILLA;Natividad del Señor
 25/12/2011;SORIA;Natividad del Señor
-25/12/2011;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2011;TARRAGONA;Natividad del Señor
 25/12/2011;TERUEL;Natividad del Señor
 25/12/2011;TOLEDO;Natividad del Señor
@@ -972,14 +998,13 @@ Fecha;Provincia;Festividad
 25/12/2011;ZAMORA;Natividad del Señor
 25/12/2011;ZARAGOZA;Natividad del Señor
 01/01/2012;A CORUÑA;Año Nuevo
+01/01/2012;ALAVA;Año Nuevo
 01/01/2012;ALBACETE;Año Nuevo
 01/01/2012;ALICANTE;Año Nuevo
 01/01/2012;ALMERIA;Año Nuevo
-01/01/2012;ALAVA;Año Nuevo
 01/01/2012;ASTURIAS;Año Nuevo
 01/01/2012;AVILA;Año Nuevo
 01/01/2012;BADAJOZ;Año Nuevo
-01/01/2012;ILLES BALEARS;Año Nuevo
 01/01/2012;BARCELONA;Año Nuevo
 01/01/2012;BIZKAIA;Año Nuevo
 01/01/2012;BURGOS;Año Nuevo
@@ -1017,7 +1042,6 @@ Fecha;Provincia;Festividad
 01/01/2012;SEGOVIA;Año Nuevo
 01/01/2012;SEVILLA;Año Nuevo
 01/01/2012;SORIA;Año Nuevo
-01/01/2012;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2012;TARRAGONA;Año Nuevo
 01/01/2012;TERUEL;Año Nuevo
 01/01/2012;TOLEDO;Año Nuevo
@@ -1026,14 +1050,13 @@ Fecha;Provincia;Festividad
 01/01/2012;ZAMORA;Año Nuevo
 01/01/2012;ZARAGOZA;Año Nuevo
 06/01/2012;A CORUÑA;Epifanía del Señor
+06/01/2012;ALAVA;Epifanía del Señor
 06/01/2012;ALBACETE;Epifanía del Señor
 06/01/2012;ALICANTE;Epifanía del Señor
 06/01/2012;ALMERIA;Epifanía del Señor
-06/01/2012;ALAVA;Epifanía del Señor
 06/01/2012;ASTURIAS;Epifanía del Señor
 06/01/2012;AVILA;Epifanía del Señor
 06/01/2012;BADAJOZ;Epifanía del Señor
-06/01/2012;ILLES BALEARS;Epifanía del Señor
 06/01/2012;BARCELONA;Epifanía del Señor
 06/01/2012;BIZKAIA;Epifanía del Señor
 06/01/2012;BURGOS;Epifanía del Señor
@@ -1071,7 +1094,6 @@ Fecha;Provincia;Festividad
 06/01/2012;SEGOVIA;Epifanía del Señor
 06/01/2012;SEVILLA;Epifanía del Señor
 06/01/2012;SORIA;Epifanía del Señor
-06/01/2012;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2012;TARRAGONA;Epifanía del Señor
 06/01/2012;TERUEL;Epifanía del Señor
 06/01/2012;TOLEDO;Epifanía del Señor
@@ -1079,15 +1101,26 @@ Fecha;Provincia;Festividad
 06/01/2012;VALLADOLID;Epifanía del Señor
 06/01/2012;ZAMORA;Epifanía del Señor
 06/01/2012;ZARAGOZA;Epifanía del Señor
+28/02/2012;ALMERIA;Festivo Regional
+28/02/2012;CADIZ;Festivo Regional
+28/02/2012;CORDOBA;Festivo Regional
+28/02/2012;GRANADA;Festivo Regional
+28/02/2012;HUELVA;Festivo Regional
+28/02/2012;JAEN;Festivo Regional
+28/02/2012;MALAGA;Festivo Regional
+28/02/2012;SEVILLA;Festivo Regional
+01/03/2012;ILLES BALEARS;Festivo Regional
+23/04/2012;HUESCA;Festivo Regional
+23/04/2012;TERUEL;Festivo Regional
+23/04/2012;ZARAGOZA;Festivo Regional
 01/05/2012;A CORUÑA;Fiesta del Trabajo
+01/05/2012;ALAVA;Fiesta del Trabajo
 01/05/2012;ALBACETE;Fiesta del Trabajo
 01/05/2012;ALICANTE;Fiesta del Trabajo
 01/05/2012;ALMERIA;Fiesta del Trabajo
-01/05/2012;ALAVA;Fiesta del Trabajo
 01/05/2012;ASTURIAS;Fiesta del Trabajo
 01/05/2012;AVILA;Fiesta del Trabajo
 01/05/2012;BADAJOZ;Fiesta del Trabajo
-01/05/2012;ILLES BALEARS;Fiesta del Trabajo
 01/05/2012;BARCELONA;Fiesta del Trabajo
 01/05/2012;BIZKAIA;Fiesta del Trabajo
 01/05/2012;BURGOS;Fiesta del Trabajo
@@ -1125,7 +1158,6 @@ Fecha;Provincia;Festividad
 01/05/2012;SEGOVIA;Fiesta del Trabajo
 01/05/2012;SEVILLA;Fiesta del Trabajo
 01/05/2012;SORIA;Fiesta del Trabajo
-01/05/2012;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2012;TARRAGONA;Fiesta del Trabajo
 01/05/2012;TERUEL;Fiesta del Trabajo
 01/05/2012;TOLEDO;Fiesta del Trabajo
@@ -1133,15 +1165,26 @@ Fecha;Provincia;Festividad
 01/05/2012;VALLADOLID;Fiesta del Trabajo
 01/05/2012;ZAMORA;Fiesta del Trabajo
 01/05/2012;ZARAGOZA;Fiesta del Trabajo
+17/05/2012;A CORUÑA;Festivo Regional
+17/05/2012;LUGO;Festivo Regional
+17/05/2012;OURENSE;Festivo Regional
+17/05/2012;PONTEVEDRA;Festivo Regional
+30/05/2012;LAS PALMAS;Festivo Regional
+30/05/2012;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2012;LA RIOJA;Festivo Regional
+09/06/2012;MURCIA;Festivo Regional
+25/07/2012;A CORUÑA;Festivo Regional
+25/07/2012;LUGO;Festivo Regional
+25/07/2012;OURENSE;Festivo Regional
+25/07/2012;PONTEVEDRA;Festivo Regional
 15/08/2012;A CORUÑA;Asunción de la Virgen
+15/08/2012;ALAVA;Asunción de la Virgen
 15/08/2012;ALBACETE;Asunción de la Virgen
 15/08/2012;ALICANTE;Asunción de la Virgen
 15/08/2012;ALMERIA;Asunción de la Virgen
-15/08/2012;ALAVA;Asunción de la Virgen
 15/08/2012;ASTURIAS;Asunción de la Virgen
 15/08/2012;AVILA;Asunción de la Virgen
 15/08/2012;BADAJOZ;Asunción de la Virgen
-15/08/2012;ILLES BALEARS;Asunción de la Virgen
 15/08/2012;BARCELONA;Asunción de la Virgen
 15/08/2012;BIZKAIA;Asunción de la Virgen
 15/08/2012;BURGOS;Asunción de la Virgen
@@ -1179,7 +1222,6 @@ Fecha;Provincia;Festividad
 15/08/2012;SEGOVIA;Asunción de la Virgen
 15/08/2012;SEVILLA;Asunción de la Virgen
 15/08/2012;SORIA;Asunción de la Virgen
-15/08/2012;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2012;TARRAGONA;Asunción de la Virgen
 15/08/2012;TERUEL;Asunción de la Virgen
 15/08/2012;TOLEDO;Asunción de la Virgen
@@ -1187,15 +1229,21 @@ Fecha;Provincia;Festividad
 15/08/2012;VALLADOLID;Asunción de la Virgen
 15/08/2012;ZAMORA;Asunción de la Virgen
 15/08/2012;ZARAGOZA;Asunción de la Virgen
+11/09/2012;BARCELONA;Festivo Regional
+11/09/2012;GIRONA;Festivo Regional
+11/09/2012;LLEIDA;Festivo Regional
+11/09/2012;TARRAGONA;Festivo Regional
+09/10/2012;ALICANTE;Festivo Regional
+09/10/2012;CASTELLON;Festivo Regional
+09/10/2012;VALENCIA;Festivo Regional
 12/10/2012;A CORUÑA;Fiesta Nacional de España
+12/10/2012;ALAVA;Fiesta Nacional de España
 12/10/2012;ALBACETE;Fiesta Nacional de España
 12/10/2012;ALICANTE;Fiesta Nacional de España
 12/10/2012;ALMERIA;Fiesta Nacional de España
-12/10/2012;ALAVA;Fiesta Nacional de España
 12/10/2012;ASTURIAS;Fiesta Nacional de España
 12/10/2012;AVILA;Fiesta Nacional de España
 12/10/2012;BADAJOZ;Fiesta Nacional de España
-12/10/2012;ILLES BALEARS;Fiesta Nacional de España
 12/10/2012;BARCELONA;Fiesta Nacional de España
 12/10/2012;BIZKAIA;Fiesta Nacional de España
 12/10/2012;BURGOS;Fiesta Nacional de España
@@ -1233,7 +1281,6 @@ Fecha;Provincia;Festividad
 12/10/2012;SEGOVIA;Fiesta Nacional de España
 12/10/2012;SEVILLA;Fiesta Nacional de España
 12/10/2012;SORIA;Fiesta Nacional de España
-12/10/2012;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2012;TARRAGONA;Fiesta Nacional de España
 12/10/2012;TERUEL;Fiesta Nacional de España
 12/10/2012;TOLEDO;Fiesta Nacional de España
@@ -1242,14 +1289,13 @@ Fecha;Provincia;Festividad
 12/10/2012;ZAMORA;Fiesta Nacional de España
 12/10/2012;ZARAGOZA;Fiesta Nacional de España
 01/11/2012;A CORUÑA;Todos los Santos
+01/11/2012;ALAVA;Todos los Santos
 01/11/2012;ALBACETE;Todos los Santos
 01/11/2012;ALICANTE;Todos los Santos
 01/11/2012;ALMERIA;Todos los Santos
-01/11/2012;ALAVA;Todos los Santos
 01/11/2012;ASTURIAS;Todos los Santos
 01/11/2012;AVILA;Todos los Santos
 01/11/2012;BADAJOZ;Todos los Santos
-01/11/2012;ILLES BALEARS;Todos los Santos
 01/11/2012;BARCELONA;Todos los Santos
 01/11/2012;BIZKAIA;Todos los Santos
 01/11/2012;BURGOS;Todos los Santos
@@ -1287,7 +1333,6 @@ Fecha;Provincia;Festividad
 01/11/2012;SEGOVIA;Todos los Santos
 01/11/2012;SEVILLA;Todos los Santos
 01/11/2012;SORIA;Todos los Santos
-01/11/2012;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2012;TARRAGONA;Todos los Santos
 01/11/2012;TERUEL;Todos los Santos
 01/11/2012;TOLEDO;Todos los Santos
@@ -1296,14 +1341,13 @@ Fecha;Provincia;Festividad
 01/11/2012;ZAMORA;Todos los Santos
 01/11/2012;ZARAGOZA;Todos los Santos
 06/12/2012;A CORUÑA;Día de la Constitución Española
+06/12/2012;ALAVA;Día de la Constitución Española
 06/12/2012;ALBACETE;Día de la Constitución Española
 06/12/2012;ALICANTE;Día de la Constitución Española
 06/12/2012;ALMERIA;Día de la Constitución Española
-06/12/2012;ALAVA;Día de la Constitución Española
 06/12/2012;ASTURIAS;Día de la Constitución Española
 06/12/2012;AVILA;Día de la Constitución Española
 06/12/2012;BADAJOZ;Día de la Constitución Española
-06/12/2012;ILLES BALEARS;Día de la Constitución Española
 06/12/2012;BARCELONA;Día de la Constitución Española
 06/12/2012;BIZKAIA;Día de la Constitución Española
 06/12/2012;BURGOS;Día de la Constitución Española
@@ -1341,7 +1385,6 @@ Fecha;Provincia;Festividad
 06/12/2012;SEGOVIA;Día de la Constitución Española
 06/12/2012;SEVILLA;Día de la Constitución Española
 06/12/2012;SORIA;Día de la Constitución Española
-06/12/2012;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2012;TARRAGONA;Día de la Constitución Española
 06/12/2012;TERUEL;Día de la Constitución Española
 06/12/2012;TOLEDO;Día de la Constitución Española
@@ -1350,14 +1393,13 @@ Fecha;Provincia;Festividad
 06/12/2012;ZAMORA;Día de la Constitución Española
 06/12/2012;ZARAGOZA;Día de la Constitución Española
 08/12/2012;A CORUÑA;Inmaculada Concepción
+08/12/2012;ALAVA;Inmaculada Concepción
 08/12/2012;ALBACETE;Inmaculada Concepción
 08/12/2012;ALICANTE;Inmaculada Concepción
 08/12/2012;ALMERIA;Inmaculada Concepción
-08/12/2012;ALAVA;Inmaculada Concepción
 08/12/2012;ASTURIAS;Inmaculada Concepción
 08/12/2012;AVILA;Inmaculada Concepción
 08/12/2012;BADAJOZ;Inmaculada Concepción
-08/12/2012;ILLES BALEARS;Inmaculada Concepción
 08/12/2012;BARCELONA;Inmaculada Concepción
 08/12/2012;BIZKAIA;Inmaculada Concepción
 08/12/2012;BURGOS;Inmaculada Concepción
@@ -1395,7 +1437,6 @@ Fecha;Provincia;Festividad
 08/12/2012;SEGOVIA;Inmaculada Concepción
 08/12/2012;SEVILLA;Inmaculada Concepción
 08/12/2012;SORIA;Inmaculada Concepción
-08/12/2012;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2012;TARRAGONA;Inmaculada Concepción
 08/12/2012;TERUEL;Inmaculada Concepción
 08/12/2012;TOLEDO;Inmaculada Concepción
@@ -1404,14 +1445,13 @@ Fecha;Provincia;Festividad
 08/12/2012;ZAMORA;Inmaculada Concepción
 08/12/2012;ZARAGOZA;Inmaculada Concepción
 25/12/2012;A CORUÑA;Natividad del Señor
+25/12/2012;ALAVA;Natividad del Señor
 25/12/2012;ALBACETE;Natividad del Señor
 25/12/2012;ALICANTE;Natividad del Señor
 25/12/2012;ALMERIA;Natividad del Señor
-25/12/2012;ALAVA;Natividad del Señor
 25/12/2012;ASTURIAS;Natividad del Señor
 25/12/2012;AVILA;Natividad del Señor
 25/12/2012;BADAJOZ;Natividad del Señor
-25/12/2012;ILLES BALEARS;Natividad del Señor
 25/12/2012;BARCELONA;Natividad del Señor
 25/12/2012;BIZKAIA;Natividad del Señor
 25/12/2012;BURGOS;Natividad del Señor
@@ -1449,7 +1489,6 @@ Fecha;Provincia;Festividad
 25/12/2012;SEGOVIA;Natividad del Señor
 25/12/2012;SEVILLA;Natividad del Señor
 25/12/2012;SORIA;Natividad del Señor
-25/12/2012;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2012;TARRAGONA;Natividad del Señor
 25/12/2012;TERUEL;Natividad del Señor
 25/12/2012;TOLEDO;Natividad del Señor
@@ -1458,14 +1497,13 @@ Fecha;Provincia;Festividad
 25/12/2012;ZAMORA;Natividad del Señor
 25/12/2012;ZARAGOZA;Natividad del Señor
 01/01/2013;A CORUÑA;Año Nuevo
+01/01/2013;ALAVA;Año Nuevo
 01/01/2013;ALBACETE;Año Nuevo
 01/01/2013;ALICANTE;Año Nuevo
 01/01/2013;ALMERIA;Año Nuevo
-01/01/2013;ALAVA;Año Nuevo
 01/01/2013;ASTURIAS;Año Nuevo
 01/01/2013;AVILA;Año Nuevo
 01/01/2013;BADAJOZ;Año Nuevo
-01/01/2013;ILLES BALEARS;Año Nuevo
 01/01/2013;BARCELONA;Año Nuevo
 01/01/2013;BIZKAIA;Año Nuevo
 01/01/2013;BURGOS;Año Nuevo
@@ -1503,7 +1541,6 @@ Fecha;Provincia;Festividad
 01/01/2013;SEGOVIA;Año Nuevo
 01/01/2013;SEVILLA;Año Nuevo
 01/01/2013;SORIA;Año Nuevo
-01/01/2013;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2013;TARRAGONA;Año Nuevo
 01/01/2013;TERUEL;Año Nuevo
 01/01/2013;TOLEDO;Año Nuevo
@@ -1512,14 +1549,13 @@ Fecha;Provincia;Festividad
 01/01/2013;ZAMORA;Año Nuevo
 01/01/2013;ZARAGOZA;Año Nuevo
 06/01/2013;A CORUÑA;Epifanía del Señor
+06/01/2013;ALAVA;Epifanía del Señor
 06/01/2013;ALBACETE;Epifanía del Señor
 06/01/2013;ALICANTE;Epifanía del Señor
 06/01/2013;ALMERIA;Epifanía del Señor
-06/01/2013;ALAVA;Epifanía del Señor
 06/01/2013;ASTURIAS;Epifanía del Señor
 06/01/2013;AVILA;Epifanía del Señor
 06/01/2013;BADAJOZ;Epifanía del Señor
-06/01/2013;ILLES BALEARS;Epifanía del Señor
 06/01/2013;BARCELONA;Epifanía del Señor
 06/01/2013;BIZKAIA;Epifanía del Señor
 06/01/2013;BURGOS;Epifanía del Señor
@@ -1557,7 +1593,6 @@ Fecha;Provincia;Festividad
 06/01/2013;SEGOVIA;Epifanía del Señor
 06/01/2013;SEVILLA;Epifanía del Señor
 06/01/2013;SORIA;Epifanía del Señor
-06/01/2013;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2013;TARRAGONA;Epifanía del Señor
 06/01/2013;TERUEL;Epifanía del Señor
 06/01/2013;TOLEDO;Epifanía del Señor
@@ -1565,15 +1600,26 @@ Fecha;Provincia;Festividad
 06/01/2013;VALLADOLID;Epifanía del Señor
 06/01/2013;ZAMORA;Epifanía del Señor
 06/01/2013;ZARAGOZA;Epifanía del Señor
+28/02/2013;ALMERIA;Festivo Regional
+28/02/2013;CADIZ;Festivo Regional
+28/02/2013;CORDOBA;Festivo Regional
+28/02/2013;GRANADA;Festivo Regional
+28/02/2013;HUELVA;Festivo Regional
+28/02/2013;JAEN;Festivo Regional
+28/02/2013;MALAGA;Festivo Regional
+28/02/2013;SEVILLA;Festivo Regional
+01/03/2013;ILLES BALEARS;Festivo Regional
+23/04/2013;HUESCA;Festivo Regional
+23/04/2013;TERUEL;Festivo Regional
+23/04/2013;ZARAGOZA;Festivo Regional
 01/05/2013;A CORUÑA;Fiesta del Trabajo
+01/05/2013;ALAVA;Fiesta del Trabajo
 01/05/2013;ALBACETE;Fiesta del Trabajo
 01/05/2013;ALICANTE;Fiesta del Trabajo
 01/05/2013;ALMERIA;Fiesta del Trabajo
-01/05/2013;ALAVA;Fiesta del Trabajo
 01/05/2013;ASTURIAS;Fiesta del Trabajo
 01/05/2013;AVILA;Fiesta del Trabajo
 01/05/2013;BADAJOZ;Fiesta del Trabajo
-01/05/2013;ILLES BALEARS;Fiesta del Trabajo
 01/05/2013;BARCELONA;Fiesta del Trabajo
 01/05/2013;BIZKAIA;Fiesta del Trabajo
 01/05/2013;BURGOS;Fiesta del Trabajo
@@ -1611,7 +1657,6 @@ Fecha;Provincia;Festividad
 01/05/2013;SEGOVIA;Fiesta del Trabajo
 01/05/2013;SEVILLA;Fiesta del Trabajo
 01/05/2013;SORIA;Fiesta del Trabajo
-01/05/2013;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2013;TARRAGONA;Fiesta del Trabajo
 01/05/2013;TERUEL;Fiesta del Trabajo
 01/05/2013;TOLEDO;Fiesta del Trabajo
@@ -1619,15 +1664,26 @@ Fecha;Provincia;Festividad
 01/05/2013;VALLADOLID;Fiesta del Trabajo
 01/05/2013;ZAMORA;Fiesta del Trabajo
 01/05/2013;ZARAGOZA;Fiesta del Trabajo
+17/05/2013;A CORUÑA;Festivo Regional
+17/05/2013;LUGO;Festivo Regional
+17/05/2013;OURENSE;Festivo Regional
+17/05/2013;PONTEVEDRA;Festivo Regional
+30/05/2013;LAS PALMAS;Festivo Regional
+30/05/2013;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2013;LA RIOJA;Festivo Regional
+09/06/2013;MURCIA;Festivo Regional
+25/07/2013;A CORUÑA;Festivo Regional
+25/07/2013;LUGO;Festivo Regional
+25/07/2013;OURENSE;Festivo Regional
+25/07/2013;PONTEVEDRA;Festivo Regional
 15/08/2013;A CORUÑA;Asunción de la Virgen
+15/08/2013;ALAVA;Asunción de la Virgen
 15/08/2013;ALBACETE;Asunción de la Virgen
 15/08/2013;ALICANTE;Asunción de la Virgen
 15/08/2013;ALMERIA;Asunción de la Virgen
-15/08/2013;ALAVA;Asunción de la Virgen
 15/08/2013;ASTURIAS;Asunción de la Virgen
 15/08/2013;AVILA;Asunción de la Virgen
 15/08/2013;BADAJOZ;Asunción de la Virgen
-15/08/2013;ILLES BALEARS;Asunción de la Virgen
 15/08/2013;BARCELONA;Asunción de la Virgen
 15/08/2013;BIZKAIA;Asunción de la Virgen
 15/08/2013;BURGOS;Asunción de la Virgen
@@ -1665,7 +1721,6 @@ Fecha;Provincia;Festividad
 15/08/2013;SEGOVIA;Asunción de la Virgen
 15/08/2013;SEVILLA;Asunción de la Virgen
 15/08/2013;SORIA;Asunción de la Virgen
-15/08/2013;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2013;TARRAGONA;Asunción de la Virgen
 15/08/2013;TERUEL;Asunción de la Virgen
 15/08/2013;TOLEDO;Asunción de la Virgen
@@ -1673,15 +1728,21 @@ Fecha;Provincia;Festividad
 15/08/2013;VALLADOLID;Asunción de la Virgen
 15/08/2013;ZAMORA;Asunción de la Virgen
 15/08/2013;ZARAGOZA;Asunción de la Virgen
+11/09/2013;BARCELONA;Festivo Regional
+11/09/2013;GIRONA;Festivo Regional
+11/09/2013;LLEIDA;Festivo Regional
+11/09/2013;TARRAGONA;Festivo Regional
+09/10/2013;ALICANTE;Festivo Regional
+09/10/2013;CASTELLON;Festivo Regional
+09/10/2013;VALENCIA;Festivo Regional
 12/10/2013;A CORUÑA;Fiesta Nacional de España
+12/10/2013;ALAVA;Fiesta Nacional de España
 12/10/2013;ALBACETE;Fiesta Nacional de España
 12/10/2013;ALICANTE;Fiesta Nacional de España
 12/10/2013;ALMERIA;Fiesta Nacional de España
-12/10/2013;ALAVA;Fiesta Nacional de España
 12/10/2013;ASTURIAS;Fiesta Nacional de España
 12/10/2013;AVILA;Fiesta Nacional de España
 12/10/2013;BADAJOZ;Fiesta Nacional de España
-12/10/2013;ILLES BALEARS;Fiesta Nacional de España
 12/10/2013;BARCELONA;Fiesta Nacional de España
 12/10/2013;BIZKAIA;Fiesta Nacional de España
 12/10/2013;BURGOS;Fiesta Nacional de España
@@ -1719,7 +1780,6 @@ Fecha;Provincia;Festividad
 12/10/2013;SEGOVIA;Fiesta Nacional de España
 12/10/2013;SEVILLA;Fiesta Nacional de España
 12/10/2013;SORIA;Fiesta Nacional de España
-12/10/2013;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2013;TARRAGONA;Fiesta Nacional de España
 12/10/2013;TERUEL;Fiesta Nacional de España
 12/10/2013;TOLEDO;Fiesta Nacional de España
@@ -1728,14 +1788,13 @@ Fecha;Provincia;Festividad
 12/10/2013;ZAMORA;Fiesta Nacional de España
 12/10/2013;ZARAGOZA;Fiesta Nacional de España
 01/11/2013;A CORUÑA;Todos los Santos
+01/11/2013;ALAVA;Todos los Santos
 01/11/2013;ALBACETE;Todos los Santos
 01/11/2013;ALICANTE;Todos los Santos
 01/11/2013;ALMERIA;Todos los Santos
-01/11/2013;ALAVA;Todos los Santos
 01/11/2013;ASTURIAS;Todos los Santos
 01/11/2013;AVILA;Todos los Santos
 01/11/2013;BADAJOZ;Todos los Santos
-01/11/2013;ILLES BALEARS;Todos los Santos
 01/11/2013;BARCELONA;Todos los Santos
 01/11/2013;BIZKAIA;Todos los Santos
 01/11/2013;BURGOS;Todos los Santos
@@ -1773,7 +1832,6 @@ Fecha;Provincia;Festividad
 01/11/2013;SEGOVIA;Todos los Santos
 01/11/2013;SEVILLA;Todos los Santos
 01/11/2013;SORIA;Todos los Santos
-01/11/2013;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2013;TARRAGONA;Todos los Santos
 01/11/2013;TERUEL;Todos los Santos
 01/11/2013;TOLEDO;Todos los Santos
@@ -1782,14 +1840,13 @@ Fecha;Provincia;Festividad
 01/11/2013;ZAMORA;Todos los Santos
 01/11/2013;ZARAGOZA;Todos los Santos
 06/12/2013;A CORUÑA;Día de la Constitución Española
+06/12/2013;ALAVA;Día de la Constitución Española
 06/12/2013;ALBACETE;Día de la Constitución Española
 06/12/2013;ALICANTE;Día de la Constitución Española
 06/12/2013;ALMERIA;Día de la Constitución Española
-06/12/2013;ALAVA;Día de la Constitución Española
 06/12/2013;ASTURIAS;Día de la Constitución Española
 06/12/2013;AVILA;Día de la Constitución Española
 06/12/2013;BADAJOZ;Día de la Constitución Española
-06/12/2013;ILLES BALEARS;Día de la Constitución Española
 06/12/2013;BARCELONA;Día de la Constitución Española
 06/12/2013;BIZKAIA;Día de la Constitución Española
 06/12/2013;BURGOS;Día de la Constitución Española
@@ -1827,7 +1884,6 @@ Fecha;Provincia;Festividad
 06/12/2013;SEGOVIA;Día de la Constitución Española
 06/12/2013;SEVILLA;Día de la Constitución Española
 06/12/2013;SORIA;Día de la Constitución Española
-06/12/2013;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2013;TARRAGONA;Día de la Constitución Española
 06/12/2013;TERUEL;Día de la Constitución Española
 06/12/2013;TOLEDO;Día de la Constitución Española
@@ -1836,14 +1892,13 @@ Fecha;Provincia;Festividad
 06/12/2013;ZAMORA;Día de la Constitución Española
 06/12/2013;ZARAGOZA;Día de la Constitución Española
 08/12/2013;A CORUÑA;Inmaculada Concepción
+08/12/2013;ALAVA;Inmaculada Concepción
 08/12/2013;ALBACETE;Inmaculada Concepción
 08/12/2013;ALICANTE;Inmaculada Concepción
 08/12/2013;ALMERIA;Inmaculada Concepción
-08/12/2013;ALAVA;Inmaculada Concepción
 08/12/2013;ASTURIAS;Inmaculada Concepción
 08/12/2013;AVILA;Inmaculada Concepción
 08/12/2013;BADAJOZ;Inmaculada Concepción
-08/12/2013;ILLES BALEARS;Inmaculada Concepción
 08/12/2013;BARCELONA;Inmaculada Concepción
 08/12/2013;BIZKAIA;Inmaculada Concepción
 08/12/2013;BURGOS;Inmaculada Concepción
@@ -1881,7 +1936,6 @@ Fecha;Provincia;Festividad
 08/12/2013;SEGOVIA;Inmaculada Concepción
 08/12/2013;SEVILLA;Inmaculada Concepción
 08/12/2013;SORIA;Inmaculada Concepción
-08/12/2013;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2013;TARRAGONA;Inmaculada Concepción
 08/12/2013;TERUEL;Inmaculada Concepción
 08/12/2013;TOLEDO;Inmaculada Concepción
@@ -1890,14 +1944,13 @@ Fecha;Provincia;Festividad
 08/12/2013;ZAMORA;Inmaculada Concepción
 08/12/2013;ZARAGOZA;Inmaculada Concepción
 25/12/2013;A CORUÑA;Natividad del Señor
+25/12/2013;ALAVA;Natividad del Señor
 25/12/2013;ALBACETE;Natividad del Señor
 25/12/2013;ALICANTE;Natividad del Señor
 25/12/2013;ALMERIA;Natividad del Señor
-25/12/2013;ALAVA;Natividad del Señor
 25/12/2013;ASTURIAS;Natividad del Señor
 25/12/2013;AVILA;Natividad del Señor
 25/12/2013;BADAJOZ;Natividad del Señor
-25/12/2013;ILLES BALEARS;Natividad del Señor
 25/12/2013;BARCELONA;Natividad del Señor
 25/12/2013;BIZKAIA;Natividad del Señor
 25/12/2013;BURGOS;Natividad del Señor
@@ -1935,7 +1988,6 @@ Fecha;Provincia;Festividad
 25/12/2013;SEGOVIA;Natividad del Señor
 25/12/2013;SEVILLA;Natividad del Señor
 25/12/2013;SORIA;Natividad del Señor
-25/12/2013;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2013;TARRAGONA;Natividad del Señor
 25/12/2013;TERUEL;Natividad del Señor
 25/12/2013;TOLEDO;Natividad del Señor
@@ -1944,14 +1996,13 @@ Fecha;Provincia;Festividad
 25/12/2013;ZAMORA;Natividad del Señor
 25/12/2013;ZARAGOZA;Natividad del Señor
 01/01/2014;A CORUÑA;Año Nuevo
+01/01/2014;ALAVA;Año Nuevo
 01/01/2014;ALBACETE;Año Nuevo
 01/01/2014;ALICANTE;Año Nuevo
 01/01/2014;ALMERIA;Año Nuevo
-01/01/2014;ALAVA;Año Nuevo
 01/01/2014;ASTURIAS;Año Nuevo
 01/01/2014;AVILA;Año Nuevo
 01/01/2014;BADAJOZ;Año Nuevo
-01/01/2014;ILLES BALEARS;Año Nuevo
 01/01/2014;BARCELONA;Año Nuevo
 01/01/2014;BIZKAIA;Año Nuevo
 01/01/2014;BURGOS;Año Nuevo
@@ -1989,7 +2040,6 @@ Fecha;Provincia;Festividad
 01/01/2014;SEGOVIA;Año Nuevo
 01/01/2014;SEVILLA;Año Nuevo
 01/01/2014;SORIA;Año Nuevo
-01/01/2014;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2014;TARRAGONA;Año Nuevo
 01/01/2014;TERUEL;Año Nuevo
 01/01/2014;TOLEDO;Año Nuevo
@@ -1998,14 +2048,13 @@ Fecha;Provincia;Festividad
 01/01/2014;ZAMORA;Año Nuevo
 01/01/2014;ZARAGOZA;Año Nuevo
 06/01/2014;A CORUÑA;Epifanía del Señor
+06/01/2014;ALAVA;Epifanía del Señor
 06/01/2014;ALBACETE;Epifanía del Señor
 06/01/2014;ALICANTE;Epifanía del Señor
 06/01/2014;ALMERIA;Epifanía del Señor
-06/01/2014;ALAVA;Epifanía del Señor
 06/01/2014;ASTURIAS;Epifanía del Señor
 06/01/2014;AVILA;Epifanía del Señor
 06/01/2014;BADAJOZ;Epifanía del Señor
-06/01/2014;ILLES BALEARS;Epifanía del Señor
 06/01/2014;BARCELONA;Epifanía del Señor
 06/01/2014;BIZKAIA;Epifanía del Señor
 06/01/2014;BURGOS;Epifanía del Señor
@@ -2043,7 +2092,6 @@ Fecha;Provincia;Festividad
 06/01/2014;SEGOVIA;Epifanía del Señor
 06/01/2014;SEVILLA;Epifanía del Señor
 06/01/2014;SORIA;Epifanía del Señor
-06/01/2014;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2014;TARRAGONA;Epifanía del Señor
 06/01/2014;TERUEL;Epifanía del Señor
 06/01/2014;TOLEDO;Epifanía del Señor
@@ -2051,15 +2099,26 @@ Fecha;Provincia;Festividad
 06/01/2014;VALLADOLID;Epifanía del Señor
 06/01/2014;ZAMORA;Epifanía del Señor
 06/01/2014;ZARAGOZA;Epifanía del Señor
+28/02/2014;ALMERIA;Festivo Regional
+28/02/2014;CADIZ;Festivo Regional
+28/02/2014;CORDOBA;Festivo Regional
+28/02/2014;GRANADA;Festivo Regional
+28/02/2014;HUELVA;Festivo Regional
+28/02/2014;JAEN;Festivo Regional
+28/02/2014;MALAGA;Festivo Regional
+28/02/2014;SEVILLA;Festivo Regional
+01/03/2014;ILLES BALEARS;Festivo Regional
+23/04/2014;HUESCA;Festivo Regional
+23/04/2014;TERUEL;Festivo Regional
+23/04/2014;ZARAGOZA;Festivo Regional
 01/05/2014;A CORUÑA;Fiesta del Trabajo
+01/05/2014;ALAVA;Fiesta del Trabajo
 01/05/2014;ALBACETE;Fiesta del Trabajo
 01/05/2014;ALICANTE;Fiesta del Trabajo
 01/05/2014;ALMERIA;Fiesta del Trabajo
-01/05/2014;ALAVA;Fiesta del Trabajo
 01/05/2014;ASTURIAS;Fiesta del Trabajo
 01/05/2014;AVILA;Fiesta del Trabajo
 01/05/2014;BADAJOZ;Fiesta del Trabajo
-01/05/2014;ILLES BALEARS;Fiesta del Trabajo
 01/05/2014;BARCELONA;Fiesta del Trabajo
 01/05/2014;BIZKAIA;Fiesta del Trabajo
 01/05/2014;BURGOS;Fiesta del Trabajo
@@ -2097,7 +2156,6 @@ Fecha;Provincia;Festividad
 01/05/2014;SEGOVIA;Fiesta del Trabajo
 01/05/2014;SEVILLA;Fiesta del Trabajo
 01/05/2014;SORIA;Fiesta del Trabajo
-01/05/2014;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2014;TARRAGONA;Fiesta del Trabajo
 01/05/2014;TERUEL;Fiesta del Trabajo
 01/05/2014;TOLEDO;Fiesta del Trabajo
@@ -2105,15 +2163,26 @@ Fecha;Provincia;Festividad
 01/05/2014;VALLADOLID;Fiesta del Trabajo
 01/05/2014;ZAMORA;Fiesta del Trabajo
 01/05/2014;ZARAGOZA;Fiesta del Trabajo
+17/05/2014;A CORUÑA;Festivo Regional
+17/05/2014;LUGO;Festivo Regional
+17/05/2014;OURENSE;Festivo Regional
+17/05/2014;PONTEVEDRA;Festivo Regional
+30/05/2014;LAS PALMAS;Festivo Regional
+30/05/2014;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2014;LA RIOJA;Festivo Regional
+09/06/2014;MURCIA;Festivo Regional
+25/07/2014;A CORUÑA;Festivo Regional
+25/07/2014;LUGO;Festivo Regional
+25/07/2014;OURENSE;Festivo Regional
+25/07/2014;PONTEVEDRA;Festivo Regional
 15/08/2014;A CORUÑA;Asunción de la Virgen
+15/08/2014;ALAVA;Asunción de la Virgen
 15/08/2014;ALBACETE;Asunción de la Virgen
 15/08/2014;ALICANTE;Asunción de la Virgen
 15/08/2014;ALMERIA;Asunción de la Virgen
-15/08/2014;ALAVA;Asunción de la Virgen
 15/08/2014;ASTURIAS;Asunción de la Virgen
 15/08/2014;AVILA;Asunción de la Virgen
 15/08/2014;BADAJOZ;Asunción de la Virgen
-15/08/2014;ILLES BALEARS;Asunción de la Virgen
 15/08/2014;BARCELONA;Asunción de la Virgen
 15/08/2014;BIZKAIA;Asunción de la Virgen
 15/08/2014;BURGOS;Asunción de la Virgen
@@ -2151,7 +2220,6 @@ Fecha;Provincia;Festividad
 15/08/2014;SEGOVIA;Asunción de la Virgen
 15/08/2014;SEVILLA;Asunción de la Virgen
 15/08/2014;SORIA;Asunción de la Virgen
-15/08/2014;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2014;TARRAGONA;Asunción de la Virgen
 15/08/2014;TERUEL;Asunción de la Virgen
 15/08/2014;TOLEDO;Asunción de la Virgen
@@ -2159,15 +2227,21 @@ Fecha;Provincia;Festividad
 15/08/2014;VALLADOLID;Asunción de la Virgen
 15/08/2014;ZAMORA;Asunción de la Virgen
 15/08/2014;ZARAGOZA;Asunción de la Virgen
+11/09/2014;BARCELONA;Festivo Regional
+11/09/2014;GIRONA;Festivo Regional
+11/09/2014;LLEIDA;Festivo Regional
+11/09/2014;TARRAGONA;Festivo Regional
+09/10/2014;ALICANTE;Festivo Regional
+09/10/2014;CASTELLON;Festivo Regional
+09/10/2014;VALENCIA;Festivo Regional
 12/10/2014;A CORUÑA;Fiesta Nacional de España
+12/10/2014;ALAVA;Fiesta Nacional de España
 12/10/2014;ALBACETE;Fiesta Nacional de España
 12/10/2014;ALICANTE;Fiesta Nacional de España
 12/10/2014;ALMERIA;Fiesta Nacional de España
-12/10/2014;ALAVA;Fiesta Nacional de España
 12/10/2014;ASTURIAS;Fiesta Nacional de España
 12/10/2014;AVILA;Fiesta Nacional de España
 12/10/2014;BADAJOZ;Fiesta Nacional de España
-12/10/2014;ILLES BALEARS;Fiesta Nacional de España
 12/10/2014;BARCELONA;Fiesta Nacional de España
 12/10/2014;BIZKAIA;Fiesta Nacional de España
 12/10/2014;BURGOS;Fiesta Nacional de España
@@ -2205,7 +2279,6 @@ Fecha;Provincia;Festividad
 12/10/2014;SEGOVIA;Fiesta Nacional de España
 12/10/2014;SEVILLA;Fiesta Nacional de España
 12/10/2014;SORIA;Fiesta Nacional de España
-12/10/2014;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2014;TARRAGONA;Fiesta Nacional de España
 12/10/2014;TERUEL;Fiesta Nacional de España
 12/10/2014;TOLEDO;Fiesta Nacional de España
@@ -2214,14 +2287,13 @@ Fecha;Provincia;Festividad
 12/10/2014;ZAMORA;Fiesta Nacional de España
 12/10/2014;ZARAGOZA;Fiesta Nacional de España
 01/11/2014;A CORUÑA;Todos los Santos
+01/11/2014;ALAVA;Todos los Santos
 01/11/2014;ALBACETE;Todos los Santos
 01/11/2014;ALICANTE;Todos los Santos
 01/11/2014;ALMERIA;Todos los Santos
-01/11/2014;ALAVA;Todos los Santos
 01/11/2014;ASTURIAS;Todos los Santos
 01/11/2014;AVILA;Todos los Santos
 01/11/2014;BADAJOZ;Todos los Santos
-01/11/2014;ILLES BALEARS;Todos los Santos
 01/11/2014;BARCELONA;Todos los Santos
 01/11/2014;BIZKAIA;Todos los Santos
 01/11/2014;BURGOS;Todos los Santos
@@ -2259,7 +2331,6 @@ Fecha;Provincia;Festividad
 01/11/2014;SEGOVIA;Todos los Santos
 01/11/2014;SEVILLA;Todos los Santos
 01/11/2014;SORIA;Todos los Santos
-01/11/2014;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2014;TARRAGONA;Todos los Santos
 01/11/2014;TERUEL;Todos los Santos
 01/11/2014;TOLEDO;Todos los Santos
@@ -2268,14 +2339,13 @@ Fecha;Provincia;Festividad
 01/11/2014;ZAMORA;Todos los Santos
 01/11/2014;ZARAGOZA;Todos los Santos
 06/12/2014;A CORUÑA;Día de la Constitución Española
+06/12/2014;ALAVA;Día de la Constitución Española
 06/12/2014;ALBACETE;Día de la Constitución Española
 06/12/2014;ALICANTE;Día de la Constitución Española
 06/12/2014;ALMERIA;Día de la Constitución Española
-06/12/2014;ALAVA;Día de la Constitución Española
 06/12/2014;ASTURIAS;Día de la Constitución Española
 06/12/2014;AVILA;Día de la Constitución Española
 06/12/2014;BADAJOZ;Día de la Constitución Española
-06/12/2014;ILLES BALEARS;Día de la Constitución Española
 06/12/2014;BARCELONA;Día de la Constitución Española
 06/12/2014;BIZKAIA;Día de la Constitución Española
 06/12/2014;BURGOS;Día de la Constitución Española
@@ -2313,7 +2383,6 @@ Fecha;Provincia;Festividad
 06/12/2014;SEGOVIA;Día de la Constitución Española
 06/12/2014;SEVILLA;Día de la Constitución Española
 06/12/2014;SORIA;Día de la Constitución Española
-06/12/2014;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2014;TARRAGONA;Día de la Constitución Española
 06/12/2014;TERUEL;Día de la Constitución Española
 06/12/2014;TOLEDO;Día de la Constitución Española
@@ -2322,14 +2391,13 @@ Fecha;Provincia;Festividad
 06/12/2014;ZAMORA;Día de la Constitución Española
 06/12/2014;ZARAGOZA;Día de la Constitución Española
 08/12/2014;A CORUÑA;Inmaculada Concepción
+08/12/2014;ALAVA;Inmaculada Concepción
 08/12/2014;ALBACETE;Inmaculada Concepción
 08/12/2014;ALICANTE;Inmaculada Concepción
 08/12/2014;ALMERIA;Inmaculada Concepción
-08/12/2014;ALAVA;Inmaculada Concepción
 08/12/2014;ASTURIAS;Inmaculada Concepción
 08/12/2014;AVILA;Inmaculada Concepción
 08/12/2014;BADAJOZ;Inmaculada Concepción
-08/12/2014;ILLES BALEARS;Inmaculada Concepción
 08/12/2014;BARCELONA;Inmaculada Concepción
 08/12/2014;BIZKAIA;Inmaculada Concepción
 08/12/2014;BURGOS;Inmaculada Concepción
@@ -2367,7 +2435,6 @@ Fecha;Provincia;Festividad
 08/12/2014;SEGOVIA;Inmaculada Concepción
 08/12/2014;SEVILLA;Inmaculada Concepción
 08/12/2014;SORIA;Inmaculada Concepción
-08/12/2014;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2014;TARRAGONA;Inmaculada Concepción
 08/12/2014;TERUEL;Inmaculada Concepción
 08/12/2014;TOLEDO;Inmaculada Concepción
@@ -2376,14 +2443,13 @@ Fecha;Provincia;Festividad
 08/12/2014;ZAMORA;Inmaculada Concepción
 08/12/2014;ZARAGOZA;Inmaculada Concepción
 25/12/2014;A CORUÑA;Natividad del Señor
+25/12/2014;ALAVA;Natividad del Señor
 25/12/2014;ALBACETE;Natividad del Señor
 25/12/2014;ALICANTE;Natividad del Señor
 25/12/2014;ALMERIA;Natividad del Señor
-25/12/2014;ALAVA;Natividad del Señor
 25/12/2014;ASTURIAS;Natividad del Señor
 25/12/2014;AVILA;Natividad del Señor
 25/12/2014;BADAJOZ;Natividad del Señor
-25/12/2014;ILLES BALEARS;Natividad del Señor
 25/12/2014;BARCELONA;Natividad del Señor
 25/12/2014;BIZKAIA;Natividad del Señor
 25/12/2014;BURGOS;Natividad del Señor
@@ -2421,7 +2487,6 @@ Fecha;Provincia;Festividad
 25/12/2014;SEGOVIA;Natividad del Señor
 25/12/2014;SEVILLA;Natividad del Señor
 25/12/2014;SORIA;Natividad del Señor
-25/12/2014;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2014;TARRAGONA;Natividad del Señor
 25/12/2014;TERUEL;Natividad del Señor
 25/12/2014;TOLEDO;Natividad del Señor
@@ -2430,14 +2495,13 @@ Fecha;Provincia;Festividad
 25/12/2014;ZAMORA;Natividad del Señor
 25/12/2014;ZARAGOZA;Natividad del Señor
 01/01/2015;A CORUÑA;Año Nuevo
+01/01/2015;ALAVA;Año Nuevo
 01/01/2015;ALBACETE;Año Nuevo
 01/01/2015;ALICANTE;Año Nuevo
 01/01/2015;ALMERIA;Año Nuevo
-01/01/2015;ALAVA;Año Nuevo
 01/01/2015;ASTURIAS;Año Nuevo
 01/01/2015;AVILA;Año Nuevo
 01/01/2015;BADAJOZ;Año Nuevo
-01/01/2015;ILLES BALEARS;Año Nuevo
 01/01/2015;BARCELONA;Año Nuevo
 01/01/2015;BIZKAIA;Año Nuevo
 01/01/2015;BURGOS;Año Nuevo
@@ -2475,7 +2539,6 @@ Fecha;Provincia;Festividad
 01/01/2015;SEGOVIA;Año Nuevo
 01/01/2015;SEVILLA;Año Nuevo
 01/01/2015;SORIA;Año Nuevo
-01/01/2015;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2015;TARRAGONA;Año Nuevo
 01/01/2015;TERUEL;Año Nuevo
 01/01/2015;TOLEDO;Año Nuevo
@@ -2484,14 +2547,13 @@ Fecha;Provincia;Festividad
 01/01/2015;ZAMORA;Año Nuevo
 01/01/2015;ZARAGOZA;Año Nuevo
 06/01/2015;A CORUÑA;Epifanía del Señor
+06/01/2015;ALAVA;Epifanía del Señor
 06/01/2015;ALBACETE;Epifanía del Señor
 06/01/2015;ALICANTE;Epifanía del Señor
 06/01/2015;ALMERIA;Epifanía del Señor
-06/01/2015;ALAVA;Epifanía del Señor
 06/01/2015;ASTURIAS;Epifanía del Señor
 06/01/2015;AVILA;Epifanía del Señor
 06/01/2015;BADAJOZ;Epifanía del Señor
-06/01/2015;ILLES BALEARS;Epifanía del Señor
 06/01/2015;BARCELONA;Epifanía del Señor
 06/01/2015;BIZKAIA;Epifanía del Señor
 06/01/2015;BURGOS;Epifanía del Señor
@@ -2529,7 +2591,6 @@ Fecha;Provincia;Festividad
 06/01/2015;SEGOVIA;Epifanía del Señor
 06/01/2015;SEVILLA;Epifanía del Señor
 06/01/2015;SORIA;Epifanía del Señor
-06/01/2015;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2015;TARRAGONA;Epifanía del Señor
 06/01/2015;TERUEL;Epifanía del Señor
 06/01/2015;TOLEDO;Epifanía del Señor
@@ -2537,15 +2598,26 @@ Fecha;Provincia;Festividad
 06/01/2015;VALLADOLID;Epifanía del Señor
 06/01/2015;ZAMORA;Epifanía del Señor
 06/01/2015;ZARAGOZA;Epifanía del Señor
+28/02/2015;ALMERIA;Festivo Regional
+28/02/2015;CADIZ;Festivo Regional
+28/02/2015;CORDOBA;Festivo Regional
+28/02/2015;GRANADA;Festivo Regional
+28/02/2015;HUELVA;Festivo Regional
+28/02/2015;JAEN;Festivo Regional
+28/02/2015;MALAGA;Festivo Regional
+28/02/2015;SEVILLA;Festivo Regional
+01/03/2015;ILLES BALEARS;Festivo Regional
+23/04/2015;HUESCA;Festivo Regional
+23/04/2015;TERUEL;Festivo Regional
+23/04/2015;ZARAGOZA;Festivo Regional
 01/05/2015;A CORUÑA;Fiesta del Trabajo
+01/05/2015;ALAVA;Fiesta del Trabajo
 01/05/2015;ALBACETE;Fiesta del Trabajo
 01/05/2015;ALICANTE;Fiesta del Trabajo
 01/05/2015;ALMERIA;Fiesta del Trabajo
-01/05/2015;ALAVA;Fiesta del Trabajo
 01/05/2015;ASTURIAS;Fiesta del Trabajo
 01/05/2015;AVILA;Fiesta del Trabajo
 01/05/2015;BADAJOZ;Fiesta del Trabajo
-01/05/2015;ILLES BALEARS;Fiesta del Trabajo
 01/05/2015;BARCELONA;Fiesta del Trabajo
 01/05/2015;BIZKAIA;Fiesta del Trabajo
 01/05/2015;BURGOS;Fiesta del Trabajo
@@ -2583,7 +2655,6 @@ Fecha;Provincia;Festividad
 01/05/2015;SEGOVIA;Fiesta del Trabajo
 01/05/2015;SEVILLA;Fiesta del Trabajo
 01/05/2015;SORIA;Fiesta del Trabajo
-01/05/2015;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2015;TARRAGONA;Fiesta del Trabajo
 01/05/2015;TERUEL;Fiesta del Trabajo
 01/05/2015;TOLEDO;Fiesta del Trabajo
@@ -2591,15 +2662,26 @@ Fecha;Provincia;Festividad
 01/05/2015;VALLADOLID;Fiesta del Trabajo
 01/05/2015;ZAMORA;Fiesta del Trabajo
 01/05/2015;ZARAGOZA;Fiesta del Trabajo
+17/05/2015;A CORUÑA;Festivo Regional
+17/05/2015;LUGO;Festivo Regional
+17/05/2015;OURENSE;Festivo Regional
+17/05/2015;PONTEVEDRA;Festivo Regional
+30/05/2015;LAS PALMAS;Festivo Regional
+30/05/2015;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2015;LA RIOJA;Festivo Regional
+09/06/2015;MURCIA;Festivo Regional
+25/07/2015;A CORUÑA;Festivo Regional
+25/07/2015;LUGO;Festivo Regional
+25/07/2015;OURENSE;Festivo Regional
+25/07/2015;PONTEVEDRA;Festivo Regional
 15/08/2015;A CORUÑA;Asunción de la Virgen
+15/08/2015;ALAVA;Asunción de la Virgen
 15/08/2015;ALBACETE;Asunción de la Virgen
 15/08/2015;ALICANTE;Asunción de la Virgen
 15/08/2015;ALMERIA;Asunción de la Virgen
-15/08/2015;ALAVA;Asunción de la Virgen
 15/08/2015;ASTURIAS;Asunción de la Virgen
 15/08/2015;AVILA;Asunción de la Virgen
 15/08/2015;BADAJOZ;Asunción de la Virgen
-15/08/2015;ILLES BALEARS;Asunción de la Virgen
 15/08/2015;BARCELONA;Asunción de la Virgen
 15/08/2015;BIZKAIA;Asunción de la Virgen
 15/08/2015;BURGOS;Asunción de la Virgen
@@ -2637,7 +2719,6 @@ Fecha;Provincia;Festividad
 15/08/2015;SEGOVIA;Asunción de la Virgen
 15/08/2015;SEVILLA;Asunción de la Virgen
 15/08/2015;SORIA;Asunción de la Virgen
-15/08/2015;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2015;TARRAGONA;Asunción de la Virgen
 15/08/2015;TERUEL;Asunción de la Virgen
 15/08/2015;TOLEDO;Asunción de la Virgen
@@ -2645,15 +2726,21 @@ Fecha;Provincia;Festividad
 15/08/2015;VALLADOLID;Asunción de la Virgen
 15/08/2015;ZAMORA;Asunción de la Virgen
 15/08/2015;ZARAGOZA;Asunción de la Virgen
+11/09/2015;BARCELONA;Festivo Regional
+11/09/2015;GIRONA;Festivo Regional
+11/09/2015;LLEIDA;Festivo Regional
+11/09/2015;TARRAGONA;Festivo Regional
+09/10/2015;ALICANTE;Festivo Regional
+09/10/2015;CASTELLON;Festivo Regional
+09/10/2015;VALENCIA;Festivo Regional
 12/10/2015;A CORUÑA;Fiesta Nacional de España
+12/10/2015;ALAVA;Fiesta Nacional de España
 12/10/2015;ALBACETE;Fiesta Nacional de España
 12/10/2015;ALICANTE;Fiesta Nacional de España
 12/10/2015;ALMERIA;Fiesta Nacional de España
-12/10/2015;ALAVA;Fiesta Nacional de España
 12/10/2015;ASTURIAS;Fiesta Nacional de España
 12/10/2015;AVILA;Fiesta Nacional de España
 12/10/2015;BADAJOZ;Fiesta Nacional de España
-12/10/2015;ILLES BALEARS;Fiesta Nacional de España
 12/10/2015;BARCELONA;Fiesta Nacional de España
 12/10/2015;BIZKAIA;Fiesta Nacional de España
 12/10/2015;BURGOS;Fiesta Nacional de España
@@ -2691,7 +2778,6 @@ Fecha;Provincia;Festividad
 12/10/2015;SEGOVIA;Fiesta Nacional de España
 12/10/2015;SEVILLA;Fiesta Nacional de España
 12/10/2015;SORIA;Fiesta Nacional de España
-12/10/2015;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2015;TARRAGONA;Fiesta Nacional de España
 12/10/2015;TERUEL;Fiesta Nacional de España
 12/10/2015;TOLEDO;Fiesta Nacional de España
@@ -2700,14 +2786,13 @@ Fecha;Provincia;Festividad
 12/10/2015;ZAMORA;Fiesta Nacional de España
 12/10/2015;ZARAGOZA;Fiesta Nacional de España
 01/11/2015;A CORUÑA;Todos los Santos
+01/11/2015;ALAVA;Todos los Santos
 01/11/2015;ALBACETE;Todos los Santos
 01/11/2015;ALICANTE;Todos los Santos
 01/11/2015;ALMERIA;Todos los Santos
-01/11/2015;ALAVA;Todos los Santos
 01/11/2015;ASTURIAS;Todos los Santos
 01/11/2015;AVILA;Todos los Santos
 01/11/2015;BADAJOZ;Todos los Santos
-01/11/2015;ILLES BALEARS;Todos los Santos
 01/11/2015;BARCELONA;Todos los Santos
 01/11/2015;BIZKAIA;Todos los Santos
 01/11/2015;BURGOS;Todos los Santos
@@ -2745,7 +2830,6 @@ Fecha;Provincia;Festividad
 01/11/2015;SEGOVIA;Todos los Santos
 01/11/2015;SEVILLA;Todos los Santos
 01/11/2015;SORIA;Todos los Santos
-01/11/2015;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2015;TARRAGONA;Todos los Santos
 01/11/2015;TERUEL;Todos los Santos
 01/11/2015;TOLEDO;Todos los Santos
@@ -2754,14 +2838,13 @@ Fecha;Provincia;Festividad
 01/11/2015;ZAMORA;Todos los Santos
 01/11/2015;ZARAGOZA;Todos los Santos
 06/12/2015;A CORUÑA;Día de la Constitución Española
+06/12/2015;ALAVA;Día de la Constitución Española
 06/12/2015;ALBACETE;Día de la Constitución Española
 06/12/2015;ALICANTE;Día de la Constitución Española
 06/12/2015;ALMERIA;Día de la Constitución Española
-06/12/2015;ALAVA;Día de la Constitución Española
 06/12/2015;ASTURIAS;Día de la Constitución Española
 06/12/2015;AVILA;Día de la Constitución Española
 06/12/2015;BADAJOZ;Día de la Constitución Española
-06/12/2015;ILLES BALEARS;Día de la Constitución Española
 06/12/2015;BARCELONA;Día de la Constitución Española
 06/12/2015;BIZKAIA;Día de la Constitución Española
 06/12/2015;BURGOS;Día de la Constitución Española
@@ -2799,7 +2882,6 @@ Fecha;Provincia;Festividad
 06/12/2015;SEGOVIA;Día de la Constitución Española
 06/12/2015;SEVILLA;Día de la Constitución Española
 06/12/2015;SORIA;Día de la Constitución Española
-06/12/2015;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2015;TARRAGONA;Día de la Constitución Española
 06/12/2015;TERUEL;Día de la Constitución Española
 06/12/2015;TOLEDO;Día de la Constitución Española
@@ -2808,14 +2890,13 @@ Fecha;Provincia;Festividad
 06/12/2015;ZAMORA;Día de la Constitución Española
 06/12/2015;ZARAGOZA;Día de la Constitución Española
 08/12/2015;A CORUÑA;Inmaculada Concepción
+08/12/2015;ALAVA;Inmaculada Concepción
 08/12/2015;ALBACETE;Inmaculada Concepción
 08/12/2015;ALICANTE;Inmaculada Concepción
 08/12/2015;ALMERIA;Inmaculada Concepción
-08/12/2015;ALAVA;Inmaculada Concepción
 08/12/2015;ASTURIAS;Inmaculada Concepción
 08/12/2015;AVILA;Inmaculada Concepción
 08/12/2015;BADAJOZ;Inmaculada Concepción
-08/12/2015;ILLES BALEARS;Inmaculada Concepción
 08/12/2015;BARCELONA;Inmaculada Concepción
 08/12/2015;BIZKAIA;Inmaculada Concepción
 08/12/2015;BURGOS;Inmaculada Concepción
@@ -2853,7 +2934,6 @@ Fecha;Provincia;Festividad
 08/12/2015;SEGOVIA;Inmaculada Concepción
 08/12/2015;SEVILLA;Inmaculada Concepción
 08/12/2015;SORIA;Inmaculada Concepción
-08/12/2015;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2015;TARRAGONA;Inmaculada Concepción
 08/12/2015;TERUEL;Inmaculada Concepción
 08/12/2015;TOLEDO;Inmaculada Concepción
@@ -2862,14 +2942,13 @@ Fecha;Provincia;Festividad
 08/12/2015;ZAMORA;Inmaculada Concepción
 08/12/2015;ZARAGOZA;Inmaculada Concepción
 25/12/2015;A CORUÑA;Natividad del Señor
+25/12/2015;ALAVA;Natividad del Señor
 25/12/2015;ALBACETE;Natividad del Señor
 25/12/2015;ALICANTE;Natividad del Señor
 25/12/2015;ALMERIA;Natividad del Señor
-25/12/2015;ALAVA;Natividad del Señor
 25/12/2015;ASTURIAS;Natividad del Señor
 25/12/2015;AVILA;Natividad del Señor
 25/12/2015;BADAJOZ;Natividad del Señor
-25/12/2015;ILLES BALEARS;Natividad del Señor
 25/12/2015;BARCELONA;Natividad del Señor
 25/12/2015;BIZKAIA;Natividad del Señor
 25/12/2015;BURGOS;Natividad del Señor
@@ -2907,7 +2986,6 @@ Fecha;Provincia;Festividad
 25/12/2015;SEGOVIA;Natividad del Señor
 25/12/2015;SEVILLA;Natividad del Señor
 25/12/2015;SORIA;Natividad del Señor
-25/12/2015;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2015;TARRAGONA;Natividad del Señor
 25/12/2015;TERUEL;Natividad del Señor
 25/12/2015;TOLEDO;Natividad del Señor
@@ -2916,14 +2994,13 @@ Fecha;Provincia;Festividad
 25/12/2015;ZAMORA;Natividad del Señor
 25/12/2015;ZARAGOZA;Natividad del Señor
 01/01/2016;A CORUÑA;Año Nuevo
+01/01/2016;ALAVA;Año Nuevo
 01/01/2016;ALBACETE;Año Nuevo
 01/01/2016;ALICANTE;Año Nuevo
 01/01/2016;ALMERIA;Año Nuevo
-01/01/2016;ALAVA;Año Nuevo
 01/01/2016;ASTURIAS;Año Nuevo
 01/01/2016;AVILA;Año Nuevo
 01/01/2016;BADAJOZ;Año Nuevo
-01/01/2016;ILLES BALEARS;Año Nuevo
 01/01/2016;BARCELONA;Año Nuevo
 01/01/2016;BIZKAIA;Año Nuevo
 01/01/2016;BURGOS;Año Nuevo
@@ -2961,7 +3038,6 @@ Fecha;Provincia;Festividad
 01/01/2016;SEGOVIA;Año Nuevo
 01/01/2016;SEVILLA;Año Nuevo
 01/01/2016;SORIA;Año Nuevo
-01/01/2016;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2016;TARRAGONA;Año Nuevo
 01/01/2016;TERUEL;Año Nuevo
 01/01/2016;TOLEDO;Año Nuevo
@@ -2970,14 +3046,13 @@ Fecha;Provincia;Festividad
 01/01/2016;ZAMORA;Año Nuevo
 01/01/2016;ZARAGOZA;Año Nuevo
 06/01/2016;A CORUÑA;Epifanía del Señor
+06/01/2016;ALAVA;Epifanía del Señor
 06/01/2016;ALBACETE;Epifanía del Señor
 06/01/2016;ALICANTE;Epifanía del Señor
 06/01/2016;ALMERIA;Epifanía del Señor
-06/01/2016;ALAVA;Epifanía del Señor
 06/01/2016;ASTURIAS;Epifanía del Señor
 06/01/2016;AVILA;Epifanía del Señor
 06/01/2016;BADAJOZ;Epifanía del Señor
-06/01/2016;ILLES BALEARS;Epifanía del Señor
 06/01/2016;BARCELONA;Epifanía del Señor
 06/01/2016;BIZKAIA;Epifanía del Señor
 06/01/2016;BURGOS;Epifanía del Señor
@@ -3015,7 +3090,6 @@ Fecha;Provincia;Festividad
 06/01/2016;SEGOVIA;Epifanía del Señor
 06/01/2016;SEVILLA;Epifanía del Señor
 06/01/2016;SORIA;Epifanía del Señor
-06/01/2016;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2016;TARRAGONA;Epifanía del Señor
 06/01/2016;TERUEL;Epifanía del Señor
 06/01/2016;TOLEDO;Epifanía del Señor
@@ -3023,15 +3097,26 @@ Fecha;Provincia;Festividad
 06/01/2016;VALLADOLID;Epifanía del Señor
 06/01/2016;ZAMORA;Epifanía del Señor
 06/01/2016;ZARAGOZA;Epifanía del Señor
+28/02/2016;ALMERIA;Festivo Regional
+28/02/2016;CADIZ;Festivo Regional
+28/02/2016;CORDOBA;Festivo Regional
+28/02/2016;GRANADA;Festivo Regional
+28/02/2016;HUELVA;Festivo Regional
+28/02/2016;JAEN;Festivo Regional
+28/02/2016;MALAGA;Festivo Regional
+28/02/2016;SEVILLA;Festivo Regional
+01/03/2016;ILLES BALEARS;Festivo Regional
+23/04/2016;HUESCA;Festivo Regional
+23/04/2016;TERUEL;Festivo Regional
+23/04/2016;ZARAGOZA;Festivo Regional
 01/05/2016;A CORUÑA;Fiesta del Trabajo
+01/05/2016;ALAVA;Fiesta del Trabajo
 01/05/2016;ALBACETE;Fiesta del Trabajo
 01/05/2016;ALICANTE;Fiesta del Trabajo
 01/05/2016;ALMERIA;Fiesta del Trabajo
-01/05/2016;ALAVA;Fiesta del Trabajo
 01/05/2016;ASTURIAS;Fiesta del Trabajo
 01/05/2016;AVILA;Fiesta del Trabajo
 01/05/2016;BADAJOZ;Fiesta del Trabajo
-01/05/2016;ILLES BALEARS;Fiesta del Trabajo
 01/05/2016;BARCELONA;Fiesta del Trabajo
 01/05/2016;BIZKAIA;Fiesta del Trabajo
 01/05/2016;BURGOS;Fiesta del Trabajo
@@ -3069,7 +3154,6 @@ Fecha;Provincia;Festividad
 01/05/2016;SEGOVIA;Fiesta del Trabajo
 01/05/2016;SEVILLA;Fiesta del Trabajo
 01/05/2016;SORIA;Fiesta del Trabajo
-01/05/2016;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2016;TARRAGONA;Fiesta del Trabajo
 01/05/2016;TERUEL;Fiesta del Trabajo
 01/05/2016;TOLEDO;Fiesta del Trabajo
@@ -3077,15 +3161,26 @@ Fecha;Provincia;Festividad
 01/05/2016;VALLADOLID;Fiesta del Trabajo
 01/05/2016;ZAMORA;Fiesta del Trabajo
 01/05/2016;ZARAGOZA;Fiesta del Trabajo
+17/05/2016;A CORUÑA;Festivo Regional
+17/05/2016;LUGO;Festivo Regional
+17/05/2016;OURENSE;Festivo Regional
+17/05/2016;PONTEVEDRA;Festivo Regional
+30/05/2016;LAS PALMAS;Festivo Regional
+30/05/2016;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2016;LA RIOJA;Festivo Regional
+09/06/2016;MURCIA;Festivo Regional
+25/07/2016;A CORUÑA;Festivo Regional
+25/07/2016;LUGO;Festivo Regional
+25/07/2016;OURENSE;Festivo Regional
+25/07/2016;PONTEVEDRA;Festivo Regional
 15/08/2016;A CORUÑA;Asunción de la Virgen
+15/08/2016;ALAVA;Asunción de la Virgen
 15/08/2016;ALBACETE;Asunción de la Virgen
 15/08/2016;ALICANTE;Asunción de la Virgen
 15/08/2016;ALMERIA;Asunción de la Virgen
-15/08/2016;ALAVA;Asunción de la Virgen
 15/08/2016;ASTURIAS;Asunción de la Virgen
 15/08/2016;AVILA;Asunción de la Virgen
 15/08/2016;BADAJOZ;Asunción de la Virgen
-15/08/2016;ILLES BALEARS;Asunción de la Virgen
 15/08/2016;BARCELONA;Asunción de la Virgen
 15/08/2016;BIZKAIA;Asunción de la Virgen
 15/08/2016;BURGOS;Asunción de la Virgen
@@ -3123,7 +3218,6 @@ Fecha;Provincia;Festividad
 15/08/2016;SEGOVIA;Asunción de la Virgen
 15/08/2016;SEVILLA;Asunción de la Virgen
 15/08/2016;SORIA;Asunción de la Virgen
-15/08/2016;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2016;TARRAGONA;Asunción de la Virgen
 15/08/2016;TERUEL;Asunción de la Virgen
 15/08/2016;TOLEDO;Asunción de la Virgen
@@ -3131,15 +3225,21 @@ Fecha;Provincia;Festividad
 15/08/2016;VALLADOLID;Asunción de la Virgen
 15/08/2016;ZAMORA;Asunción de la Virgen
 15/08/2016;ZARAGOZA;Asunción de la Virgen
+11/09/2016;BARCELONA;Festivo Regional
+11/09/2016;GIRONA;Festivo Regional
+11/09/2016;LLEIDA;Festivo Regional
+11/09/2016;TARRAGONA;Festivo Regional
+09/10/2016;ALICANTE;Festivo Regional
+09/10/2016;CASTELLON;Festivo Regional
+09/10/2016;VALENCIA;Festivo Regional
 12/10/2016;A CORUÑA;Fiesta Nacional de España
+12/10/2016;ALAVA;Fiesta Nacional de España
 12/10/2016;ALBACETE;Fiesta Nacional de España
 12/10/2016;ALICANTE;Fiesta Nacional de España
 12/10/2016;ALMERIA;Fiesta Nacional de España
-12/10/2016;ALAVA;Fiesta Nacional de España
 12/10/2016;ASTURIAS;Fiesta Nacional de España
 12/10/2016;AVILA;Fiesta Nacional de España
 12/10/2016;BADAJOZ;Fiesta Nacional de España
-12/10/2016;ILLES BALEARS;Fiesta Nacional de España
 12/10/2016;BARCELONA;Fiesta Nacional de España
 12/10/2016;BIZKAIA;Fiesta Nacional de España
 12/10/2016;BURGOS;Fiesta Nacional de España
@@ -3177,7 +3277,6 @@ Fecha;Provincia;Festividad
 12/10/2016;SEGOVIA;Fiesta Nacional de España
 12/10/2016;SEVILLA;Fiesta Nacional de España
 12/10/2016;SORIA;Fiesta Nacional de España
-12/10/2016;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2016;TARRAGONA;Fiesta Nacional de España
 12/10/2016;TERUEL;Fiesta Nacional de España
 12/10/2016;TOLEDO;Fiesta Nacional de España
@@ -3186,14 +3285,13 @@ Fecha;Provincia;Festividad
 12/10/2016;ZAMORA;Fiesta Nacional de España
 12/10/2016;ZARAGOZA;Fiesta Nacional de España
 01/11/2016;A CORUÑA;Todos los Santos
+01/11/2016;ALAVA;Todos los Santos
 01/11/2016;ALBACETE;Todos los Santos
 01/11/2016;ALICANTE;Todos los Santos
 01/11/2016;ALMERIA;Todos los Santos
-01/11/2016;ALAVA;Todos los Santos
 01/11/2016;ASTURIAS;Todos los Santos
 01/11/2016;AVILA;Todos los Santos
 01/11/2016;BADAJOZ;Todos los Santos
-01/11/2016;ILLES BALEARS;Todos los Santos
 01/11/2016;BARCELONA;Todos los Santos
 01/11/2016;BIZKAIA;Todos los Santos
 01/11/2016;BURGOS;Todos los Santos
@@ -3231,7 +3329,6 @@ Fecha;Provincia;Festividad
 01/11/2016;SEGOVIA;Todos los Santos
 01/11/2016;SEVILLA;Todos los Santos
 01/11/2016;SORIA;Todos los Santos
-01/11/2016;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2016;TARRAGONA;Todos los Santos
 01/11/2016;TERUEL;Todos los Santos
 01/11/2016;TOLEDO;Todos los Santos
@@ -3240,14 +3337,13 @@ Fecha;Provincia;Festividad
 01/11/2016;ZAMORA;Todos los Santos
 01/11/2016;ZARAGOZA;Todos los Santos
 06/12/2016;A CORUÑA;Día de la Constitución Española
+06/12/2016;ALAVA;Día de la Constitución Española
 06/12/2016;ALBACETE;Día de la Constitución Española
 06/12/2016;ALICANTE;Día de la Constitución Española
 06/12/2016;ALMERIA;Día de la Constitución Española
-06/12/2016;ALAVA;Día de la Constitución Española
 06/12/2016;ASTURIAS;Día de la Constitución Española
 06/12/2016;AVILA;Día de la Constitución Española
 06/12/2016;BADAJOZ;Día de la Constitución Española
-06/12/2016;ILLES BALEARS;Día de la Constitución Española
 06/12/2016;BARCELONA;Día de la Constitución Española
 06/12/2016;BIZKAIA;Día de la Constitución Española
 06/12/2016;BURGOS;Día de la Constitución Española
@@ -3285,7 +3381,6 @@ Fecha;Provincia;Festividad
 06/12/2016;SEGOVIA;Día de la Constitución Española
 06/12/2016;SEVILLA;Día de la Constitución Española
 06/12/2016;SORIA;Día de la Constitución Española
-06/12/2016;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2016;TARRAGONA;Día de la Constitución Española
 06/12/2016;TERUEL;Día de la Constitución Española
 06/12/2016;TOLEDO;Día de la Constitución Española
@@ -3294,14 +3389,13 @@ Fecha;Provincia;Festividad
 06/12/2016;ZAMORA;Día de la Constitución Española
 06/12/2016;ZARAGOZA;Día de la Constitución Española
 08/12/2016;A CORUÑA;Inmaculada Concepción
+08/12/2016;ALAVA;Inmaculada Concepción
 08/12/2016;ALBACETE;Inmaculada Concepción
 08/12/2016;ALICANTE;Inmaculada Concepción
 08/12/2016;ALMERIA;Inmaculada Concepción
-08/12/2016;ALAVA;Inmaculada Concepción
 08/12/2016;ASTURIAS;Inmaculada Concepción
 08/12/2016;AVILA;Inmaculada Concepción
 08/12/2016;BADAJOZ;Inmaculada Concepción
-08/12/2016;ILLES BALEARS;Inmaculada Concepción
 08/12/2016;BARCELONA;Inmaculada Concepción
 08/12/2016;BIZKAIA;Inmaculada Concepción
 08/12/2016;BURGOS;Inmaculada Concepción
@@ -3339,7 +3433,6 @@ Fecha;Provincia;Festividad
 08/12/2016;SEGOVIA;Inmaculada Concepción
 08/12/2016;SEVILLA;Inmaculada Concepción
 08/12/2016;SORIA;Inmaculada Concepción
-08/12/2016;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2016;TARRAGONA;Inmaculada Concepción
 08/12/2016;TERUEL;Inmaculada Concepción
 08/12/2016;TOLEDO;Inmaculada Concepción
@@ -3348,14 +3441,13 @@ Fecha;Provincia;Festividad
 08/12/2016;ZAMORA;Inmaculada Concepción
 08/12/2016;ZARAGOZA;Inmaculada Concepción
 25/12/2016;A CORUÑA;Natividad del Señor
+25/12/2016;ALAVA;Natividad del Señor
 25/12/2016;ALBACETE;Natividad del Señor
 25/12/2016;ALICANTE;Natividad del Señor
 25/12/2016;ALMERIA;Natividad del Señor
-25/12/2016;ALAVA;Natividad del Señor
 25/12/2016;ASTURIAS;Natividad del Señor
 25/12/2016;AVILA;Natividad del Señor
 25/12/2016;BADAJOZ;Natividad del Señor
-25/12/2016;ILLES BALEARS;Natividad del Señor
 25/12/2016;BARCELONA;Natividad del Señor
 25/12/2016;BIZKAIA;Natividad del Señor
 25/12/2016;BURGOS;Natividad del Señor
@@ -3393,7 +3485,6 @@ Fecha;Provincia;Festividad
 25/12/2016;SEGOVIA;Natividad del Señor
 25/12/2016;SEVILLA;Natividad del Señor
 25/12/2016;SORIA;Natividad del Señor
-25/12/2016;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2016;TARRAGONA;Natividad del Señor
 25/12/2016;TERUEL;Natividad del Señor
 25/12/2016;TOLEDO;Natividad del Señor
@@ -3402,14 +3493,13 @@ Fecha;Provincia;Festividad
 25/12/2016;ZAMORA;Natividad del Señor
 25/12/2016;ZARAGOZA;Natividad del Señor
 01/01/2017;A CORUÑA;Año Nuevo
+01/01/2017;ALAVA;Año Nuevo
 01/01/2017;ALBACETE;Año Nuevo
 01/01/2017;ALICANTE;Año Nuevo
 01/01/2017;ALMERIA;Año Nuevo
-01/01/2017;ALAVA;Año Nuevo
 01/01/2017;ASTURIAS;Año Nuevo
 01/01/2017;AVILA;Año Nuevo
 01/01/2017;BADAJOZ;Año Nuevo
-01/01/2017;ILLES BALEARS;Año Nuevo
 01/01/2017;BARCELONA;Año Nuevo
 01/01/2017;BIZKAIA;Año Nuevo
 01/01/2017;BURGOS;Año Nuevo
@@ -3447,7 +3537,6 @@ Fecha;Provincia;Festividad
 01/01/2017;SEGOVIA;Año Nuevo
 01/01/2017;SEVILLA;Año Nuevo
 01/01/2017;SORIA;Año Nuevo
-01/01/2017;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2017;TARRAGONA;Año Nuevo
 01/01/2017;TERUEL;Año Nuevo
 01/01/2017;TOLEDO;Año Nuevo
@@ -3456,14 +3545,13 @@ Fecha;Provincia;Festividad
 01/01/2017;ZAMORA;Año Nuevo
 01/01/2017;ZARAGOZA;Año Nuevo
 06/01/2017;A CORUÑA;Epifanía del Señor
+06/01/2017;ALAVA;Epifanía del Señor
 06/01/2017;ALBACETE;Epifanía del Señor
 06/01/2017;ALICANTE;Epifanía del Señor
 06/01/2017;ALMERIA;Epifanía del Señor
-06/01/2017;ALAVA;Epifanía del Señor
 06/01/2017;ASTURIAS;Epifanía del Señor
 06/01/2017;AVILA;Epifanía del Señor
 06/01/2017;BADAJOZ;Epifanía del Señor
-06/01/2017;ILLES BALEARS;Epifanía del Señor
 06/01/2017;BARCELONA;Epifanía del Señor
 06/01/2017;BIZKAIA;Epifanía del Señor
 06/01/2017;BURGOS;Epifanía del Señor
@@ -3501,7 +3589,6 @@ Fecha;Provincia;Festividad
 06/01/2017;SEGOVIA;Epifanía del Señor
 06/01/2017;SEVILLA;Epifanía del Señor
 06/01/2017;SORIA;Epifanía del Señor
-06/01/2017;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2017;TARRAGONA;Epifanía del Señor
 06/01/2017;TERUEL;Epifanía del Señor
 06/01/2017;TOLEDO;Epifanía del Señor
@@ -3509,15 +3596,26 @@ Fecha;Provincia;Festividad
 06/01/2017;VALLADOLID;Epifanía del Señor
 06/01/2017;ZAMORA;Epifanía del Señor
 06/01/2017;ZARAGOZA;Epifanía del Señor
+28/02/2017;ALMERIA;Festivo Regional
+28/02/2017;CADIZ;Festivo Regional
+28/02/2017;CORDOBA;Festivo Regional
+28/02/2017;GRANADA;Festivo Regional
+28/02/2017;HUELVA;Festivo Regional
+28/02/2017;JAEN;Festivo Regional
+28/02/2017;MALAGA;Festivo Regional
+28/02/2017;SEVILLA;Festivo Regional
+01/03/2017;ILLES BALEARS;Festivo Regional
+23/04/2017;HUESCA;Festivo Regional
+23/04/2017;TERUEL;Festivo Regional
+23/04/2017;ZARAGOZA;Festivo Regional
 01/05/2017;A CORUÑA;Fiesta del Trabajo
+01/05/2017;ALAVA;Fiesta del Trabajo
 01/05/2017;ALBACETE;Fiesta del Trabajo
 01/05/2017;ALICANTE;Fiesta del Trabajo
 01/05/2017;ALMERIA;Fiesta del Trabajo
-01/05/2017;ALAVA;Fiesta del Trabajo
 01/05/2017;ASTURIAS;Fiesta del Trabajo
 01/05/2017;AVILA;Fiesta del Trabajo
 01/05/2017;BADAJOZ;Fiesta del Trabajo
-01/05/2017;ILLES BALEARS;Fiesta del Trabajo
 01/05/2017;BARCELONA;Fiesta del Trabajo
 01/05/2017;BIZKAIA;Fiesta del Trabajo
 01/05/2017;BURGOS;Fiesta del Trabajo
@@ -3555,7 +3653,6 @@ Fecha;Provincia;Festividad
 01/05/2017;SEGOVIA;Fiesta del Trabajo
 01/05/2017;SEVILLA;Fiesta del Trabajo
 01/05/2017;SORIA;Fiesta del Trabajo
-01/05/2017;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2017;TARRAGONA;Fiesta del Trabajo
 01/05/2017;TERUEL;Fiesta del Trabajo
 01/05/2017;TOLEDO;Fiesta del Trabajo
@@ -3563,15 +3660,26 @@ Fecha;Provincia;Festividad
 01/05/2017;VALLADOLID;Fiesta del Trabajo
 01/05/2017;ZAMORA;Fiesta del Trabajo
 01/05/2017;ZARAGOZA;Fiesta del Trabajo
+17/05/2017;A CORUÑA;Festivo Regional
+17/05/2017;LUGO;Festivo Regional
+17/05/2017;OURENSE;Festivo Regional
+17/05/2017;PONTEVEDRA;Festivo Regional
+30/05/2017;LAS PALMAS;Festivo Regional
+30/05/2017;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2017;LA RIOJA;Festivo Regional
+09/06/2017;MURCIA;Festivo Regional
+25/07/2017;A CORUÑA;Festivo Regional
+25/07/2017;LUGO;Festivo Regional
+25/07/2017;OURENSE;Festivo Regional
+25/07/2017;PONTEVEDRA;Festivo Regional
 15/08/2017;A CORUÑA;Asunción de la Virgen
+15/08/2017;ALAVA;Asunción de la Virgen
 15/08/2017;ALBACETE;Asunción de la Virgen
 15/08/2017;ALICANTE;Asunción de la Virgen
 15/08/2017;ALMERIA;Asunción de la Virgen
-15/08/2017;ALAVA;Asunción de la Virgen
 15/08/2017;ASTURIAS;Asunción de la Virgen
 15/08/2017;AVILA;Asunción de la Virgen
 15/08/2017;BADAJOZ;Asunción de la Virgen
-15/08/2017;ILLES BALEARS;Asunción de la Virgen
 15/08/2017;BARCELONA;Asunción de la Virgen
 15/08/2017;BIZKAIA;Asunción de la Virgen
 15/08/2017;BURGOS;Asunción de la Virgen
@@ -3609,7 +3717,6 @@ Fecha;Provincia;Festividad
 15/08/2017;SEGOVIA;Asunción de la Virgen
 15/08/2017;SEVILLA;Asunción de la Virgen
 15/08/2017;SORIA;Asunción de la Virgen
-15/08/2017;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2017;TARRAGONA;Asunción de la Virgen
 15/08/2017;TERUEL;Asunción de la Virgen
 15/08/2017;TOLEDO;Asunción de la Virgen
@@ -3617,15 +3724,21 @@ Fecha;Provincia;Festividad
 15/08/2017;VALLADOLID;Asunción de la Virgen
 15/08/2017;ZAMORA;Asunción de la Virgen
 15/08/2017;ZARAGOZA;Asunción de la Virgen
+11/09/2017;BARCELONA;Festivo Regional
+11/09/2017;GIRONA;Festivo Regional
+11/09/2017;LLEIDA;Festivo Regional
+11/09/2017;TARRAGONA;Festivo Regional
+09/10/2017;ALICANTE;Festivo Regional
+09/10/2017;CASTELLON;Festivo Regional
+09/10/2017;VALENCIA;Festivo Regional
 12/10/2017;A CORUÑA;Fiesta Nacional de España
+12/10/2017;ALAVA;Fiesta Nacional de España
 12/10/2017;ALBACETE;Fiesta Nacional de España
 12/10/2017;ALICANTE;Fiesta Nacional de España
 12/10/2017;ALMERIA;Fiesta Nacional de España
-12/10/2017;ALAVA;Fiesta Nacional de España
 12/10/2017;ASTURIAS;Fiesta Nacional de España
 12/10/2017;AVILA;Fiesta Nacional de España
 12/10/2017;BADAJOZ;Fiesta Nacional de España
-12/10/2017;ILLES BALEARS;Fiesta Nacional de España
 12/10/2017;BARCELONA;Fiesta Nacional de España
 12/10/2017;BIZKAIA;Fiesta Nacional de España
 12/10/2017;BURGOS;Fiesta Nacional de España
@@ -3663,7 +3776,6 @@ Fecha;Provincia;Festividad
 12/10/2017;SEGOVIA;Fiesta Nacional de España
 12/10/2017;SEVILLA;Fiesta Nacional de España
 12/10/2017;SORIA;Fiesta Nacional de España
-12/10/2017;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2017;TARRAGONA;Fiesta Nacional de España
 12/10/2017;TERUEL;Fiesta Nacional de España
 12/10/2017;TOLEDO;Fiesta Nacional de España
@@ -3672,14 +3784,13 @@ Fecha;Provincia;Festividad
 12/10/2017;ZAMORA;Fiesta Nacional de España
 12/10/2017;ZARAGOZA;Fiesta Nacional de España
 01/11/2017;A CORUÑA;Todos los Santos
+01/11/2017;ALAVA;Todos los Santos
 01/11/2017;ALBACETE;Todos los Santos
 01/11/2017;ALICANTE;Todos los Santos
 01/11/2017;ALMERIA;Todos los Santos
-01/11/2017;ALAVA;Todos los Santos
 01/11/2017;ASTURIAS;Todos los Santos
 01/11/2017;AVILA;Todos los Santos
 01/11/2017;BADAJOZ;Todos los Santos
-01/11/2017;ILLES BALEARS;Todos los Santos
 01/11/2017;BARCELONA;Todos los Santos
 01/11/2017;BIZKAIA;Todos los Santos
 01/11/2017;BURGOS;Todos los Santos
@@ -3717,7 +3828,6 @@ Fecha;Provincia;Festividad
 01/11/2017;SEGOVIA;Todos los Santos
 01/11/2017;SEVILLA;Todos los Santos
 01/11/2017;SORIA;Todos los Santos
-01/11/2017;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2017;TARRAGONA;Todos los Santos
 01/11/2017;TERUEL;Todos los Santos
 01/11/2017;TOLEDO;Todos los Santos
@@ -3726,14 +3836,13 @@ Fecha;Provincia;Festividad
 01/11/2017;ZAMORA;Todos los Santos
 01/11/2017;ZARAGOZA;Todos los Santos
 06/12/2017;A CORUÑA;Día de la Constitución Española
+06/12/2017;ALAVA;Día de la Constitución Española
 06/12/2017;ALBACETE;Día de la Constitución Española
 06/12/2017;ALICANTE;Día de la Constitución Española
 06/12/2017;ALMERIA;Día de la Constitución Española
-06/12/2017;ALAVA;Día de la Constitución Española
 06/12/2017;ASTURIAS;Día de la Constitución Española
 06/12/2017;AVILA;Día de la Constitución Española
 06/12/2017;BADAJOZ;Día de la Constitución Española
-06/12/2017;ILLES BALEARS;Día de la Constitución Española
 06/12/2017;BARCELONA;Día de la Constitución Española
 06/12/2017;BIZKAIA;Día de la Constitución Española
 06/12/2017;BURGOS;Día de la Constitución Española
@@ -3771,7 +3880,6 @@ Fecha;Provincia;Festividad
 06/12/2017;SEGOVIA;Día de la Constitución Española
 06/12/2017;SEVILLA;Día de la Constitución Española
 06/12/2017;SORIA;Día de la Constitución Española
-06/12/2017;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2017;TARRAGONA;Día de la Constitución Española
 06/12/2017;TERUEL;Día de la Constitución Española
 06/12/2017;TOLEDO;Día de la Constitución Española
@@ -3780,14 +3888,13 @@ Fecha;Provincia;Festividad
 06/12/2017;ZAMORA;Día de la Constitución Española
 06/12/2017;ZARAGOZA;Día de la Constitución Española
 08/12/2017;A CORUÑA;Inmaculada Concepción
+08/12/2017;ALAVA;Inmaculada Concepción
 08/12/2017;ALBACETE;Inmaculada Concepción
 08/12/2017;ALICANTE;Inmaculada Concepción
 08/12/2017;ALMERIA;Inmaculada Concepción
-08/12/2017;ALAVA;Inmaculada Concepción
 08/12/2017;ASTURIAS;Inmaculada Concepción
 08/12/2017;AVILA;Inmaculada Concepción
 08/12/2017;BADAJOZ;Inmaculada Concepción
-08/12/2017;ILLES BALEARS;Inmaculada Concepción
 08/12/2017;BARCELONA;Inmaculada Concepción
 08/12/2017;BIZKAIA;Inmaculada Concepción
 08/12/2017;BURGOS;Inmaculada Concepción
@@ -3825,7 +3932,6 @@ Fecha;Provincia;Festividad
 08/12/2017;SEGOVIA;Inmaculada Concepción
 08/12/2017;SEVILLA;Inmaculada Concepción
 08/12/2017;SORIA;Inmaculada Concepción
-08/12/2017;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2017;TARRAGONA;Inmaculada Concepción
 08/12/2017;TERUEL;Inmaculada Concepción
 08/12/2017;TOLEDO;Inmaculada Concepción
@@ -3834,14 +3940,13 @@ Fecha;Provincia;Festividad
 08/12/2017;ZAMORA;Inmaculada Concepción
 08/12/2017;ZARAGOZA;Inmaculada Concepción
 25/12/2017;A CORUÑA;Natividad del Señor
+25/12/2017;ALAVA;Natividad del Señor
 25/12/2017;ALBACETE;Natividad del Señor
 25/12/2017;ALICANTE;Natividad del Señor
 25/12/2017;ALMERIA;Natividad del Señor
-25/12/2017;ALAVA;Natividad del Señor
 25/12/2017;ASTURIAS;Natividad del Señor
 25/12/2017;AVILA;Natividad del Señor
 25/12/2017;BADAJOZ;Natividad del Señor
-25/12/2017;ILLES BALEARS;Natividad del Señor
 25/12/2017;BARCELONA;Natividad del Señor
 25/12/2017;BIZKAIA;Natividad del Señor
 25/12/2017;BURGOS;Natividad del Señor
@@ -3879,7 +3984,6 @@ Fecha;Provincia;Festividad
 25/12/2017;SEGOVIA;Natividad del Señor
 25/12/2017;SEVILLA;Natividad del Señor
 25/12/2017;SORIA;Natividad del Señor
-25/12/2017;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2017;TARRAGONA;Natividad del Señor
 25/12/2017;TERUEL;Natividad del Señor
 25/12/2017;TOLEDO;Natividad del Señor
@@ -3888,14 +3992,13 @@ Fecha;Provincia;Festividad
 25/12/2017;ZAMORA;Natividad del Señor
 25/12/2017;ZARAGOZA;Natividad del Señor
 01/01/2018;A CORUÑA;Año Nuevo
+01/01/2018;ALAVA;Año Nuevo
 01/01/2018;ALBACETE;Año Nuevo
 01/01/2018;ALICANTE;Año Nuevo
 01/01/2018;ALMERIA;Año Nuevo
-01/01/2018;ALAVA;Año Nuevo
 01/01/2018;ASTURIAS;Año Nuevo
 01/01/2018;AVILA;Año Nuevo
 01/01/2018;BADAJOZ;Año Nuevo
-01/01/2018;ILLES BALEARS;Año Nuevo
 01/01/2018;BARCELONA;Año Nuevo
 01/01/2018;BIZKAIA;Año Nuevo
 01/01/2018;BURGOS;Año Nuevo
@@ -3933,7 +4036,6 @@ Fecha;Provincia;Festividad
 01/01/2018;SEGOVIA;Año Nuevo
 01/01/2018;SEVILLA;Año Nuevo
 01/01/2018;SORIA;Año Nuevo
-01/01/2018;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2018;TARRAGONA;Año Nuevo
 01/01/2018;TERUEL;Año Nuevo
 01/01/2018;TOLEDO;Año Nuevo
@@ -3942,14 +4044,13 @@ Fecha;Provincia;Festividad
 01/01/2018;ZAMORA;Año Nuevo
 01/01/2018;ZARAGOZA;Año Nuevo
 06/01/2018;A CORUÑA;Epifanía del Señor
+06/01/2018;ALAVA;Epifanía del Señor
 06/01/2018;ALBACETE;Epifanía del Señor
 06/01/2018;ALICANTE;Epifanía del Señor
 06/01/2018;ALMERIA;Epifanía del Señor
-06/01/2018;ALAVA;Epifanía del Señor
 06/01/2018;ASTURIAS;Epifanía del Señor
 06/01/2018;AVILA;Epifanía del Señor
 06/01/2018;BADAJOZ;Epifanía del Señor
-06/01/2018;ILLES BALEARS;Epifanía del Señor
 06/01/2018;BARCELONA;Epifanía del Señor
 06/01/2018;BIZKAIA;Epifanía del Señor
 06/01/2018;BURGOS;Epifanía del Señor
@@ -3987,7 +4088,6 @@ Fecha;Provincia;Festividad
 06/01/2018;SEGOVIA;Epifanía del Señor
 06/01/2018;SEVILLA;Epifanía del Señor
 06/01/2018;SORIA;Epifanía del Señor
-06/01/2018;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2018;TARRAGONA;Epifanía del Señor
 06/01/2018;TERUEL;Epifanía del Señor
 06/01/2018;TOLEDO;Epifanía del Señor
@@ -3995,15 +4095,26 @@ Fecha;Provincia;Festividad
 06/01/2018;VALLADOLID;Epifanía del Señor
 06/01/2018;ZAMORA;Epifanía del Señor
 06/01/2018;ZARAGOZA;Epifanía del Señor
+28/02/2018;ALMERIA;Festivo Regional
+28/02/2018;CADIZ;Festivo Regional
+28/02/2018;CORDOBA;Festivo Regional
+28/02/2018;GRANADA;Festivo Regional
+28/02/2018;HUELVA;Festivo Regional
+28/02/2018;JAEN;Festivo Regional
+28/02/2018;MALAGA;Festivo Regional
+28/02/2018;SEVILLA;Festivo Regional
+01/03/2018;ILLES BALEARS;Festivo Regional
+23/04/2018;HUESCA;Festivo Regional
+23/04/2018;TERUEL;Festivo Regional
+23/04/2018;ZARAGOZA;Festivo Regional
 01/05/2018;A CORUÑA;Fiesta del Trabajo
+01/05/2018;ALAVA;Fiesta del Trabajo
 01/05/2018;ALBACETE;Fiesta del Trabajo
 01/05/2018;ALICANTE;Fiesta del Trabajo
 01/05/2018;ALMERIA;Fiesta del Trabajo
-01/05/2018;ALAVA;Fiesta del Trabajo
 01/05/2018;ASTURIAS;Fiesta del Trabajo
 01/05/2018;AVILA;Fiesta del Trabajo
 01/05/2018;BADAJOZ;Fiesta del Trabajo
-01/05/2018;ILLES BALEARS;Fiesta del Trabajo
 01/05/2018;BARCELONA;Fiesta del Trabajo
 01/05/2018;BIZKAIA;Fiesta del Trabajo
 01/05/2018;BURGOS;Fiesta del Trabajo
@@ -4041,7 +4152,6 @@ Fecha;Provincia;Festividad
 01/05/2018;SEGOVIA;Fiesta del Trabajo
 01/05/2018;SEVILLA;Fiesta del Trabajo
 01/05/2018;SORIA;Fiesta del Trabajo
-01/05/2018;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2018;TARRAGONA;Fiesta del Trabajo
 01/05/2018;TERUEL;Fiesta del Trabajo
 01/05/2018;TOLEDO;Fiesta del Trabajo
@@ -4049,15 +4159,26 @@ Fecha;Provincia;Festividad
 01/05/2018;VALLADOLID;Fiesta del Trabajo
 01/05/2018;ZAMORA;Fiesta del Trabajo
 01/05/2018;ZARAGOZA;Fiesta del Trabajo
+17/05/2018;A CORUÑA;Festivo Regional
+17/05/2018;LUGO;Festivo Regional
+17/05/2018;OURENSE;Festivo Regional
+17/05/2018;PONTEVEDRA;Festivo Regional
+30/05/2018;LAS PALMAS;Festivo Regional
+30/05/2018;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2018;LA RIOJA;Festivo Regional
+09/06/2018;MURCIA;Festivo Regional
+25/07/2018;A CORUÑA;Festivo Regional
+25/07/2018;LUGO;Festivo Regional
+25/07/2018;OURENSE;Festivo Regional
+25/07/2018;PONTEVEDRA;Festivo Regional
 15/08/2018;A CORUÑA;Asunción de la Virgen
+15/08/2018;ALAVA;Asunción de la Virgen
 15/08/2018;ALBACETE;Asunción de la Virgen
 15/08/2018;ALICANTE;Asunción de la Virgen
 15/08/2018;ALMERIA;Asunción de la Virgen
-15/08/2018;ALAVA;Asunción de la Virgen
 15/08/2018;ASTURIAS;Asunción de la Virgen
 15/08/2018;AVILA;Asunción de la Virgen
 15/08/2018;BADAJOZ;Asunción de la Virgen
-15/08/2018;ILLES BALEARS;Asunción de la Virgen
 15/08/2018;BARCELONA;Asunción de la Virgen
 15/08/2018;BIZKAIA;Asunción de la Virgen
 15/08/2018;BURGOS;Asunción de la Virgen
@@ -4095,7 +4216,6 @@ Fecha;Provincia;Festividad
 15/08/2018;SEGOVIA;Asunción de la Virgen
 15/08/2018;SEVILLA;Asunción de la Virgen
 15/08/2018;SORIA;Asunción de la Virgen
-15/08/2018;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2018;TARRAGONA;Asunción de la Virgen
 15/08/2018;TERUEL;Asunción de la Virgen
 15/08/2018;TOLEDO;Asunción de la Virgen
@@ -4103,15 +4223,21 @@ Fecha;Provincia;Festividad
 15/08/2018;VALLADOLID;Asunción de la Virgen
 15/08/2018;ZAMORA;Asunción de la Virgen
 15/08/2018;ZARAGOZA;Asunción de la Virgen
+11/09/2018;BARCELONA;Festivo Regional
+11/09/2018;GIRONA;Festivo Regional
+11/09/2018;LLEIDA;Festivo Regional
+11/09/2018;TARRAGONA;Festivo Regional
+09/10/2018;ALICANTE;Festivo Regional
+09/10/2018;CASTELLON;Festivo Regional
+09/10/2018;VALENCIA;Festivo Regional
 12/10/2018;A CORUÑA;Fiesta Nacional de España
+12/10/2018;ALAVA;Fiesta Nacional de España
 12/10/2018;ALBACETE;Fiesta Nacional de España
 12/10/2018;ALICANTE;Fiesta Nacional de España
 12/10/2018;ALMERIA;Fiesta Nacional de España
-12/10/2018;ALAVA;Fiesta Nacional de España
 12/10/2018;ASTURIAS;Fiesta Nacional de España
 12/10/2018;AVILA;Fiesta Nacional de España
 12/10/2018;BADAJOZ;Fiesta Nacional de España
-12/10/2018;ILLES BALEARS;Fiesta Nacional de España
 12/10/2018;BARCELONA;Fiesta Nacional de España
 12/10/2018;BIZKAIA;Fiesta Nacional de España
 12/10/2018;BURGOS;Fiesta Nacional de España
@@ -4149,7 +4275,6 @@ Fecha;Provincia;Festividad
 12/10/2018;SEGOVIA;Fiesta Nacional de España
 12/10/2018;SEVILLA;Fiesta Nacional de España
 12/10/2018;SORIA;Fiesta Nacional de España
-12/10/2018;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2018;TARRAGONA;Fiesta Nacional de España
 12/10/2018;TERUEL;Fiesta Nacional de España
 12/10/2018;TOLEDO;Fiesta Nacional de España
@@ -4158,14 +4283,13 @@ Fecha;Provincia;Festividad
 12/10/2018;ZAMORA;Fiesta Nacional de España
 12/10/2018;ZARAGOZA;Fiesta Nacional de España
 01/11/2018;A CORUÑA;Todos los Santos
+01/11/2018;ALAVA;Todos los Santos
 01/11/2018;ALBACETE;Todos los Santos
 01/11/2018;ALICANTE;Todos los Santos
 01/11/2018;ALMERIA;Todos los Santos
-01/11/2018;ALAVA;Todos los Santos
 01/11/2018;ASTURIAS;Todos los Santos
 01/11/2018;AVILA;Todos los Santos
 01/11/2018;BADAJOZ;Todos los Santos
-01/11/2018;ILLES BALEARS;Todos los Santos
 01/11/2018;BARCELONA;Todos los Santos
 01/11/2018;BIZKAIA;Todos los Santos
 01/11/2018;BURGOS;Todos los Santos
@@ -4203,7 +4327,6 @@ Fecha;Provincia;Festividad
 01/11/2018;SEGOVIA;Todos los Santos
 01/11/2018;SEVILLA;Todos los Santos
 01/11/2018;SORIA;Todos los Santos
-01/11/2018;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2018;TARRAGONA;Todos los Santos
 01/11/2018;TERUEL;Todos los Santos
 01/11/2018;TOLEDO;Todos los Santos
@@ -4212,14 +4335,13 @@ Fecha;Provincia;Festividad
 01/11/2018;ZAMORA;Todos los Santos
 01/11/2018;ZARAGOZA;Todos los Santos
 06/12/2018;A CORUÑA;Día de la Constitución Española
+06/12/2018;ALAVA;Día de la Constitución Española
 06/12/2018;ALBACETE;Día de la Constitución Española
 06/12/2018;ALICANTE;Día de la Constitución Española
 06/12/2018;ALMERIA;Día de la Constitución Española
-06/12/2018;ALAVA;Día de la Constitución Española
 06/12/2018;ASTURIAS;Día de la Constitución Española
 06/12/2018;AVILA;Día de la Constitución Española
 06/12/2018;BADAJOZ;Día de la Constitución Española
-06/12/2018;ILLES BALEARS;Día de la Constitución Española
 06/12/2018;BARCELONA;Día de la Constitución Española
 06/12/2018;BIZKAIA;Día de la Constitución Española
 06/12/2018;BURGOS;Día de la Constitución Española
@@ -4257,7 +4379,6 @@ Fecha;Provincia;Festividad
 06/12/2018;SEGOVIA;Día de la Constitución Española
 06/12/2018;SEVILLA;Día de la Constitución Española
 06/12/2018;SORIA;Día de la Constitución Española
-06/12/2018;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2018;TARRAGONA;Día de la Constitución Española
 06/12/2018;TERUEL;Día de la Constitución Española
 06/12/2018;TOLEDO;Día de la Constitución Española
@@ -4266,14 +4387,13 @@ Fecha;Provincia;Festividad
 06/12/2018;ZAMORA;Día de la Constitución Española
 06/12/2018;ZARAGOZA;Día de la Constitución Española
 08/12/2018;A CORUÑA;Inmaculada Concepción
+08/12/2018;ALAVA;Inmaculada Concepción
 08/12/2018;ALBACETE;Inmaculada Concepción
 08/12/2018;ALICANTE;Inmaculada Concepción
 08/12/2018;ALMERIA;Inmaculada Concepción
-08/12/2018;ALAVA;Inmaculada Concepción
 08/12/2018;ASTURIAS;Inmaculada Concepción
 08/12/2018;AVILA;Inmaculada Concepción
 08/12/2018;BADAJOZ;Inmaculada Concepción
-08/12/2018;ILLES BALEARS;Inmaculada Concepción
 08/12/2018;BARCELONA;Inmaculada Concepción
 08/12/2018;BIZKAIA;Inmaculada Concepción
 08/12/2018;BURGOS;Inmaculada Concepción
@@ -4311,7 +4431,6 @@ Fecha;Provincia;Festividad
 08/12/2018;SEGOVIA;Inmaculada Concepción
 08/12/2018;SEVILLA;Inmaculada Concepción
 08/12/2018;SORIA;Inmaculada Concepción
-08/12/2018;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2018;TARRAGONA;Inmaculada Concepción
 08/12/2018;TERUEL;Inmaculada Concepción
 08/12/2018;TOLEDO;Inmaculada Concepción
@@ -4320,14 +4439,13 @@ Fecha;Provincia;Festividad
 08/12/2018;ZAMORA;Inmaculada Concepción
 08/12/2018;ZARAGOZA;Inmaculada Concepción
 25/12/2018;A CORUÑA;Natividad del Señor
+25/12/2018;ALAVA;Natividad del Señor
 25/12/2018;ALBACETE;Natividad del Señor
 25/12/2018;ALICANTE;Natividad del Señor
 25/12/2018;ALMERIA;Natividad del Señor
-25/12/2018;ALAVA;Natividad del Señor
 25/12/2018;ASTURIAS;Natividad del Señor
 25/12/2018;AVILA;Natividad del Señor
 25/12/2018;BADAJOZ;Natividad del Señor
-25/12/2018;ILLES BALEARS;Natividad del Señor
 25/12/2018;BARCELONA;Natividad del Señor
 25/12/2018;BIZKAIA;Natividad del Señor
 25/12/2018;BURGOS;Natividad del Señor
@@ -4365,7 +4483,6 @@ Fecha;Provincia;Festividad
 25/12/2018;SEGOVIA;Natividad del Señor
 25/12/2018;SEVILLA;Natividad del Señor
 25/12/2018;SORIA;Natividad del Señor
-25/12/2018;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2018;TARRAGONA;Natividad del Señor
 25/12/2018;TERUEL;Natividad del Señor
 25/12/2018;TOLEDO;Natividad del Señor
@@ -4374,14 +4491,13 @@ Fecha;Provincia;Festividad
 25/12/2018;ZAMORA;Natividad del Señor
 25/12/2018;ZARAGOZA;Natividad del Señor
 01/01/2019;A CORUÑA;Año Nuevo
+01/01/2019;ALAVA;Año Nuevo
 01/01/2019;ALBACETE;Año Nuevo
 01/01/2019;ALICANTE;Año Nuevo
 01/01/2019;ALMERIA;Año Nuevo
-01/01/2019;ALAVA;Año Nuevo
 01/01/2019;ASTURIAS;Año Nuevo
 01/01/2019;AVILA;Año Nuevo
 01/01/2019;BADAJOZ;Año Nuevo
-01/01/2019;ILLES BALEARS;Año Nuevo
 01/01/2019;BARCELONA;Año Nuevo
 01/01/2019;BIZKAIA;Año Nuevo
 01/01/2019;BURGOS;Año Nuevo
@@ -4419,7 +4535,6 @@ Fecha;Provincia;Festividad
 01/01/2019;SEGOVIA;Año Nuevo
 01/01/2019;SEVILLA;Año Nuevo
 01/01/2019;SORIA;Año Nuevo
-01/01/2019;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2019;TARRAGONA;Año Nuevo
 01/01/2019;TERUEL;Año Nuevo
 01/01/2019;TOLEDO;Año Nuevo
@@ -4428,14 +4543,13 @@ Fecha;Provincia;Festividad
 01/01/2019;ZAMORA;Año Nuevo
 01/01/2019;ZARAGOZA;Año Nuevo
 06/01/2019;A CORUÑA;Epifanía del Señor
+06/01/2019;ALAVA;Epifanía del Señor
 06/01/2019;ALBACETE;Epifanía del Señor
 06/01/2019;ALICANTE;Epifanía del Señor
 06/01/2019;ALMERIA;Epifanía del Señor
-06/01/2019;ALAVA;Epifanía del Señor
 06/01/2019;ASTURIAS;Epifanía del Señor
 06/01/2019;AVILA;Epifanía del Señor
 06/01/2019;BADAJOZ;Epifanía del Señor
-06/01/2019;ILLES BALEARS;Epifanía del Señor
 06/01/2019;BARCELONA;Epifanía del Señor
 06/01/2019;BIZKAIA;Epifanía del Señor
 06/01/2019;BURGOS;Epifanía del Señor
@@ -4473,7 +4587,6 @@ Fecha;Provincia;Festividad
 06/01/2019;SEGOVIA;Epifanía del Señor
 06/01/2019;SEVILLA;Epifanía del Señor
 06/01/2019;SORIA;Epifanía del Señor
-06/01/2019;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2019;TARRAGONA;Epifanía del Señor
 06/01/2019;TERUEL;Epifanía del Señor
 06/01/2019;TOLEDO;Epifanía del Señor
@@ -4481,15 +4594,26 @@ Fecha;Provincia;Festividad
 06/01/2019;VALLADOLID;Epifanía del Señor
 06/01/2019;ZAMORA;Epifanía del Señor
 06/01/2019;ZARAGOZA;Epifanía del Señor
+28/02/2019;ALMERIA;Festivo Regional
+28/02/2019;CADIZ;Festivo Regional
+28/02/2019;CORDOBA;Festivo Regional
+28/02/2019;GRANADA;Festivo Regional
+28/02/2019;HUELVA;Festivo Regional
+28/02/2019;JAEN;Festivo Regional
+28/02/2019;MALAGA;Festivo Regional
+28/02/2019;SEVILLA;Festivo Regional
+01/03/2019;ILLES BALEARS;Festivo Regional
+23/04/2019;HUESCA;Festivo Regional
+23/04/2019;TERUEL;Festivo Regional
+23/04/2019;ZARAGOZA;Festivo Regional
 01/05/2019;A CORUÑA;Fiesta del Trabajo
+01/05/2019;ALAVA;Fiesta del Trabajo
 01/05/2019;ALBACETE;Fiesta del Trabajo
 01/05/2019;ALICANTE;Fiesta del Trabajo
 01/05/2019;ALMERIA;Fiesta del Trabajo
-01/05/2019;ALAVA;Fiesta del Trabajo
 01/05/2019;ASTURIAS;Fiesta del Trabajo
 01/05/2019;AVILA;Fiesta del Trabajo
 01/05/2019;BADAJOZ;Fiesta del Trabajo
-01/05/2019;ILLES BALEARS;Fiesta del Trabajo
 01/05/2019;BARCELONA;Fiesta del Trabajo
 01/05/2019;BIZKAIA;Fiesta del Trabajo
 01/05/2019;BURGOS;Fiesta del Trabajo
@@ -4527,7 +4651,6 @@ Fecha;Provincia;Festividad
 01/05/2019;SEGOVIA;Fiesta del Trabajo
 01/05/2019;SEVILLA;Fiesta del Trabajo
 01/05/2019;SORIA;Fiesta del Trabajo
-01/05/2019;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2019;TARRAGONA;Fiesta del Trabajo
 01/05/2019;TERUEL;Fiesta del Trabajo
 01/05/2019;TOLEDO;Fiesta del Trabajo
@@ -4535,15 +4658,26 @@ Fecha;Provincia;Festividad
 01/05/2019;VALLADOLID;Fiesta del Trabajo
 01/05/2019;ZAMORA;Fiesta del Trabajo
 01/05/2019;ZARAGOZA;Fiesta del Trabajo
+17/05/2019;A CORUÑA;Festivo Regional
+17/05/2019;LUGO;Festivo Regional
+17/05/2019;OURENSE;Festivo Regional
+17/05/2019;PONTEVEDRA;Festivo Regional
+30/05/2019;LAS PALMAS;Festivo Regional
+30/05/2019;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2019;LA RIOJA;Festivo Regional
+09/06/2019;MURCIA;Festivo Regional
+25/07/2019;A CORUÑA;Festivo Regional
+25/07/2019;LUGO;Festivo Regional
+25/07/2019;OURENSE;Festivo Regional
+25/07/2019;PONTEVEDRA;Festivo Regional
 15/08/2019;A CORUÑA;Asunción de la Virgen
+15/08/2019;ALAVA;Asunción de la Virgen
 15/08/2019;ALBACETE;Asunción de la Virgen
 15/08/2019;ALICANTE;Asunción de la Virgen
 15/08/2019;ALMERIA;Asunción de la Virgen
-15/08/2019;ALAVA;Asunción de la Virgen
 15/08/2019;ASTURIAS;Asunción de la Virgen
 15/08/2019;AVILA;Asunción de la Virgen
 15/08/2019;BADAJOZ;Asunción de la Virgen
-15/08/2019;ILLES BALEARS;Asunción de la Virgen
 15/08/2019;BARCELONA;Asunción de la Virgen
 15/08/2019;BIZKAIA;Asunción de la Virgen
 15/08/2019;BURGOS;Asunción de la Virgen
@@ -4581,7 +4715,6 @@ Fecha;Provincia;Festividad
 15/08/2019;SEGOVIA;Asunción de la Virgen
 15/08/2019;SEVILLA;Asunción de la Virgen
 15/08/2019;SORIA;Asunción de la Virgen
-15/08/2019;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2019;TARRAGONA;Asunción de la Virgen
 15/08/2019;TERUEL;Asunción de la Virgen
 15/08/2019;TOLEDO;Asunción de la Virgen
@@ -4589,15 +4722,21 @@ Fecha;Provincia;Festividad
 15/08/2019;VALLADOLID;Asunción de la Virgen
 15/08/2019;ZAMORA;Asunción de la Virgen
 15/08/2019;ZARAGOZA;Asunción de la Virgen
+11/09/2019;BARCELONA;Festivo Regional
+11/09/2019;GIRONA;Festivo Regional
+11/09/2019;LLEIDA;Festivo Regional
+11/09/2019;TARRAGONA;Festivo Regional
+09/10/2019;ALICANTE;Festivo Regional
+09/10/2019;CASTELLON;Festivo Regional
+09/10/2019;VALENCIA;Festivo Regional
 12/10/2019;A CORUÑA;Fiesta Nacional de España
+12/10/2019;ALAVA;Fiesta Nacional de España
 12/10/2019;ALBACETE;Fiesta Nacional de España
 12/10/2019;ALICANTE;Fiesta Nacional de España
 12/10/2019;ALMERIA;Fiesta Nacional de España
-12/10/2019;ALAVA;Fiesta Nacional de España
 12/10/2019;ASTURIAS;Fiesta Nacional de España
 12/10/2019;AVILA;Fiesta Nacional de España
 12/10/2019;BADAJOZ;Fiesta Nacional de España
-12/10/2019;ILLES BALEARS;Fiesta Nacional de España
 12/10/2019;BARCELONA;Fiesta Nacional de España
 12/10/2019;BIZKAIA;Fiesta Nacional de España
 12/10/2019;BURGOS;Fiesta Nacional de España
@@ -4635,7 +4774,6 @@ Fecha;Provincia;Festividad
 12/10/2019;SEGOVIA;Fiesta Nacional de España
 12/10/2019;SEVILLA;Fiesta Nacional de España
 12/10/2019;SORIA;Fiesta Nacional de España
-12/10/2019;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2019;TARRAGONA;Fiesta Nacional de España
 12/10/2019;TERUEL;Fiesta Nacional de España
 12/10/2019;TOLEDO;Fiesta Nacional de España
@@ -4644,14 +4782,13 @@ Fecha;Provincia;Festividad
 12/10/2019;ZAMORA;Fiesta Nacional de España
 12/10/2019;ZARAGOZA;Fiesta Nacional de España
 01/11/2019;A CORUÑA;Todos los Santos
+01/11/2019;ALAVA;Todos los Santos
 01/11/2019;ALBACETE;Todos los Santos
 01/11/2019;ALICANTE;Todos los Santos
 01/11/2019;ALMERIA;Todos los Santos
-01/11/2019;ALAVA;Todos los Santos
 01/11/2019;ASTURIAS;Todos los Santos
 01/11/2019;AVILA;Todos los Santos
 01/11/2019;BADAJOZ;Todos los Santos
-01/11/2019;ILLES BALEARS;Todos los Santos
 01/11/2019;BARCELONA;Todos los Santos
 01/11/2019;BIZKAIA;Todos los Santos
 01/11/2019;BURGOS;Todos los Santos
@@ -4689,7 +4826,6 @@ Fecha;Provincia;Festividad
 01/11/2019;SEGOVIA;Todos los Santos
 01/11/2019;SEVILLA;Todos los Santos
 01/11/2019;SORIA;Todos los Santos
-01/11/2019;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2019;TARRAGONA;Todos los Santos
 01/11/2019;TERUEL;Todos los Santos
 01/11/2019;TOLEDO;Todos los Santos
@@ -4698,14 +4834,13 @@ Fecha;Provincia;Festividad
 01/11/2019;ZAMORA;Todos los Santos
 01/11/2019;ZARAGOZA;Todos los Santos
 06/12/2019;A CORUÑA;Día de la Constitución Española
+06/12/2019;ALAVA;Día de la Constitución Española
 06/12/2019;ALBACETE;Día de la Constitución Española
 06/12/2019;ALICANTE;Día de la Constitución Española
 06/12/2019;ALMERIA;Día de la Constitución Española
-06/12/2019;ALAVA;Día de la Constitución Española
 06/12/2019;ASTURIAS;Día de la Constitución Española
 06/12/2019;AVILA;Día de la Constitución Española
 06/12/2019;BADAJOZ;Día de la Constitución Española
-06/12/2019;ILLES BALEARS;Día de la Constitución Española
 06/12/2019;BARCELONA;Día de la Constitución Española
 06/12/2019;BIZKAIA;Día de la Constitución Española
 06/12/2019;BURGOS;Día de la Constitución Española
@@ -4743,7 +4878,6 @@ Fecha;Provincia;Festividad
 06/12/2019;SEGOVIA;Día de la Constitución Española
 06/12/2019;SEVILLA;Día de la Constitución Española
 06/12/2019;SORIA;Día de la Constitución Española
-06/12/2019;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2019;TARRAGONA;Día de la Constitución Española
 06/12/2019;TERUEL;Día de la Constitución Española
 06/12/2019;TOLEDO;Día de la Constitución Española
@@ -4752,14 +4886,13 @@ Fecha;Provincia;Festividad
 06/12/2019;ZAMORA;Día de la Constitución Española
 06/12/2019;ZARAGOZA;Día de la Constitución Española
 08/12/2019;A CORUÑA;Inmaculada Concepción
+08/12/2019;ALAVA;Inmaculada Concepción
 08/12/2019;ALBACETE;Inmaculada Concepción
 08/12/2019;ALICANTE;Inmaculada Concepción
 08/12/2019;ALMERIA;Inmaculada Concepción
-08/12/2019;ALAVA;Inmaculada Concepción
 08/12/2019;ASTURIAS;Inmaculada Concepción
 08/12/2019;AVILA;Inmaculada Concepción
 08/12/2019;BADAJOZ;Inmaculada Concepción
-08/12/2019;ILLES BALEARS;Inmaculada Concepción
 08/12/2019;BARCELONA;Inmaculada Concepción
 08/12/2019;BIZKAIA;Inmaculada Concepción
 08/12/2019;BURGOS;Inmaculada Concepción
@@ -4797,7 +4930,6 @@ Fecha;Provincia;Festividad
 08/12/2019;SEGOVIA;Inmaculada Concepción
 08/12/2019;SEVILLA;Inmaculada Concepción
 08/12/2019;SORIA;Inmaculada Concepción
-08/12/2019;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2019;TARRAGONA;Inmaculada Concepción
 08/12/2019;TERUEL;Inmaculada Concepción
 08/12/2019;TOLEDO;Inmaculada Concepción
@@ -4806,14 +4938,13 @@ Fecha;Provincia;Festividad
 08/12/2019;ZAMORA;Inmaculada Concepción
 08/12/2019;ZARAGOZA;Inmaculada Concepción
 25/12/2019;A CORUÑA;Natividad del Señor
+25/12/2019;ALAVA;Natividad del Señor
 25/12/2019;ALBACETE;Natividad del Señor
 25/12/2019;ALICANTE;Natividad del Señor
 25/12/2019;ALMERIA;Natividad del Señor
-25/12/2019;ALAVA;Natividad del Señor
 25/12/2019;ASTURIAS;Natividad del Señor
 25/12/2019;AVILA;Natividad del Señor
 25/12/2019;BADAJOZ;Natividad del Señor
-25/12/2019;ILLES BALEARS;Natividad del Señor
 25/12/2019;BARCELONA;Natividad del Señor
 25/12/2019;BIZKAIA;Natividad del Señor
 25/12/2019;BURGOS;Natividad del Señor
@@ -4851,7 +4982,6 @@ Fecha;Provincia;Festividad
 25/12/2019;SEGOVIA;Natividad del Señor
 25/12/2019;SEVILLA;Natividad del Señor
 25/12/2019;SORIA;Natividad del Señor
-25/12/2019;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2019;TARRAGONA;Natividad del Señor
 25/12/2019;TERUEL;Natividad del Señor
 25/12/2019;TOLEDO;Natividad del Señor
@@ -4860,14 +4990,13 @@ Fecha;Provincia;Festividad
 25/12/2019;ZAMORA;Natividad del Señor
 25/12/2019;ZARAGOZA;Natividad del Señor
 01/01/2020;A CORUÑA;Año Nuevo
+01/01/2020;ALAVA;Año Nuevo
 01/01/2020;ALBACETE;Año Nuevo
 01/01/2020;ALICANTE;Año Nuevo
 01/01/2020;ALMERIA;Año Nuevo
-01/01/2020;ALAVA;Año Nuevo
 01/01/2020;ASTURIAS;Año Nuevo
 01/01/2020;AVILA;Año Nuevo
 01/01/2020;BADAJOZ;Año Nuevo
-01/01/2020;ILLES BALEARS;Año Nuevo
 01/01/2020;BARCELONA;Año Nuevo
 01/01/2020;BIZKAIA;Año Nuevo
 01/01/2020;BURGOS;Año Nuevo
@@ -4905,7 +5034,6 @@ Fecha;Provincia;Festividad
 01/01/2020;SEGOVIA;Año Nuevo
 01/01/2020;SEVILLA;Año Nuevo
 01/01/2020;SORIA;Año Nuevo
-01/01/2020;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2020;TARRAGONA;Año Nuevo
 01/01/2020;TERUEL;Año Nuevo
 01/01/2020;TOLEDO;Año Nuevo
@@ -4914,14 +5042,13 @@ Fecha;Provincia;Festividad
 01/01/2020;ZAMORA;Año Nuevo
 01/01/2020;ZARAGOZA;Año Nuevo
 06/01/2020;A CORUÑA;Epifanía del Señor
+06/01/2020;ALAVA;Epifanía del Señor
 06/01/2020;ALBACETE;Epifanía del Señor
 06/01/2020;ALICANTE;Epifanía del Señor
 06/01/2020;ALMERIA;Epifanía del Señor
-06/01/2020;ALAVA;Epifanía del Señor
 06/01/2020;ASTURIAS;Epifanía del Señor
 06/01/2020;AVILA;Epifanía del Señor
 06/01/2020;BADAJOZ;Epifanía del Señor
-06/01/2020;ILLES BALEARS;Epifanía del Señor
 06/01/2020;BARCELONA;Epifanía del Señor
 06/01/2020;BIZKAIA;Epifanía del Señor
 06/01/2020;BURGOS;Epifanía del Señor
@@ -4959,7 +5086,6 @@ Fecha;Provincia;Festividad
 06/01/2020;SEGOVIA;Epifanía del Señor
 06/01/2020;SEVILLA;Epifanía del Señor
 06/01/2020;SORIA;Epifanía del Señor
-06/01/2020;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2020;TARRAGONA;Epifanía del Señor
 06/01/2020;TERUEL;Epifanía del Señor
 06/01/2020;TOLEDO;Epifanía del Señor
@@ -4967,15 +5093,26 @@ Fecha;Provincia;Festividad
 06/01/2020;VALLADOLID;Epifanía del Señor
 06/01/2020;ZAMORA;Epifanía del Señor
 06/01/2020;ZARAGOZA;Epifanía del Señor
+28/02/2020;ALMERIA;Festivo Regional
+28/02/2020;CADIZ;Festivo Regional
+28/02/2020;CORDOBA;Festivo Regional
+28/02/2020;GRANADA;Festivo Regional
+28/02/2020;HUELVA;Festivo Regional
+28/02/2020;JAEN;Festivo Regional
+28/02/2020;MALAGA;Festivo Regional
+28/02/2020;SEVILLA;Festivo Regional
+01/03/2020;ILLES BALEARS;Festivo Regional
+23/04/2020;HUESCA;Festivo Regional
+23/04/2020;TERUEL;Festivo Regional
+23/04/2020;ZARAGOZA;Festivo Regional
 01/05/2020;A CORUÑA;Fiesta del Trabajo
+01/05/2020;ALAVA;Fiesta del Trabajo
 01/05/2020;ALBACETE;Fiesta del Trabajo
 01/05/2020;ALICANTE;Fiesta del Trabajo
 01/05/2020;ALMERIA;Fiesta del Trabajo
-01/05/2020;ALAVA;Fiesta del Trabajo
 01/05/2020;ASTURIAS;Fiesta del Trabajo
 01/05/2020;AVILA;Fiesta del Trabajo
 01/05/2020;BADAJOZ;Fiesta del Trabajo
-01/05/2020;ILLES BALEARS;Fiesta del Trabajo
 01/05/2020;BARCELONA;Fiesta del Trabajo
 01/05/2020;BIZKAIA;Fiesta del Trabajo
 01/05/2020;BURGOS;Fiesta del Trabajo
@@ -5013,7 +5150,6 @@ Fecha;Provincia;Festividad
 01/05/2020;SEGOVIA;Fiesta del Trabajo
 01/05/2020;SEVILLA;Fiesta del Trabajo
 01/05/2020;SORIA;Fiesta del Trabajo
-01/05/2020;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2020;TARRAGONA;Fiesta del Trabajo
 01/05/2020;TERUEL;Fiesta del Trabajo
 01/05/2020;TOLEDO;Fiesta del Trabajo
@@ -5021,15 +5157,26 @@ Fecha;Provincia;Festividad
 01/05/2020;VALLADOLID;Fiesta del Trabajo
 01/05/2020;ZAMORA;Fiesta del Trabajo
 01/05/2020;ZARAGOZA;Fiesta del Trabajo
+17/05/2020;A CORUÑA;Festivo Regional
+17/05/2020;LUGO;Festivo Regional
+17/05/2020;OURENSE;Festivo Regional
+17/05/2020;PONTEVEDRA;Festivo Regional
+30/05/2020;LAS PALMAS;Festivo Regional
+30/05/2020;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2020;LA RIOJA;Festivo Regional
+09/06/2020;MURCIA;Festivo Regional
+25/07/2020;A CORUÑA;Festivo Regional
+25/07/2020;LUGO;Festivo Regional
+25/07/2020;OURENSE;Festivo Regional
+25/07/2020;PONTEVEDRA;Festivo Regional
 15/08/2020;A CORUÑA;Asunción de la Virgen
+15/08/2020;ALAVA;Asunción de la Virgen
 15/08/2020;ALBACETE;Asunción de la Virgen
 15/08/2020;ALICANTE;Asunción de la Virgen
 15/08/2020;ALMERIA;Asunción de la Virgen
-15/08/2020;ALAVA;Asunción de la Virgen
 15/08/2020;ASTURIAS;Asunción de la Virgen
 15/08/2020;AVILA;Asunción de la Virgen
 15/08/2020;BADAJOZ;Asunción de la Virgen
-15/08/2020;ILLES BALEARS;Asunción de la Virgen
 15/08/2020;BARCELONA;Asunción de la Virgen
 15/08/2020;BIZKAIA;Asunción de la Virgen
 15/08/2020;BURGOS;Asunción de la Virgen
@@ -5067,7 +5214,6 @@ Fecha;Provincia;Festividad
 15/08/2020;SEGOVIA;Asunción de la Virgen
 15/08/2020;SEVILLA;Asunción de la Virgen
 15/08/2020;SORIA;Asunción de la Virgen
-15/08/2020;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2020;TARRAGONA;Asunción de la Virgen
 15/08/2020;TERUEL;Asunción de la Virgen
 15/08/2020;TOLEDO;Asunción de la Virgen
@@ -5075,15 +5221,21 @@ Fecha;Provincia;Festividad
 15/08/2020;VALLADOLID;Asunción de la Virgen
 15/08/2020;ZAMORA;Asunción de la Virgen
 15/08/2020;ZARAGOZA;Asunción de la Virgen
+11/09/2020;BARCELONA;Festivo Regional
+11/09/2020;GIRONA;Festivo Regional
+11/09/2020;LLEIDA;Festivo Regional
+11/09/2020;TARRAGONA;Festivo Regional
+09/10/2020;ALICANTE;Festivo Regional
+09/10/2020;CASTELLON;Festivo Regional
+09/10/2020;VALENCIA;Festivo Regional
 12/10/2020;A CORUÑA;Fiesta Nacional de España
+12/10/2020;ALAVA;Fiesta Nacional de España
 12/10/2020;ALBACETE;Fiesta Nacional de España
 12/10/2020;ALICANTE;Fiesta Nacional de España
 12/10/2020;ALMERIA;Fiesta Nacional de España
-12/10/2020;ALAVA;Fiesta Nacional de España
 12/10/2020;ASTURIAS;Fiesta Nacional de España
 12/10/2020;AVILA;Fiesta Nacional de España
 12/10/2020;BADAJOZ;Fiesta Nacional de España
-12/10/2020;ILLES BALEARS;Fiesta Nacional de España
 12/10/2020;BARCELONA;Fiesta Nacional de España
 12/10/2020;BIZKAIA;Fiesta Nacional de España
 12/10/2020;BURGOS;Fiesta Nacional de España
@@ -5121,7 +5273,6 @@ Fecha;Provincia;Festividad
 12/10/2020;SEGOVIA;Fiesta Nacional de España
 12/10/2020;SEVILLA;Fiesta Nacional de España
 12/10/2020;SORIA;Fiesta Nacional de España
-12/10/2020;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2020;TARRAGONA;Fiesta Nacional de España
 12/10/2020;TERUEL;Fiesta Nacional de España
 12/10/2020;TOLEDO;Fiesta Nacional de España
@@ -5130,14 +5281,13 @@ Fecha;Provincia;Festividad
 12/10/2020;ZAMORA;Fiesta Nacional de España
 12/10/2020;ZARAGOZA;Fiesta Nacional de España
 01/11/2020;A CORUÑA;Todos los Santos
+01/11/2020;ALAVA;Todos los Santos
 01/11/2020;ALBACETE;Todos los Santos
 01/11/2020;ALICANTE;Todos los Santos
 01/11/2020;ALMERIA;Todos los Santos
-01/11/2020;ALAVA;Todos los Santos
 01/11/2020;ASTURIAS;Todos los Santos
 01/11/2020;AVILA;Todos los Santos
 01/11/2020;BADAJOZ;Todos los Santos
-01/11/2020;ILLES BALEARS;Todos los Santos
 01/11/2020;BARCELONA;Todos los Santos
 01/11/2020;BIZKAIA;Todos los Santos
 01/11/2020;BURGOS;Todos los Santos
@@ -5175,7 +5325,6 @@ Fecha;Provincia;Festividad
 01/11/2020;SEGOVIA;Todos los Santos
 01/11/2020;SEVILLA;Todos los Santos
 01/11/2020;SORIA;Todos los Santos
-01/11/2020;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2020;TARRAGONA;Todos los Santos
 01/11/2020;TERUEL;Todos los Santos
 01/11/2020;TOLEDO;Todos los Santos
@@ -5184,14 +5333,13 @@ Fecha;Provincia;Festividad
 01/11/2020;ZAMORA;Todos los Santos
 01/11/2020;ZARAGOZA;Todos los Santos
 06/12/2020;A CORUÑA;Día de la Constitución Española
+06/12/2020;ALAVA;Día de la Constitución Española
 06/12/2020;ALBACETE;Día de la Constitución Española
 06/12/2020;ALICANTE;Día de la Constitución Española
 06/12/2020;ALMERIA;Día de la Constitución Española
-06/12/2020;ALAVA;Día de la Constitución Española
 06/12/2020;ASTURIAS;Día de la Constitución Española
 06/12/2020;AVILA;Día de la Constitución Española
 06/12/2020;BADAJOZ;Día de la Constitución Española
-06/12/2020;ILLES BALEARS;Día de la Constitución Española
 06/12/2020;BARCELONA;Día de la Constitución Española
 06/12/2020;BIZKAIA;Día de la Constitución Española
 06/12/2020;BURGOS;Día de la Constitución Española
@@ -5229,7 +5377,6 @@ Fecha;Provincia;Festividad
 06/12/2020;SEGOVIA;Día de la Constitución Española
 06/12/2020;SEVILLA;Día de la Constitución Española
 06/12/2020;SORIA;Día de la Constitución Española
-06/12/2020;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2020;TARRAGONA;Día de la Constitución Española
 06/12/2020;TERUEL;Día de la Constitución Española
 06/12/2020;TOLEDO;Día de la Constitución Española
@@ -5238,14 +5385,13 @@ Fecha;Provincia;Festividad
 06/12/2020;ZAMORA;Día de la Constitución Española
 06/12/2020;ZARAGOZA;Día de la Constitución Española
 08/12/2020;A CORUÑA;Inmaculada Concepción
+08/12/2020;ALAVA;Inmaculada Concepción
 08/12/2020;ALBACETE;Inmaculada Concepción
 08/12/2020;ALICANTE;Inmaculada Concepción
 08/12/2020;ALMERIA;Inmaculada Concepción
-08/12/2020;ALAVA;Inmaculada Concepción
 08/12/2020;ASTURIAS;Inmaculada Concepción
 08/12/2020;AVILA;Inmaculada Concepción
 08/12/2020;BADAJOZ;Inmaculada Concepción
-08/12/2020;ILLES BALEARS;Inmaculada Concepción
 08/12/2020;BARCELONA;Inmaculada Concepción
 08/12/2020;BIZKAIA;Inmaculada Concepción
 08/12/2020;BURGOS;Inmaculada Concepción
@@ -5283,7 +5429,6 @@ Fecha;Provincia;Festividad
 08/12/2020;SEGOVIA;Inmaculada Concepción
 08/12/2020;SEVILLA;Inmaculada Concepción
 08/12/2020;SORIA;Inmaculada Concepción
-08/12/2020;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2020;TARRAGONA;Inmaculada Concepción
 08/12/2020;TERUEL;Inmaculada Concepción
 08/12/2020;TOLEDO;Inmaculada Concepción
@@ -5292,14 +5437,13 @@ Fecha;Provincia;Festividad
 08/12/2020;ZAMORA;Inmaculada Concepción
 08/12/2020;ZARAGOZA;Inmaculada Concepción
 25/12/2020;A CORUÑA;Natividad del Señor
+25/12/2020;ALAVA;Natividad del Señor
 25/12/2020;ALBACETE;Natividad del Señor
 25/12/2020;ALICANTE;Natividad del Señor
 25/12/2020;ALMERIA;Natividad del Señor
-25/12/2020;ALAVA;Natividad del Señor
 25/12/2020;ASTURIAS;Natividad del Señor
 25/12/2020;AVILA;Natividad del Señor
 25/12/2020;BADAJOZ;Natividad del Señor
-25/12/2020;ILLES BALEARS;Natividad del Señor
 25/12/2020;BARCELONA;Natividad del Señor
 25/12/2020;BIZKAIA;Natividad del Señor
 25/12/2020;BURGOS;Natividad del Señor
@@ -5337,7 +5481,6 @@ Fecha;Provincia;Festividad
 25/12/2020;SEGOVIA;Natividad del Señor
 25/12/2020;SEVILLA;Natividad del Señor
 25/12/2020;SORIA;Natividad del Señor
-25/12/2020;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2020;TARRAGONA;Natividad del Señor
 25/12/2020;TERUEL;Natividad del Señor
 25/12/2020;TOLEDO;Natividad del Señor
@@ -5346,14 +5489,13 @@ Fecha;Provincia;Festividad
 25/12/2020;ZAMORA;Natividad del Señor
 25/12/2020;ZARAGOZA;Natividad del Señor
 01/01/2021;A CORUÑA;Año Nuevo
+01/01/2021;ALAVA;Año Nuevo
 01/01/2021;ALBACETE;Año Nuevo
 01/01/2021;ALICANTE;Año Nuevo
 01/01/2021;ALMERIA;Año Nuevo
-01/01/2021;ALAVA;Año Nuevo
 01/01/2021;ASTURIAS;Año Nuevo
 01/01/2021;AVILA;Año Nuevo
 01/01/2021;BADAJOZ;Año Nuevo
-01/01/2021;ILLES BALEARS;Año Nuevo
 01/01/2021;BARCELONA;Año Nuevo
 01/01/2021;BIZKAIA;Año Nuevo
 01/01/2021;BURGOS;Año Nuevo
@@ -5391,7 +5533,6 @@ Fecha;Provincia;Festividad
 01/01/2021;SEGOVIA;Año Nuevo
 01/01/2021;SEVILLA;Año Nuevo
 01/01/2021;SORIA;Año Nuevo
-01/01/2021;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2021;TARRAGONA;Año Nuevo
 01/01/2021;TERUEL;Año Nuevo
 01/01/2021;TOLEDO;Año Nuevo
@@ -5400,14 +5541,13 @@ Fecha;Provincia;Festividad
 01/01/2021;ZAMORA;Año Nuevo
 01/01/2021;ZARAGOZA;Año Nuevo
 06/01/2021;A CORUÑA;Epifanía del Señor
+06/01/2021;ALAVA;Epifanía del Señor
 06/01/2021;ALBACETE;Epifanía del Señor
 06/01/2021;ALICANTE;Epifanía del Señor
 06/01/2021;ALMERIA;Epifanía del Señor
-06/01/2021;ALAVA;Epifanía del Señor
 06/01/2021;ASTURIAS;Epifanía del Señor
 06/01/2021;AVILA;Epifanía del Señor
 06/01/2021;BADAJOZ;Epifanía del Señor
-06/01/2021;ILLES BALEARS;Epifanía del Señor
 06/01/2021;BARCELONA;Epifanía del Señor
 06/01/2021;BIZKAIA;Epifanía del Señor
 06/01/2021;BURGOS;Epifanía del Señor
@@ -5445,7 +5585,6 @@ Fecha;Provincia;Festividad
 06/01/2021;SEGOVIA;Epifanía del Señor
 06/01/2021;SEVILLA;Epifanía del Señor
 06/01/2021;SORIA;Epifanía del Señor
-06/01/2021;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2021;TARRAGONA;Epifanía del Señor
 06/01/2021;TERUEL;Epifanía del Señor
 06/01/2021;TOLEDO;Epifanía del Señor
@@ -5453,15 +5592,26 @@ Fecha;Provincia;Festividad
 06/01/2021;VALLADOLID;Epifanía del Señor
 06/01/2021;ZAMORA;Epifanía del Señor
 06/01/2021;ZARAGOZA;Epifanía del Señor
+28/02/2021;ALMERIA;Festivo Regional
+28/02/2021;CADIZ;Festivo Regional
+28/02/2021;CORDOBA;Festivo Regional
+28/02/2021;GRANADA;Festivo Regional
+28/02/2021;HUELVA;Festivo Regional
+28/02/2021;JAEN;Festivo Regional
+28/02/2021;MALAGA;Festivo Regional
+28/02/2021;SEVILLA;Festivo Regional
+01/03/2021;ILLES BALEARS;Festivo Regional
+23/04/2021;HUESCA;Festivo Regional
+23/04/2021;TERUEL;Festivo Regional
+23/04/2021;ZARAGOZA;Festivo Regional
 01/05/2021;A CORUÑA;Fiesta del Trabajo
+01/05/2021;ALAVA;Fiesta del Trabajo
 01/05/2021;ALBACETE;Fiesta del Trabajo
 01/05/2021;ALICANTE;Fiesta del Trabajo
 01/05/2021;ALMERIA;Fiesta del Trabajo
-01/05/2021;ALAVA;Fiesta del Trabajo
 01/05/2021;ASTURIAS;Fiesta del Trabajo
 01/05/2021;AVILA;Fiesta del Trabajo
 01/05/2021;BADAJOZ;Fiesta del Trabajo
-01/05/2021;ILLES BALEARS;Fiesta del Trabajo
 01/05/2021;BARCELONA;Fiesta del Trabajo
 01/05/2021;BIZKAIA;Fiesta del Trabajo
 01/05/2021;BURGOS;Fiesta del Trabajo
@@ -5499,7 +5649,6 @@ Fecha;Provincia;Festividad
 01/05/2021;SEGOVIA;Fiesta del Trabajo
 01/05/2021;SEVILLA;Fiesta del Trabajo
 01/05/2021;SORIA;Fiesta del Trabajo
-01/05/2021;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2021;TARRAGONA;Fiesta del Trabajo
 01/05/2021;TERUEL;Fiesta del Trabajo
 01/05/2021;TOLEDO;Fiesta del Trabajo
@@ -5507,15 +5656,26 @@ Fecha;Provincia;Festividad
 01/05/2021;VALLADOLID;Fiesta del Trabajo
 01/05/2021;ZAMORA;Fiesta del Trabajo
 01/05/2021;ZARAGOZA;Fiesta del Trabajo
+17/05/2021;A CORUÑA;Festivo Regional
+17/05/2021;LUGO;Festivo Regional
+17/05/2021;OURENSE;Festivo Regional
+17/05/2021;PONTEVEDRA;Festivo Regional
+30/05/2021;LAS PALMAS;Festivo Regional
+30/05/2021;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2021;LA RIOJA;Festivo Regional
+09/06/2021;MURCIA;Festivo Regional
+25/07/2021;A CORUÑA;Festivo Regional
+25/07/2021;LUGO;Festivo Regional
+25/07/2021;OURENSE;Festivo Regional
+25/07/2021;PONTEVEDRA;Festivo Regional
 15/08/2021;A CORUÑA;Asunción de la Virgen
+15/08/2021;ALAVA;Asunción de la Virgen
 15/08/2021;ALBACETE;Asunción de la Virgen
 15/08/2021;ALICANTE;Asunción de la Virgen
 15/08/2021;ALMERIA;Asunción de la Virgen
-15/08/2021;ALAVA;Asunción de la Virgen
 15/08/2021;ASTURIAS;Asunción de la Virgen
 15/08/2021;AVILA;Asunción de la Virgen
 15/08/2021;BADAJOZ;Asunción de la Virgen
-15/08/2021;ILLES BALEARS;Asunción de la Virgen
 15/08/2021;BARCELONA;Asunción de la Virgen
 15/08/2021;BIZKAIA;Asunción de la Virgen
 15/08/2021;BURGOS;Asunción de la Virgen
@@ -5553,7 +5713,6 @@ Fecha;Provincia;Festividad
 15/08/2021;SEGOVIA;Asunción de la Virgen
 15/08/2021;SEVILLA;Asunción de la Virgen
 15/08/2021;SORIA;Asunción de la Virgen
-15/08/2021;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2021;TARRAGONA;Asunción de la Virgen
 15/08/2021;TERUEL;Asunción de la Virgen
 15/08/2021;TOLEDO;Asunción de la Virgen
@@ -5561,15 +5720,21 @@ Fecha;Provincia;Festividad
 15/08/2021;VALLADOLID;Asunción de la Virgen
 15/08/2021;ZAMORA;Asunción de la Virgen
 15/08/2021;ZARAGOZA;Asunción de la Virgen
+11/09/2021;BARCELONA;Festivo Regional
+11/09/2021;GIRONA;Festivo Regional
+11/09/2021;LLEIDA;Festivo Regional
+11/09/2021;TARRAGONA;Festivo Regional
+09/10/2021;ALICANTE;Festivo Regional
+09/10/2021;CASTELLON;Festivo Regional
+09/10/2021;VALENCIA;Festivo Regional
 12/10/2021;A CORUÑA;Fiesta Nacional de España
+12/10/2021;ALAVA;Fiesta Nacional de España
 12/10/2021;ALBACETE;Fiesta Nacional de España
 12/10/2021;ALICANTE;Fiesta Nacional de España
 12/10/2021;ALMERIA;Fiesta Nacional de España
-12/10/2021;ALAVA;Fiesta Nacional de España
 12/10/2021;ASTURIAS;Fiesta Nacional de España
 12/10/2021;AVILA;Fiesta Nacional de España
 12/10/2021;BADAJOZ;Fiesta Nacional de España
-12/10/2021;ILLES BALEARS;Fiesta Nacional de España
 12/10/2021;BARCELONA;Fiesta Nacional de España
 12/10/2021;BIZKAIA;Fiesta Nacional de España
 12/10/2021;BURGOS;Fiesta Nacional de España
@@ -5607,7 +5772,6 @@ Fecha;Provincia;Festividad
 12/10/2021;SEGOVIA;Fiesta Nacional de España
 12/10/2021;SEVILLA;Fiesta Nacional de España
 12/10/2021;SORIA;Fiesta Nacional de España
-12/10/2021;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2021;TARRAGONA;Fiesta Nacional de España
 12/10/2021;TERUEL;Fiesta Nacional de España
 12/10/2021;TOLEDO;Fiesta Nacional de España
@@ -5616,14 +5780,13 @@ Fecha;Provincia;Festividad
 12/10/2021;ZAMORA;Fiesta Nacional de España
 12/10/2021;ZARAGOZA;Fiesta Nacional de España
 01/11/2021;A CORUÑA;Todos los Santos
+01/11/2021;ALAVA;Todos los Santos
 01/11/2021;ALBACETE;Todos los Santos
 01/11/2021;ALICANTE;Todos los Santos
 01/11/2021;ALMERIA;Todos los Santos
-01/11/2021;ALAVA;Todos los Santos
 01/11/2021;ASTURIAS;Todos los Santos
 01/11/2021;AVILA;Todos los Santos
 01/11/2021;BADAJOZ;Todos los Santos
-01/11/2021;ILLES BALEARS;Todos los Santos
 01/11/2021;BARCELONA;Todos los Santos
 01/11/2021;BIZKAIA;Todos los Santos
 01/11/2021;BURGOS;Todos los Santos
@@ -5661,7 +5824,6 @@ Fecha;Provincia;Festividad
 01/11/2021;SEGOVIA;Todos los Santos
 01/11/2021;SEVILLA;Todos los Santos
 01/11/2021;SORIA;Todos los Santos
-01/11/2021;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2021;TARRAGONA;Todos los Santos
 01/11/2021;TERUEL;Todos los Santos
 01/11/2021;TOLEDO;Todos los Santos
@@ -5670,14 +5832,13 @@ Fecha;Provincia;Festividad
 01/11/2021;ZAMORA;Todos los Santos
 01/11/2021;ZARAGOZA;Todos los Santos
 06/12/2021;A CORUÑA;Día de la Constitución Española
+06/12/2021;ALAVA;Día de la Constitución Española
 06/12/2021;ALBACETE;Día de la Constitución Española
 06/12/2021;ALICANTE;Día de la Constitución Española
 06/12/2021;ALMERIA;Día de la Constitución Española
-06/12/2021;ALAVA;Día de la Constitución Española
 06/12/2021;ASTURIAS;Día de la Constitución Española
 06/12/2021;AVILA;Día de la Constitución Española
 06/12/2021;BADAJOZ;Día de la Constitución Española
-06/12/2021;ILLES BALEARS;Día de la Constitución Española
 06/12/2021;BARCELONA;Día de la Constitución Española
 06/12/2021;BIZKAIA;Día de la Constitución Española
 06/12/2021;BURGOS;Día de la Constitución Española
@@ -5715,7 +5876,6 @@ Fecha;Provincia;Festividad
 06/12/2021;SEGOVIA;Día de la Constitución Española
 06/12/2021;SEVILLA;Día de la Constitución Española
 06/12/2021;SORIA;Día de la Constitución Española
-06/12/2021;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2021;TARRAGONA;Día de la Constitución Española
 06/12/2021;TERUEL;Día de la Constitución Española
 06/12/2021;TOLEDO;Día de la Constitución Española
@@ -5724,14 +5884,13 @@ Fecha;Provincia;Festividad
 06/12/2021;ZAMORA;Día de la Constitución Española
 06/12/2021;ZARAGOZA;Día de la Constitución Española
 08/12/2021;A CORUÑA;Inmaculada Concepción
+08/12/2021;ALAVA;Inmaculada Concepción
 08/12/2021;ALBACETE;Inmaculada Concepción
 08/12/2021;ALICANTE;Inmaculada Concepción
 08/12/2021;ALMERIA;Inmaculada Concepción
-08/12/2021;ALAVA;Inmaculada Concepción
 08/12/2021;ASTURIAS;Inmaculada Concepción
 08/12/2021;AVILA;Inmaculada Concepción
 08/12/2021;BADAJOZ;Inmaculada Concepción
-08/12/2021;ILLES BALEARS;Inmaculada Concepción
 08/12/2021;BARCELONA;Inmaculada Concepción
 08/12/2021;BIZKAIA;Inmaculada Concepción
 08/12/2021;BURGOS;Inmaculada Concepción
@@ -5769,7 +5928,6 @@ Fecha;Provincia;Festividad
 08/12/2021;SEGOVIA;Inmaculada Concepción
 08/12/2021;SEVILLA;Inmaculada Concepción
 08/12/2021;SORIA;Inmaculada Concepción
-08/12/2021;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2021;TARRAGONA;Inmaculada Concepción
 08/12/2021;TERUEL;Inmaculada Concepción
 08/12/2021;TOLEDO;Inmaculada Concepción
@@ -5778,14 +5936,13 @@ Fecha;Provincia;Festividad
 08/12/2021;ZAMORA;Inmaculada Concepción
 08/12/2021;ZARAGOZA;Inmaculada Concepción
 25/12/2021;A CORUÑA;Natividad del Señor
+25/12/2021;ALAVA;Natividad del Señor
 25/12/2021;ALBACETE;Natividad del Señor
 25/12/2021;ALICANTE;Natividad del Señor
 25/12/2021;ALMERIA;Natividad del Señor
-25/12/2021;ALAVA;Natividad del Señor
 25/12/2021;ASTURIAS;Natividad del Señor
 25/12/2021;AVILA;Natividad del Señor
 25/12/2021;BADAJOZ;Natividad del Señor
-25/12/2021;ILLES BALEARS;Natividad del Señor
 25/12/2021;BARCELONA;Natividad del Señor
 25/12/2021;BIZKAIA;Natividad del Señor
 25/12/2021;BURGOS;Natividad del Señor
@@ -5823,7 +5980,6 @@ Fecha;Provincia;Festividad
 25/12/2021;SEGOVIA;Natividad del Señor
 25/12/2021;SEVILLA;Natividad del Señor
 25/12/2021;SORIA;Natividad del Señor
-25/12/2021;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2021;TARRAGONA;Natividad del Señor
 25/12/2021;TERUEL;Natividad del Señor
 25/12/2021;TOLEDO;Natividad del Señor
@@ -5832,14 +5988,13 @@ Fecha;Provincia;Festividad
 25/12/2021;ZAMORA;Natividad del Señor
 25/12/2021;ZARAGOZA;Natividad del Señor
 01/01/2022;A CORUÑA;Año Nuevo
+01/01/2022;ALAVA;Año Nuevo
 01/01/2022;ALBACETE;Año Nuevo
 01/01/2022;ALICANTE;Año Nuevo
 01/01/2022;ALMERIA;Año Nuevo
-01/01/2022;ALAVA;Año Nuevo
 01/01/2022;ASTURIAS;Año Nuevo
 01/01/2022;AVILA;Año Nuevo
 01/01/2022;BADAJOZ;Año Nuevo
-01/01/2022;ILLES BALEARS;Año Nuevo
 01/01/2022;BARCELONA;Año Nuevo
 01/01/2022;BIZKAIA;Año Nuevo
 01/01/2022;BURGOS;Año Nuevo
@@ -5877,7 +6032,6 @@ Fecha;Provincia;Festividad
 01/01/2022;SEGOVIA;Año Nuevo
 01/01/2022;SEVILLA;Año Nuevo
 01/01/2022;SORIA;Año Nuevo
-01/01/2022;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2022;TARRAGONA;Año Nuevo
 01/01/2022;TERUEL;Año Nuevo
 01/01/2022;TOLEDO;Año Nuevo
@@ -5886,14 +6040,13 @@ Fecha;Provincia;Festividad
 01/01/2022;ZAMORA;Año Nuevo
 01/01/2022;ZARAGOZA;Año Nuevo
 06/01/2022;A CORUÑA;Epifanía del Señor
+06/01/2022;ALAVA;Epifanía del Señor
 06/01/2022;ALBACETE;Epifanía del Señor
 06/01/2022;ALICANTE;Epifanía del Señor
 06/01/2022;ALMERIA;Epifanía del Señor
-06/01/2022;ALAVA;Epifanía del Señor
 06/01/2022;ASTURIAS;Epifanía del Señor
 06/01/2022;AVILA;Epifanía del Señor
 06/01/2022;BADAJOZ;Epifanía del Señor
-06/01/2022;ILLES BALEARS;Epifanía del Señor
 06/01/2022;BARCELONA;Epifanía del Señor
 06/01/2022;BIZKAIA;Epifanía del Señor
 06/01/2022;BURGOS;Epifanía del Señor
@@ -5931,7 +6084,6 @@ Fecha;Provincia;Festividad
 06/01/2022;SEGOVIA;Epifanía del Señor
 06/01/2022;SEVILLA;Epifanía del Señor
 06/01/2022;SORIA;Epifanía del Señor
-06/01/2022;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2022;TARRAGONA;Epifanía del Señor
 06/01/2022;TERUEL;Epifanía del Señor
 06/01/2022;TOLEDO;Epifanía del Señor
@@ -5939,15 +6091,26 @@ Fecha;Provincia;Festividad
 06/01/2022;VALLADOLID;Epifanía del Señor
 06/01/2022;ZAMORA;Epifanía del Señor
 06/01/2022;ZARAGOZA;Epifanía del Señor
+28/02/2022;ALMERIA;Festivo Regional
+28/02/2022;CADIZ;Festivo Regional
+28/02/2022;CORDOBA;Festivo Regional
+28/02/2022;GRANADA;Festivo Regional
+28/02/2022;HUELVA;Festivo Regional
+28/02/2022;JAEN;Festivo Regional
+28/02/2022;MALAGA;Festivo Regional
+28/02/2022;SEVILLA;Festivo Regional
+01/03/2022;ILLES BALEARS;Festivo Regional
+23/04/2022;HUESCA;Festivo Regional
+23/04/2022;TERUEL;Festivo Regional
+23/04/2022;ZARAGOZA;Festivo Regional
 01/05/2022;A CORUÑA;Fiesta del Trabajo
+01/05/2022;ALAVA;Fiesta del Trabajo
 01/05/2022;ALBACETE;Fiesta del Trabajo
 01/05/2022;ALICANTE;Fiesta del Trabajo
 01/05/2022;ALMERIA;Fiesta del Trabajo
-01/05/2022;ALAVA;Fiesta del Trabajo
 01/05/2022;ASTURIAS;Fiesta del Trabajo
 01/05/2022;AVILA;Fiesta del Trabajo
 01/05/2022;BADAJOZ;Fiesta del Trabajo
-01/05/2022;ILLES BALEARS;Fiesta del Trabajo
 01/05/2022;BARCELONA;Fiesta del Trabajo
 01/05/2022;BIZKAIA;Fiesta del Trabajo
 01/05/2022;BURGOS;Fiesta del Trabajo
@@ -5985,7 +6148,6 @@ Fecha;Provincia;Festividad
 01/05/2022;SEGOVIA;Fiesta del Trabajo
 01/05/2022;SEVILLA;Fiesta del Trabajo
 01/05/2022;SORIA;Fiesta del Trabajo
-01/05/2022;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2022;TARRAGONA;Fiesta del Trabajo
 01/05/2022;TERUEL;Fiesta del Trabajo
 01/05/2022;TOLEDO;Fiesta del Trabajo
@@ -5993,15 +6155,26 @@ Fecha;Provincia;Festividad
 01/05/2022;VALLADOLID;Fiesta del Trabajo
 01/05/2022;ZAMORA;Fiesta del Trabajo
 01/05/2022;ZARAGOZA;Fiesta del Trabajo
+17/05/2022;A CORUÑA;Festivo Regional
+17/05/2022;LUGO;Festivo Regional
+17/05/2022;OURENSE;Festivo Regional
+17/05/2022;PONTEVEDRA;Festivo Regional
+30/05/2022;LAS PALMAS;Festivo Regional
+30/05/2022;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2022;LA RIOJA;Festivo Regional
+09/06/2022;MURCIA;Festivo Regional
+25/07/2022;A CORUÑA;Festivo Regional
+25/07/2022;LUGO;Festivo Regional
+25/07/2022;OURENSE;Festivo Regional
+25/07/2022;PONTEVEDRA;Festivo Regional
 15/08/2022;A CORUÑA;Asunción de la Virgen
+15/08/2022;ALAVA;Asunción de la Virgen
 15/08/2022;ALBACETE;Asunción de la Virgen
 15/08/2022;ALICANTE;Asunción de la Virgen
 15/08/2022;ALMERIA;Asunción de la Virgen
-15/08/2022;ALAVA;Asunción de la Virgen
 15/08/2022;ASTURIAS;Asunción de la Virgen
 15/08/2022;AVILA;Asunción de la Virgen
 15/08/2022;BADAJOZ;Asunción de la Virgen
-15/08/2022;ILLES BALEARS;Asunción de la Virgen
 15/08/2022;BARCELONA;Asunción de la Virgen
 15/08/2022;BIZKAIA;Asunción de la Virgen
 15/08/2022;BURGOS;Asunción de la Virgen
@@ -6039,7 +6212,6 @@ Fecha;Provincia;Festividad
 15/08/2022;SEGOVIA;Asunción de la Virgen
 15/08/2022;SEVILLA;Asunción de la Virgen
 15/08/2022;SORIA;Asunción de la Virgen
-15/08/2022;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2022;TARRAGONA;Asunción de la Virgen
 15/08/2022;TERUEL;Asunción de la Virgen
 15/08/2022;TOLEDO;Asunción de la Virgen
@@ -6047,15 +6219,21 @@ Fecha;Provincia;Festividad
 15/08/2022;VALLADOLID;Asunción de la Virgen
 15/08/2022;ZAMORA;Asunción de la Virgen
 15/08/2022;ZARAGOZA;Asunción de la Virgen
+11/09/2022;BARCELONA;Festivo Regional
+11/09/2022;GIRONA;Festivo Regional
+11/09/2022;LLEIDA;Festivo Regional
+11/09/2022;TARRAGONA;Festivo Regional
+09/10/2022;ALICANTE;Festivo Regional
+09/10/2022;CASTELLON;Festivo Regional
+09/10/2022;VALENCIA;Festivo Regional
 12/10/2022;A CORUÑA;Fiesta Nacional de España
+12/10/2022;ALAVA;Fiesta Nacional de España
 12/10/2022;ALBACETE;Fiesta Nacional de España
 12/10/2022;ALICANTE;Fiesta Nacional de España
 12/10/2022;ALMERIA;Fiesta Nacional de España
-12/10/2022;ALAVA;Fiesta Nacional de España
 12/10/2022;ASTURIAS;Fiesta Nacional de España
 12/10/2022;AVILA;Fiesta Nacional de España
 12/10/2022;BADAJOZ;Fiesta Nacional de España
-12/10/2022;ILLES BALEARS;Fiesta Nacional de España
 12/10/2022;BARCELONA;Fiesta Nacional de España
 12/10/2022;BIZKAIA;Fiesta Nacional de España
 12/10/2022;BURGOS;Fiesta Nacional de España
@@ -6093,7 +6271,6 @@ Fecha;Provincia;Festividad
 12/10/2022;SEGOVIA;Fiesta Nacional de España
 12/10/2022;SEVILLA;Fiesta Nacional de España
 12/10/2022;SORIA;Fiesta Nacional de España
-12/10/2022;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2022;TARRAGONA;Fiesta Nacional de España
 12/10/2022;TERUEL;Fiesta Nacional de España
 12/10/2022;TOLEDO;Fiesta Nacional de España
@@ -6102,14 +6279,13 @@ Fecha;Provincia;Festividad
 12/10/2022;ZAMORA;Fiesta Nacional de España
 12/10/2022;ZARAGOZA;Fiesta Nacional de España
 01/11/2022;A CORUÑA;Todos los Santos
+01/11/2022;ALAVA;Todos los Santos
 01/11/2022;ALBACETE;Todos los Santos
 01/11/2022;ALICANTE;Todos los Santos
 01/11/2022;ALMERIA;Todos los Santos
-01/11/2022;ALAVA;Todos los Santos
 01/11/2022;ASTURIAS;Todos los Santos
 01/11/2022;AVILA;Todos los Santos
 01/11/2022;BADAJOZ;Todos los Santos
-01/11/2022;ILLES BALEARS;Todos los Santos
 01/11/2022;BARCELONA;Todos los Santos
 01/11/2022;BIZKAIA;Todos los Santos
 01/11/2022;BURGOS;Todos los Santos
@@ -6147,7 +6323,6 @@ Fecha;Provincia;Festividad
 01/11/2022;SEGOVIA;Todos los Santos
 01/11/2022;SEVILLA;Todos los Santos
 01/11/2022;SORIA;Todos los Santos
-01/11/2022;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2022;TARRAGONA;Todos los Santos
 01/11/2022;TERUEL;Todos los Santos
 01/11/2022;TOLEDO;Todos los Santos
@@ -6156,14 +6331,13 @@ Fecha;Provincia;Festividad
 01/11/2022;ZAMORA;Todos los Santos
 01/11/2022;ZARAGOZA;Todos los Santos
 06/12/2022;A CORUÑA;Día de la Constitución Española
+06/12/2022;ALAVA;Día de la Constitución Española
 06/12/2022;ALBACETE;Día de la Constitución Española
 06/12/2022;ALICANTE;Día de la Constitución Española
 06/12/2022;ALMERIA;Día de la Constitución Española
-06/12/2022;ALAVA;Día de la Constitución Española
 06/12/2022;ASTURIAS;Día de la Constitución Española
 06/12/2022;AVILA;Día de la Constitución Española
 06/12/2022;BADAJOZ;Día de la Constitución Española
-06/12/2022;ILLES BALEARS;Día de la Constitución Española
 06/12/2022;BARCELONA;Día de la Constitución Española
 06/12/2022;BIZKAIA;Día de la Constitución Española
 06/12/2022;BURGOS;Día de la Constitución Española
@@ -6201,7 +6375,6 @@ Fecha;Provincia;Festividad
 06/12/2022;SEGOVIA;Día de la Constitución Española
 06/12/2022;SEVILLA;Día de la Constitución Española
 06/12/2022;SORIA;Día de la Constitución Española
-06/12/2022;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2022;TARRAGONA;Día de la Constitución Española
 06/12/2022;TERUEL;Día de la Constitución Española
 06/12/2022;TOLEDO;Día de la Constitución Española
@@ -6210,14 +6383,13 @@ Fecha;Provincia;Festividad
 06/12/2022;ZAMORA;Día de la Constitución Española
 06/12/2022;ZARAGOZA;Día de la Constitución Española
 08/12/2022;A CORUÑA;Inmaculada Concepción
+08/12/2022;ALAVA;Inmaculada Concepción
 08/12/2022;ALBACETE;Inmaculada Concepción
 08/12/2022;ALICANTE;Inmaculada Concepción
 08/12/2022;ALMERIA;Inmaculada Concepción
-08/12/2022;ALAVA;Inmaculada Concepción
 08/12/2022;ASTURIAS;Inmaculada Concepción
 08/12/2022;AVILA;Inmaculada Concepción
 08/12/2022;BADAJOZ;Inmaculada Concepción
-08/12/2022;ILLES BALEARS;Inmaculada Concepción
 08/12/2022;BARCELONA;Inmaculada Concepción
 08/12/2022;BIZKAIA;Inmaculada Concepción
 08/12/2022;BURGOS;Inmaculada Concepción
@@ -6255,7 +6427,6 @@ Fecha;Provincia;Festividad
 08/12/2022;SEGOVIA;Inmaculada Concepción
 08/12/2022;SEVILLA;Inmaculada Concepción
 08/12/2022;SORIA;Inmaculada Concepción
-08/12/2022;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2022;TARRAGONA;Inmaculada Concepción
 08/12/2022;TERUEL;Inmaculada Concepción
 08/12/2022;TOLEDO;Inmaculada Concepción
@@ -6264,14 +6435,13 @@ Fecha;Provincia;Festividad
 08/12/2022;ZAMORA;Inmaculada Concepción
 08/12/2022;ZARAGOZA;Inmaculada Concepción
 25/12/2022;A CORUÑA;Natividad del Señor
+25/12/2022;ALAVA;Natividad del Señor
 25/12/2022;ALBACETE;Natividad del Señor
 25/12/2022;ALICANTE;Natividad del Señor
 25/12/2022;ALMERIA;Natividad del Señor
-25/12/2022;ALAVA;Natividad del Señor
 25/12/2022;ASTURIAS;Natividad del Señor
 25/12/2022;AVILA;Natividad del Señor
 25/12/2022;BADAJOZ;Natividad del Señor
-25/12/2022;ILLES BALEARS;Natividad del Señor
 25/12/2022;BARCELONA;Natividad del Señor
 25/12/2022;BIZKAIA;Natividad del Señor
 25/12/2022;BURGOS;Natividad del Señor
@@ -6309,7 +6479,6 @@ Fecha;Provincia;Festividad
 25/12/2022;SEGOVIA;Natividad del Señor
 25/12/2022;SEVILLA;Natividad del Señor
 25/12/2022;SORIA;Natividad del Señor
-25/12/2022;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2022;TARRAGONA;Natividad del Señor
 25/12/2022;TERUEL;Natividad del Señor
 25/12/2022;TOLEDO;Natividad del Señor
@@ -6318,14 +6487,13 @@ Fecha;Provincia;Festividad
 25/12/2022;ZAMORA;Natividad del Señor
 25/12/2022;ZARAGOZA;Natividad del Señor
 01/01/2023;A CORUÑA;Año Nuevo
+01/01/2023;ALAVA;Año Nuevo
 01/01/2023;ALBACETE;Año Nuevo
 01/01/2023;ALICANTE;Año Nuevo
 01/01/2023;ALMERIA;Año Nuevo
-01/01/2023;ALAVA;Año Nuevo
 01/01/2023;ASTURIAS;Año Nuevo
 01/01/2023;AVILA;Año Nuevo
 01/01/2023;BADAJOZ;Año Nuevo
-01/01/2023;ILLES BALEARS;Año Nuevo
 01/01/2023;BARCELONA;Año Nuevo
 01/01/2023;BIZKAIA;Año Nuevo
 01/01/2023;BURGOS;Año Nuevo
@@ -6363,7 +6531,6 @@ Fecha;Provincia;Festividad
 01/01/2023;SEGOVIA;Año Nuevo
 01/01/2023;SEVILLA;Año Nuevo
 01/01/2023;SORIA;Año Nuevo
-01/01/2023;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2023;TARRAGONA;Año Nuevo
 01/01/2023;TERUEL;Año Nuevo
 01/01/2023;TOLEDO;Año Nuevo
@@ -6372,14 +6539,13 @@ Fecha;Provincia;Festividad
 01/01/2023;ZAMORA;Año Nuevo
 01/01/2023;ZARAGOZA;Año Nuevo
 06/01/2023;A CORUÑA;Epifanía del Señor
+06/01/2023;ALAVA;Epifanía del Señor
 06/01/2023;ALBACETE;Epifanía del Señor
 06/01/2023;ALICANTE;Epifanía del Señor
 06/01/2023;ALMERIA;Epifanía del Señor
-06/01/2023;ALAVA;Epifanía del Señor
 06/01/2023;ASTURIAS;Epifanía del Señor
 06/01/2023;AVILA;Epifanía del Señor
 06/01/2023;BADAJOZ;Epifanía del Señor
-06/01/2023;ILLES BALEARS;Epifanía del Señor
 06/01/2023;BARCELONA;Epifanía del Señor
 06/01/2023;BIZKAIA;Epifanía del Señor
 06/01/2023;BURGOS;Epifanía del Señor
@@ -6417,7 +6583,6 @@ Fecha;Provincia;Festividad
 06/01/2023;SEGOVIA;Epifanía del Señor
 06/01/2023;SEVILLA;Epifanía del Señor
 06/01/2023;SORIA;Epifanía del Señor
-06/01/2023;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2023;TARRAGONA;Epifanía del Señor
 06/01/2023;TERUEL;Epifanía del Señor
 06/01/2023;TOLEDO;Epifanía del Señor
@@ -6425,15 +6590,26 @@ Fecha;Provincia;Festividad
 06/01/2023;VALLADOLID;Epifanía del Señor
 06/01/2023;ZAMORA;Epifanía del Señor
 06/01/2023;ZARAGOZA;Epifanía del Señor
+28/02/2023;ALMERIA;Festivo Regional
+28/02/2023;CADIZ;Festivo Regional
+28/02/2023;CORDOBA;Festivo Regional
+28/02/2023;GRANADA;Festivo Regional
+28/02/2023;HUELVA;Festivo Regional
+28/02/2023;JAEN;Festivo Regional
+28/02/2023;MALAGA;Festivo Regional
+28/02/2023;SEVILLA;Festivo Regional
+01/03/2023;ILLES BALEARS;Festivo Regional
+23/04/2023;HUESCA;Festivo Regional
+23/04/2023;TERUEL;Festivo Regional
+23/04/2023;ZARAGOZA;Festivo Regional
 01/05/2023;A CORUÑA;Fiesta del Trabajo
+01/05/2023;ALAVA;Fiesta del Trabajo
 01/05/2023;ALBACETE;Fiesta del Trabajo
 01/05/2023;ALICANTE;Fiesta del Trabajo
 01/05/2023;ALMERIA;Fiesta del Trabajo
-01/05/2023;ALAVA;Fiesta del Trabajo
 01/05/2023;ASTURIAS;Fiesta del Trabajo
 01/05/2023;AVILA;Fiesta del Trabajo
 01/05/2023;BADAJOZ;Fiesta del Trabajo
-01/05/2023;ILLES BALEARS;Fiesta del Trabajo
 01/05/2023;BARCELONA;Fiesta del Trabajo
 01/05/2023;BIZKAIA;Fiesta del Trabajo
 01/05/2023;BURGOS;Fiesta del Trabajo
@@ -6471,7 +6647,6 @@ Fecha;Provincia;Festividad
 01/05/2023;SEGOVIA;Fiesta del Trabajo
 01/05/2023;SEVILLA;Fiesta del Trabajo
 01/05/2023;SORIA;Fiesta del Trabajo
-01/05/2023;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2023;TARRAGONA;Fiesta del Trabajo
 01/05/2023;TERUEL;Fiesta del Trabajo
 01/05/2023;TOLEDO;Fiesta del Trabajo
@@ -6479,15 +6654,26 @@ Fecha;Provincia;Festividad
 01/05/2023;VALLADOLID;Fiesta del Trabajo
 01/05/2023;ZAMORA;Fiesta del Trabajo
 01/05/2023;ZARAGOZA;Fiesta del Trabajo
+17/05/2023;A CORUÑA;Festivo Regional
+17/05/2023;LUGO;Festivo Regional
+17/05/2023;OURENSE;Festivo Regional
+17/05/2023;PONTEVEDRA;Festivo Regional
+30/05/2023;LAS PALMAS;Festivo Regional
+30/05/2023;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2023;LA RIOJA;Festivo Regional
+09/06/2023;MURCIA;Festivo Regional
+25/07/2023;A CORUÑA;Festivo Regional
+25/07/2023;LUGO;Festivo Regional
+25/07/2023;OURENSE;Festivo Regional
+25/07/2023;PONTEVEDRA;Festivo Regional
 15/08/2023;A CORUÑA;Asunción de la Virgen
+15/08/2023;ALAVA;Asunción de la Virgen
 15/08/2023;ALBACETE;Asunción de la Virgen
 15/08/2023;ALICANTE;Asunción de la Virgen
 15/08/2023;ALMERIA;Asunción de la Virgen
-15/08/2023;ALAVA;Asunción de la Virgen
 15/08/2023;ASTURIAS;Asunción de la Virgen
 15/08/2023;AVILA;Asunción de la Virgen
 15/08/2023;BADAJOZ;Asunción de la Virgen
-15/08/2023;ILLES BALEARS;Asunción de la Virgen
 15/08/2023;BARCELONA;Asunción de la Virgen
 15/08/2023;BIZKAIA;Asunción de la Virgen
 15/08/2023;BURGOS;Asunción de la Virgen
@@ -6525,7 +6711,6 @@ Fecha;Provincia;Festividad
 15/08/2023;SEGOVIA;Asunción de la Virgen
 15/08/2023;SEVILLA;Asunción de la Virgen
 15/08/2023;SORIA;Asunción de la Virgen
-15/08/2023;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2023;TARRAGONA;Asunción de la Virgen
 15/08/2023;TERUEL;Asunción de la Virgen
 15/08/2023;TOLEDO;Asunción de la Virgen
@@ -6533,15 +6718,21 @@ Fecha;Provincia;Festividad
 15/08/2023;VALLADOLID;Asunción de la Virgen
 15/08/2023;ZAMORA;Asunción de la Virgen
 15/08/2023;ZARAGOZA;Asunción de la Virgen
+11/09/2023;BARCELONA;Festivo Regional
+11/09/2023;GIRONA;Festivo Regional
+11/09/2023;LLEIDA;Festivo Regional
+11/09/2023;TARRAGONA;Festivo Regional
+09/10/2023;ALICANTE;Festivo Regional
+09/10/2023;CASTELLON;Festivo Regional
+09/10/2023;VALENCIA;Festivo Regional
 12/10/2023;A CORUÑA;Fiesta Nacional de España
+12/10/2023;ALAVA;Fiesta Nacional de España
 12/10/2023;ALBACETE;Fiesta Nacional de España
 12/10/2023;ALICANTE;Fiesta Nacional de España
 12/10/2023;ALMERIA;Fiesta Nacional de España
-12/10/2023;ALAVA;Fiesta Nacional de España
 12/10/2023;ASTURIAS;Fiesta Nacional de España
 12/10/2023;AVILA;Fiesta Nacional de España
 12/10/2023;BADAJOZ;Fiesta Nacional de España
-12/10/2023;ILLES BALEARS;Fiesta Nacional de España
 12/10/2023;BARCELONA;Fiesta Nacional de España
 12/10/2023;BIZKAIA;Fiesta Nacional de España
 12/10/2023;BURGOS;Fiesta Nacional de España
@@ -6579,7 +6770,6 @@ Fecha;Provincia;Festividad
 12/10/2023;SEGOVIA;Fiesta Nacional de España
 12/10/2023;SEVILLA;Fiesta Nacional de España
 12/10/2023;SORIA;Fiesta Nacional de España
-12/10/2023;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2023;TARRAGONA;Fiesta Nacional de España
 12/10/2023;TERUEL;Fiesta Nacional de España
 12/10/2023;TOLEDO;Fiesta Nacional de España
@@ -6588,14 +6778,13 @@ Fecha;Provincia;Festividad
 12/10/2023;ZAMORA;Fiesta Nacional de España
 12/10/2023;ZARAGOZA;Fiesta Nacional de España
 01/11/2023;A CORUÑA;Todos los Santos
+01/11/2023;ALAVA;Todos los Santos
 01/11/2023;ALBACETE;Todos los Santos
 01/11/2023;ALICANTE;Todos los Santos
 01/11/2023;ALMERIA;Todos los Santos
-01/11/2023;ALAVA;Todos los Santos
 01/11/2023;ASTURIAS;Todos los Santos
 01/11/2023;AVILA;Todos los Santos
 01/11/2023;BADAJOZ;Todos los Santos
-01/11/2023;ILLES BALEARS;Todos los Santos
 01/11/2023;BARCELONA;Todos los Santos
 01/11/2023;BIZKAIA;Todos los Santos
 01/11/2023;BURGOS;Todos los Santos
@@ -6633,7 +6822,6 @@ Fecha;Provincia;Festividad
 01/11/2023;SEGOVIA;Todos los Santos
 01/11/2023;SEVILLA;Todos los Santos
 01/11/2023;SORIA;Todos los Santos
-01/11/2023;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2023;TARRAGONA;Todos los Santos
 01/11/2023;TERUEL;Todos los Santos
 01/11/2023;TOLEDO;Todos los Santos
@@ -6642,14 +6830,13 @@ Fecha;Provincia;Festividad
 01/11/2023;ZAMORA;Todos los Santos
 01/11/2023;ZARAGOZA;Todos los Santos
 06/12/2023;A CORUÑA;Día de la Constitución Española
+06/12/2023;ALAVA;Día de la Constitución Española
 06/12/2023;ALBACETE;Día de la Constitución Española
 06/12/2023;ALICANTE;Día de la Constitución Española
 06/12/2023;ALMERIA;Día de la Constitución Española
-06/12/2023;ALAVA;Día de la Constitución Española
 06/12/2023;ASTURIAS;Día de la Constitución Española
 06/12/2023;AVILA;Día de la Constitución Española
 06/12/2023;BADAJOZ;Día de la Constitución Española
-06/12/2023;ILLES BALEARS;Día de la Constitución Española
 06/12/2023;BARCELONA;Día de la Constitución Española
 06/12/2023;BIZKAIA;Día de la Constitución Española
 06/12/2023;BURGOS;Día de la Constitución Española
@@ -6687,7 +6874,6 @@ Fecha;Provincia;Festividad
 06/12/2023;SEGOVIA;Día de la Constitución Española
 06/12/2023;SEVILLA;Día de la Constitución Española
 06/12/2023;SORIA;Día de la Constitución Española
-06/12/2023;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2023;TARRAGONA;Día de la Constitución Española
 06/12/2023;TERUEL;Día de la Constitución Española
 06/12/2023;TOLEDO;Día de la Constitución Española
@@ -6696,14 +6882,13 @@ Fecha;Provincia;Festividad
 06/12/2023;ZAMORA;Día de la Constitución Española
 06/12/2023;ZARAGOZA;Día de la Constitución Española
 08/12/2023;A CORUÑA;Inmaculada Concepción
+08/12/2023;ALAVA;Inmaculada Concepción
 08/12/2023;ALBACETE;Inmaculada Concepción
 08/12/2023;ALICANTE;Inmaculada Concepción
 08/12/2023;ALMERIA;Inmaculada Concepción
-08/12/2023;ALAVA;Inmaculada Concepción
 08/12/2023;ASTURIAS;Inmaculada Concepción
 08/12/2023;AVILA;Inmaculada Concepción
 08/12/2023;BADAJOZ;Inmaculada Concepción
-08/12/2023;ILLES BALEARS;Inmaculada Concepción
 08/12/2023;BARCELONA;Inmaculada Concepción
 08/12/2023;BIZKAIA;Inmaculada Concepción
 08/12/2023;BURGOS;Inmaculada Concepción
@@ -6741,7 +6926,6 @@ Fecha;Provincia;Festividad
 08/12/2023;SEGOVIA;Inmaculada Concepción
 08/12/2023;SEVILLA;Inmaculada Concepción
 08/12/2023;SORIA;Inmaculada Concepción
-08/12/2023;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2023;TARRAGONA;Inmaculada Concepción
 08/12/2023;TERUEL;Inmaculada Concepción
 08/12/2023;TOLEDO;Inmaculada Concepción
@@ -6750,14 +6934,13 @@ Fecha;Provincia;Festividad
 08/12/2023;ZAMORA;Inmaculada Concepción
 08/12/2023;ZARAGOZA;Inmaculada Concepción
 25/12/2023;A CORUÑA;Natividad del Señor
+25/12/2023;ALAVA;Natividad del Señor
 25/12/2023;ALBACETE;Natividad del Señor
 25/12/2023;ALICANTE;Natividad del Señor
 25/12/2023;ALMERIA;Natividad del Señor
-25/12/2023;ALAVA;Natividad del Señor
 25/12/2023;ASTURIAS;Natividad del Señor
 25/12/2023;AVILA;Natividad del Señor
 25/12/2023;BADAJOZ;Natividad del Señor
-25/12/2023;ILLES BALEARS;Natividad del Señor
 25/12/2023;BARCELONA;Natividad del Señor
 25/12/2023;BIZKAIA;Natividad del Señor
 25/12/2023;BURGOS;Natividad del Señor
@@ -6795,7 +6978,6 @@ Fecha;Provincia;Festividad
 25/12/2023;SEGOVIA;Natividad del Señor
 25/12/2023;SEVILLA;Natividad del Señor
 25/12/2023;SORIA;Natividad del Señor
-25/12/2023;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2023;TARRAGONA;Natividad del Señor
 25/12/2023;TERUEL;Natividad del Señor
 25/12/2023;TOLEDO;Natividad del Señor
@@ -6804,14 +6986,13 @@ Fecha;Provincia;Festividad
 25/12/2023;ZAMORA;Natividad del Señor
 25/12/2023;ZARAGOZA;Natividad del Señor
 01/01/2024;A CORUÑA;Año Nuevo
+01/01/2024;ALAVA;Año Nuevo
 01/01/2024;ALBACETE;Año Nuevo
 01/01/2024;ALICANTE;Año Nuevo
 01/01/2024;ALMERIA;Año Nuevo
-01/01/2024;ALAVA;Año Nuevo
 01/01/2024;ASTURIAS;Año Nuevo
 01/01/2024;AVILA;Año Nuevo
 01/01/2024;BADAJOZ;Año Nuevo
-01/01/2024;ILLES BALEARS;Año Nuevo
 01/01/2024;BARCELONA;Año Nuevo
 01/01/2024;BIZKAIA;Año Nuevo
 01/01/2024;BURGOS;Año Nuevo
@@ -6849,7 +7030,6 @@ Fecha;Provincia;Festividad
 01/01/2024;SEGOVIA;Año Nuevo
 01/01/2024;SEVILLA;Año Nuevo
 01/01/2024;SORIA;Año Nuevo
-01/01/2024;SANTA CRUZ DE TENERIFE;Año Nuevo
 01/01/2024;TARRAGONA;Año Nuevo
 01/01/2024;TERUEL;Año Nuevo
 01/01/2024;TOLEDO;Año Nuevo
@@ -6858,14 +7038,13 @@ Fecha;Provincia;Festividad
 01/01/2024;ZAMORA;Año Nuevo
 01/01/2024;ZARAGOZA;Año Nuevo
 06/01/2024;A CORUÑA;Epifanía del Señor
+06/01/2024;ALAVA;Epifanía del Señor
 06/01/2024;ALBACETE;Epifanía del Señor
 06/01/2024;ALICANTE;Epifanía del Señor
 06/01/2024;ALMERIA;Epifanía del Señor
-06/01/2024;ALAVA;Epifanía del Señor
 06/01/2024;ASTURIAS;Epifanía del Señor
 06/01/2024;AVILA;Epifanía del Señor
 06/01/2024;BADAJOZ;Epifanía del Señor
-06/01/2024;ILLES BALEARS;Epifanía del Señor
 06/01/2024;BARCELONA;Epifanía del Señor
 06/01/2024;BIZKAIA;Epifanía del Señor
 06/01/2024;BURGOS;Epifanía del Señor
@@ -6903,7 +7082,6 @@ Fecha;Provincia;Festividad
 06/01/2024;SEGOVIA;Epifanía del Señor
 06/01/2024;SEVILLA;Epifanía del Señor
 06/01/2024;SORIA;Epifanía del Señor
-06/01/2024;SANTA CRUZ DE TENERIFE;Epifanía del Señor
 06/01/2024;TARRAGONA;Epifanía del Señor
 06/01/2024;TERUEL;Epifanía del Señor
 06/01/2024;TOLEDO;Epifanía del Señor
@@ -6911,15 +7089,26 @@ Fecha;Provincia;Festividad
 06/01/2024;VALLADOLID;Epifanía del Señor
 06/01/2024;ZAMORA;Epifanía del Señor
 06/01/2024;ZARAGOZA;Epifanía del Señor
+28/02/2024;ALMERIA;Festivo Regional
+28/02/2024;CADIZ;Festivo Regional
+28/02/2024;CORDOBA;Festivo Regional
+28/02/2024;GRANADA;Festivo Regional
+28/02/2024;HUELVA;Festivo Regional
+28/02/2024;JAEN;Festivo Regional
+28/02/2024;MALAGA;Festivo Regional
+28/02/2024;SEVILLA;Festivo Regional
+01/03/2024;ILLES BALEARS;Festivo Regional
+23/04/2024;HUESCA;Festivo Regional
+23/04/2024;TERUEL;Festivo Regional
+23/04/2024;ZARAGOZA;Festivo Regional
 01/05/2024;A CORUÑA;Fiesta del Trabajo
+01/05/2024;ALAVA;Fiesta del Trabajo
 01/05/2024;ALBACETE;Fiesta del Trabajo
 01/05/2024;ALICANTE;Fiesta del Trabajo
 01/05/2024;ALMERIA;Fiesta del Trabajo
-01/05/2024;ALAVA;Fiesta del Trabajo
 01/05/2024;ASTURIAS;Fiesta del Trabajo
 01/05/2024;AVILA;Fiesta del Trabajo
 01/05/2024;BADAJOZ;Fiesta del Trabajo
-01/05/2024;ILLES BALEARS;Fiesta del Trabajo
 01/05/2024;BARCELONA;Fiesta del Trabajo
 01/05/2024;BIZKAIA;Fiesta del Trabajo
 01/05/2024;BURGOS;Fiesta del Trabajo
@@ -6957,7 +7146,6 @@ Fecha;Provincia;Festividad
 01/05/2024;SEGOVIA;Fiesta del Trabajo
 01/05/2024;SEVILLA;Fiesta del Trabajo
 01/05/2024;SORIA;Fiesta del Trabajo
-01/05/2024;SANTA CRUZ DE TENERIFE;Fiesta del Trabajo
 01/05/2024;TARRAGONA;Fiesta del Trabajo
 01/05/2024;TERUEL;Fiesta del Trabajo
 01/05/2024;TOLEDO;Fiesta del Trabajo
@@ -6965,15 +7153,26 @@ Fecha;Provincia;Festividad
 01/05/2024;VALLADOLID;Fiesta del Trabajo
 01/05/2024;ZAMORA;Fiesta del Trabajo
 01/05/2024;ZARAGOZA;Fiesta del Trabajo
+17/05/2024;A CORUÑA;Festivo Regional
+17/05/2024;LUGO;Festivo Regional
+17/05/2024;OURENSE;Festivo Regional
+17/05/2024;PONTEVEDRA;Festivo Regional
+30/05/2024;LAS PALMAS;Festivo Regional
+30/05/2024;SANTA CRUZ DE TENERIFE;Festivo Regional
+09/06/2024;LA RIOJA;Festivo Regional
+09/06/2024;MURCIA;Festivo Regional
+25/07/2024;A CORUÑA;Festivo Regional
+25/07/2024;LUGO;Festivo Regional
+25/07/2024;OURENSE;Festivo Regional
+25/07/2024;PONTEVEDRA;Festivo Regional
 15/08/2024;A CORUÑA;Asunción de la Virgen
+15/08/2024;ALAVA;Asunción de la Virgen
 15/08/2024;ALBACETE;Asunción de la Virgen
 15/08/2024;ALICANTE;Asunción de la Virgen
 15/08/2024;ALMERIA;Asunción de la Virgen
-15/08/2024;ALAVA;Asunción de la Virgen
 15/08/2024;ASTURIAS;Asunción de la Virgen
 15/08/2024;AVILA;Asunción de la Virgen
 15/08/2024;BADAJOZ;Asunción de la Virgen
-15/08/2024;ILLES BALEARS;Asunción de la Virgen
 15/08/2024;BARCELONA;Asunción de la Virgen
 15/08/2024;BIZKAIA;Asunción de la Virgen
 15/08/2024;BURGOS;Asunción de la Virgen
@@ -7011,7 +7210,6 @@ Fecha;Provincia;Festividad
 15/08/2024;SEGOVIA;Asunción de la Virgen
 15/08/2024;SEVILLA;Asunción de la Virgen
 15/08/2024;SORIA;Asunción de la Virgen
-15/08/2024;SANTA CRUZ DE TENERIFE;Asunción de la Virgen
 15/08/2024;TARRAGONA;Asunción de la Virgen
 15/08/2024;TERUEL;Asunción de la Virgen
 15/08/2024;TOLEDO;Asunción de la Virgen
@@ -7019,15 +7217,21 @@ Fecha;Provincia;Festividad
 15/08/2024;VALLADOLID;Asunción de la Virgen
 15/08/2024;ZAMORA;Asunción de la Virgen
 15/08/2024;ZARAGOZA;Asunción de la Virgen
+11/09/2024;BARCELONA;Festivo Regional
+11/09/2024;GIRONA;Festivo Regional
+11/09/2024;LLEIDA;Festivo Regional
+11/09/2024;TARRAGONA;Festivo Regional
+09/10/2024;ALICANTE;Festivo Regional
+09/10/2024;CASTELLON;Festivo Regional
+09/10/2024;VALENCIA;Festivo Regional
 12/10/2024;A CORUÑA;Fiesta Nacional de España
+12/10/2024;ALAVA;Fiesta Nacional de España
 12/10/2024;ALBACETE;Fiesta Nacional de España
 12/10/2024;ALICANTE;Fiesta Nacional de España
 12/10/2024;ALMERIA;Fiesta Nacional de España
-12/10/2024;ALAVA;Fiesta Nacional de España
 12/10/2024;ASTURIAS;Fiesta Nacional de España
 12/10/2024;AVILA;Fiesta Nacional de España
 12/10/2024;BADAJOZ;Fiesta Nacional de España
-12/10/2024;ILLES BALEARS;Fiesta Nacional de España
 12/10/2024;BARCELONA;Fiesta Nacional de España
 12/10/2024;BIZKAIA;Fiesta Nacional de España
 12/10/2024;BURGOS;Fiesta Nacional de España
@@ -7065,7 +7269,6 @@ Fecha;Provincia;Festividad
 12/10/2024;SEGOVIA;Fiesta Nacional de España
 12/10/2024;SEVILLA;Fiesta Nacional de España
 12/10/2024;SORIA;Fiesta Nacional de España
-12/10/2024;SANTA CRUZ DE TENERIFE;Fiesta Nacional de España
 12/10/2024;TARRAGONA;Fiesta Nacional de España
 12/10/2024;TERUEL;Fiesta Nacional de España
 12/10/2024;TOLEDO;Fiesta Nacional de España
@@ -7074,14 +7277,13 @@ Fecha;Provincia;Festividad
 12/10/2024;ZAMORA;Fiesta Nacional de España
 12/10/2024;ZARAGOZA;Fiesta Nacional de España
 01/11/2024;A CORUÑA;Todos los Santos
+01/11/2024;ALAVA;Todos los Santos
 01/11/2024;ALBACETE;Todos los Santos
 01/11/2024;ALICANTE;Todos los Santos
 01/11/2024;ALMERIA;Todos los Santos
-01/11/2024;ALAVA;Todos los Santos
 01/11/2024;ASTURIAS;Todos los Santos
 01/11/2024;AVILA;Todos los Santos
 01/11/2024;BADAJOZ;Todos los Santos
-01/11/2024;ILLES BALEARS;Todos los Santos
 01/11/2024;BARCELONA;Todos los Santos
 01/11/2024;BIZKAIA;Todos los Santos
 01/11/2024;BURGOS;Todos los Santos
@@ -7119,7 +7321,6 @@ Fecha;Provincia;Festividad
 01/11/2024;SEGOVIA;Todos los Santos
 01/11/2024;SEVILLA;Todos los Santos
 01/11/2024;SORIA;Todos los Santos
-01/11/2024;SANTA CRUZ DE TENERIFE;Todos los Santos
 01/11/2024;TARRAGONA;Todos los Santos
 01/11/2024;TERUEL;Todos los Santos
 01/11/2024;TOLEDO;Todos los Santos
@@ -7128,14 +7329,13 @@ Fecha;Provincia;Festividad
 01/11/2024;ZAMORA;Todos los Santos
 01/11/2024;ZARAGOZA;Todos los Santos
 06/12/2024;A CORUÑA;Día de la Constitución Española
+06/12/2024;ALAVA;Día de la Constitución Española
 06/12/2024;ALBACETE;Día de la Constitución Española
 06/12/2024;ALICANTE;Día de la Constitución Española
 06/12/2024;ALMERIA;Día de la Constitución Española
-06/12/2024;ALAVA;Día de la Constitución Española
 06/12/2024;ASTURIAS;Día de la Constitución Española
 06/12/2024;AVILA;Día de la Constitución Española
 06/12/2024;BADAJOZ;Día de la Constitución Española
-06/12/2024;ILLES BALEARS;Día de la Constitución Española
 06/12/2024;BARCELONA;Día de la Constitución Española
 06/12/2024;BIZKAIA;Día de la Constitución Española
 06/12/2024;BURGOS;Día de la Constitución Española
@@ -7173,7 +7373,6 @@ Fecha;Provincia;Festividad
 06/12/2024;SEGOVIA;Día de la Constitución Española
 06/12/2024;SEVILLA;Día de la Constitución Española
 06/12/2024;SORIA;Día de la Constitución Española
-06/12/2024;SANTA CRUZ DE TENERIFE;Día de la Constitución Española
 06/12/2024;TARRAGONA;Día de la Constitución Española
 06/12/2024;TERUEL;Día de la Constitución Española
 06/12/2024;TOLEDO;Día de la Constitución Española
@@ -7182,14 +7381,13 @@ Fecha;Provincia;Festividad
 06/12/2024;ZAMORA;Día de la Constitución Española
 06/12/2024;ZARAGOZA;Día de la Constitución Española
 08/12/2024;A CORUÑA;Inmaculada Concepción
+08/12/2024;ALAVA;Inmaculada Concepción
 08/12/2024;ALBACETE;Inmaculada Concepción
 08/12/2024;ALICANTE;Inmaculada Concepción
 08/12/2024;ALMERIA;Inmaculada Concepción
-08/12/2024;ALAVA;Inmaculada Concepción
 08/12/2024;ASTURIAS;Inmaculada Concepción
 08/12/2024;AVILA;Inmaculada Concepción
 08/12/2024;BADAJOZ;Inmaculada Concepción
-08/12/2024;ILLES BALEARS;Inmaculada Concepción
 08/12/2024;BARCELONA;Inmaculada Concepción
 08/12/2024;BIZKAIA;Inmaculada Concepción
 08/12/2024;BURGOS;Inmaculada Concepción
@@ -7227,7 +7425,6 @@ Fecha;Provincia;Festividad
 08/12/2024;SEGOVIA;Inmaculada Concepción
 08/12/2024;SEVILLA;Inmaculada Concepción
 08/12/2024;SORIA;Inmaculada Concepción
-08/12/2024;SANTA CRUZ DE TENERIFE;Inmaculada Concepción
 08/12/2024;TARRAGONA;Inmaculada Concepción
 08/12/2024;TERUEL;Inmaculada Concepción
 08/12/2024;TOLEDO;Inmaculada Concepción
@@ -7236,14 +7433,13 @@ Fecha;Provincia;Festividad
 08/12/2024;ZAMORA;Inmaculada Concepción
 08/12/2024;ZARAGOZA;Inmaculada Concepción
 25/12/2024;A CORUÑA;Natividad del Señor
+25/12/2024;ALAVA;Natividad del Señor
 25/12/2024;ALBACETE;Natividad del Señor
 25/12/2024;ALICANTE;Natividad del Señor
 25/12/2024;ALMERIA;Natividad del Señor
-25/12/2024;ALAVA;Natividad del Señor
 25/12/2024;ASTURIAS;Natividad del Señor
 25/12/2024;AVILA;Natividad del Señor
 25/12/2024;BADAJOZ;Natividad del Señor
-25/12/2024;ILLES BALEARS;Natividad del Señor
 25/12/2024;BARCELONA;Natividad del Señor
 25/12/2024;BIZKAIA;Natividad del Señor
 25/12/2024;BURGOS;Natividad del Señor
@@ -7281,7 +7477,6 @@ Fecha;Provincia;Festividad
 25/12/2024;SEGOVIA;Natividad del Señor
 25/12/2024;SEVILLA;Natividad del Señor
 25/12/2024;SORIA;Natividad del Señor
-25/12/2024;SANTA CRUZ DE TENERIFE;Natividad del Señor
 25/12/2024;TARRAGONA;Natividad del Señor
 25/12/2024;TERUEL;Natividad del Señor
 25/12/2024;TOLEDO;Natividad del Señor
@@ -7289,153 +7484,3 @@ Fecha;Provincia;Festividad
 25/12/2024;VALLADOLID;Natividad del Señor
 25/12/2024;ZAMORA;Natividad del Señor
 25/12/2024;ZARAGOZA;Natividad del Señor
-28/02/2010;ANDALUCÍA;Festivo Regional
-01/03/2010;ILLES BALEARS;Festivo Regional
-23/04/2010;ARAGÓN;Festivo Regional
-17/05/2010;GALICIA;Festivo Regional
-25/07/2010;GALICIA;Festivo Regional
-30/05/2010;CANARIAS;Festivo Regional
-09/06/2010;MURCIA;Festivo Regional
-09/06/2010;LA RIOJA;Festivo Regional
-11/09/2010;CATALUÑA;Festivo Regional
-09/10/2010;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2011;ANDALUCÍA;Festivo Regional
-01/03/2011;ILLES BALEARS;Festivo Regional
-23/04/2011;ARAGÓN;Festivo Regional
-17/05/2011;GALICIA;Festivo Regional
-25/07/2011;GALICIA;Festivo Regional
-30/05/2011;CANARIAS;Festivo Regional
-09/06/2011;MURCIA;Festivo Regional
-09/06/2011;LA RIOJA;Festivo Regional
-11/09/2011;CATALUÑA;Festivo Regional
-09/10/2011;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2012;ANDALUCÍA;Festivo Regional
-01/03/2012;ILLES BALEARS;Festivo Regional
-23/04/2012;ARAGÓN;Festivo Regional
-17/05/2012;GALICIA;Festivo Regional
-25/07/2012;GALICIA;Festivo Regional
-30/05/2012;CANARIAS;Festivo Regional
-09/06/2012;MURCIA;Festivo Regional
-09/06/2012;LA RIOJA;Festivo Regional
-11/09/2012;CATALUÑA;Festivo Regional
-09/10/2012;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2013;ANDALUCÍA;Festivo Regional
-01/03/2013;ILLES BALEARS;Festivo Regional
-23/04/2013;ARAGÓN;Festivo Regional
-17/05/2013;GALICIA;Festivo Regional
-25/07/2013;GALICIA;Festivo Regional
-30/05/2013;CANARIAS;Festivo Regional
-09/06/2013;MURCIA;Festivo Regional
-09/06/2013;LA RIOJA;Festivo Regional
-11/09/2013;CATALUÑA;Festivo Regional
-09/10/2013;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2014;ANDALUCÍA;Festivo Regional
-01/03/2014;ILLES BALEARS;Festivo Regional
-23/04/2014;ARAGÓN;Festivo Regional
-17/05/2014;GALICIA;Festivo Regional
-25/07/2014;GALICIA;Festivo Regional
-30/05/2014;CANARIAS;Festivo Regional
-09/06/2014;MURCIA;Festivo Regional
-09/06/2014;LA RIOJA;Festivo Regional
-11/09/2014;CATALUÑA;Festivo Regional
-09/10/2014;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2015;ANDALUCÍA;Festivo Regional
-01/03/2015;ILLES BALEARS;Festivo Regional
-23/04/2015;ARAGÓN;Festivo Regional
-17/05/2015;GALICIA;Festivo Regional
-25/07/2015;GALICIA;Festivo Regional
-30/05/2015;CANARIAS;Festivo Regional
-09/06/2015;MURCIA;Festivo Regional
-09/06/2015;LA RIOJA;Festivo Regional
-11/09/2015;CATALUÑA;Festivo Regional
-09/10/2015;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2016;ANDALUCÍA;Festivo Regional
-01/03/2016;ILLES BALEARS;Festivo Regional
-23/04/2016;ARAGÓN;Festivo Regional
-17/05/2016;GALICIA;Festivo Regional
-25/07/2016;GALICIA;Festivo Regional
-30/05/2016;CANARIAS;Festivo Regional
-09/06/2016;MURCIA;Festivo Regional
-09/06/2016;LA RIOJA;Festivo Regional
-11/09/2016;CATALUÑA;Festivo Regional
-09/10/2016;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2017;ANDALUCÍA;Festivo Regional
-01/03/2017;ILLES BALEARS;Festivo Regional
-23/04/2017;ARAGÓN;Festivo Regional
-17/05/2017;GALICIA;Festivo Regional
-25/07/2017;GALICIA;Festivo Regional
-30/05/2017;CANARIAS;Festivo Regional
-09/06/2017;MURCIA;Festivo Regional
-09/06/2017;LA RIOJA;Festivo Regional
-11/09/2017;CATALUÑA;Festivo Regional
-09/10/2017;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2018;ANDALUCÍA;Festivo Regional
-01/03/2018;ILLES BALEARS;Festivo Regional
-23/04/2018;ARAGÓN;Festivo Regional
-17/05/2018;GALICIA;Festivo Regional
-25/07/2018;GALICIA;Festivo Regional
-30/05/2018;CANARIAS;Festivo Regional
-09/06/2018;MURCIA;Festivo Regional
-09/06/2018;LA RIOJA;Festivo Regional
-11/09/2018;CATALUÑA;Festivo Regional
-09/10/2018;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2019;ANDALUCÍA;Festivo Regional
-01/03/2019;ILLES BALEARS;Festivo Regional
-23/04/2019;ARAGÓN;Festivo Regional
-17/05/2019;GALICIA;Festivo Regional
-25/07/2019;GALICIA;Festivo Regional
-30/05/2019;CANARIAS;Festivo Regional
-09/06/2019;MURCIA;Festivo Regional
-09/06/2019;LA RIOJA;Festivo Regional
-11/09/2019;CATALUÑA;Festivo Regional
-09/10/2019;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2020;ANDALUCÍA;Festivo Regional
-01/03/2020;ILLES BALEARS;Festivo Regional
-23/04/2020;ARAGÓN;Festivo Regional
-17/05/2020;GALICIA;Festivo Regional
-25/07/2020;GALICIA;Festivo Regional
-30/05/2020;CANARIAS;Festivo Regional
-09/06/2020;MURCIA;Festivo Regional
-09/06/2020;LA RIOJA;Festivo Regional
-11/09/2020;CATALUÑA;Festivo Regional
-09/10/2020;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2021;ANDALUCÍA;Festivo Regional
-01/03/2021;ILLES BALEARS;Festivo Regional
-23/04/2021;ARAGÓN;Festivo Regional
-17/05/2021;GALICIA;Festivo Regional
-25/07/2021;GALICIA;Festivo Regional
-30/05/2021;CANARIAS;Festivo Regional
-09/06/2021;MURCIA;Festivo Regional
-09/06/2021;LA RIOJA;Festivo Regional
-11/09/2021;CATALUÑA;Festivo Regional
-09/10/2021;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2022;ANDALUCÍA;Festivo Regional
-01/03/2022;ILLES BALEARS;Festivo Regional
-23/04/2022;ARAGÓN;Festivo Regional
-17/05/2022;GALICIA;Festivo Regional
-25/07/2022;GALICIA;Festivo Regional
-30/05/2022;CANARIAS;Festivo Regional
-09/06/2022;MURCIA;Festivo Regional
-09/06/2022;LA RIOJA;Festivo Regional
-11/09/2022;CATALUÑA;Festivo Regional
-09/10/2022;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2023;ANDALUCÍA;Festivo Regional
-01/03/2023;ILLES BALEARS;Festivo Regional
-23/04/2023;ARAGÓN;Festivo Regional
-17/05/2023;GALICIA;Festivo Regional
-25/07/2023;GALICIA;Festivo Regional
-30/05/2023;CANARIAS;Festivo Regional
-09/06/2023;MURCIA;Festivo Regional
-09/06/2023;LA RIOJA;Festivo Regional
-11/09/2023;CATALUÑA;Festivo Regional
-09/10/2023;COMUNIDAD VALENCIANA;Festivo Regional
-28/02/2024;ANDALUCÍA;Festivo Regional
-01/03/2024;ILLES BALEARS;Festivo Regional
-23/04/2024;ARAGÓN;Festivo Regional
-17/05/2024;GALICIA;Festivo Regional
-25/07/2024;GALICIA;Festivo Regional
-30/05/2024;CANARIAS;Festivo Regional
-09/06/2024;MURCIA;Festivo Regional
-09/06/2024;LA RIOJA;Festivo Regional
-11/09/2024;CATALUÑA;Festivo Regional
-09/10/2024;COMUNIDAD VALENCIANA;Festivo Regional

@@ -16,8 +16,8 @@ engine = create_engine(f'mysql+pymysql://{user}:{password}@{host}:{port}/{databa
 
 # Carpeta donde se guardarán los archivos procesados
 ruta_base = "../Trabajo_final_PBD_Terrawatt/BBDD_Preparacion_Introduccion"
-ruta_salida_dim = os.path.join(ruta_base, "tablas_dim")
-os.makedirs(ruta_salida_dim, exist_ok=True)
+# ruta_salida_dim = os.path.join(ruta_base, "tablas_dim")
+# os.makedirs(ruta_salida_dim, exist_ok=True)
 
 # === FUNCIONES PARA ASOCIAR IDs DE DIMENSIONES ===
 # busca a qué "rango" pertenece un número (como potencia o cantidad de residentes) y devuelve el ID correspondiente.
@@ -450,7 +450,7 @@ with engine.connect() as connection:
         print(f"Tabla '{table_name}' creada en MySQL.")
 
 # === SUBIR DATOS A MySQL ===
-print("📤 Subiendo datos a MySQL...")
+print(" Subiendo datos a MySQL...")
 # Dimensional tables
 # Cargamos la tabla de fechas diarias a MySQL. Repetimos lo mismo para las demás dimensiones.
 dim_fecha_dia.to_sql('dim_fecha_dia', con=engine, if_exists='append', index=False)
