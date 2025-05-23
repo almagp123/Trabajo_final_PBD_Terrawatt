@@ -72,10 +72,11 @@ body {
 /* ==========================
     DISEÑO DE PÁGINAS
 ========================== */
+
 .factura {
     position: relative;
-    width: 100%; 
-    height: auto; 
+    width: 500px;
+    height: 700px;
     background: #fff url('../images/factura_alba-1_tachado-1.svg') no-repeat center / calc(100% - 40px) calc(100% - 40px);
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -83,7 +84,6 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 10px;
 }
-
 .factura-pagina-2 .factura { background-image: url('../images/factura_alba-2-1.svg'); }
 .factura-pagina-3 .factura { background-image: url('../images/factura_alba-3-1.svg'); }
 .factura-pagina-4 .factura { background-image: url('../images/factura_alba-5-1.svg'); }
