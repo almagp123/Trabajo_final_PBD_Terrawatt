@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
-
-
-/* NO TENER EN CUENTA, ESPERARA CONECTAR CON LA BBDD Y CON DOCKER PARA PODER MODIFICARLA Y ADAPTARLA */
-
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -18,270 +10,284 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-}
-.encabezado3 {
-    background-color: rgb(145, 226, 248);
-    min-height: 50vh;
-    background-image: url('../images/estadisticas_encabezado.svg');
+    background-image: url('../images/stacked-waves-haikei.svg');
     background-repeat: no-repeat;
-    background-size: 30%;
-    padding-bottom: 9rem;
+    background-size: cover;
+    background-position: center;
 }
 
-.encabezado-contenido3 {
-    margin-top: 4%;
-    margin-left: 400.5px;
 
-}
-.encabezado-contenido3 h1 {
-    font-size: 40px;
-    color: rgb(11, 72, 126);
-    text-transform: uppercase;
 
+
+.encabezado-contenido {
+    margin: 4% auto 0;
+    max-width: 1200px;
+    text-align: center;
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
 }
+
 
 
 .datos_consumo_luz {
-    width: 80%;
+    width: 90%;
     max-width: 600px;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-left: 331.5px;
-    margin-top: 5%;  
+    margin: 5% auto;
 }
 
 .botones {
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    gap: 10px; 
-    margin-top: 15px;
-  }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
 .boton {
     position: relative;
-    flex: 1;
     text-align: center;
-    padding: 10px;
+    padding: 0.8rem;
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
     background-color: #f4f4f4;
     transition: background-color 0.3s ease, border-color 0.3s ease;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
 }
 
 .boton:hover {
-background-color: #008fcc;
-border-color: #008fcc;
+    background-color: #008fcc;
+    border-color: #008fcc;
 }
 
-.boton-enviar:hover {
-background-color: #008fcc;
-}
-
-.boton::after{
-    content: "✔"; 
-    font-size: 14px;
-    color: #00bfff; 
+.boton::after {
+    content: "✔";
+    font-size: 0.9rem;
+    color: #00bfff;
     position: absolute;
-    bottom: 5px; 
-    right: 5px; 
-    display: none; 
-    background-color: #01769d; 
-    width: 20px; 
-    height: 20px; 
-    display: none; 
-    border-radius: 3px; 
-    display: none; 
+    bottom: 0.3rem;
+    right: 0.3rem;
+    background-color: #01769d;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 3px;
+    display: none;
     justify-content: center;
     align-items: center;
 }
-.boton.activo {
-    background-color: #e6f7ff; 
-    border-color: #00bfff; 
-}
-  
-.boton.activo::after {
-    display: block; 
-  }
 
-.seccion-desplegable.activo {
-    display: block; 
+.boton.activo {
+    background-color: #e6f7ff;
+    border-color: #00bfff;
+}
+
+.boton.activo::after {
+    display: flex;
 }
 
 .seccion-desplegable {
-    display: none; 
-    margin-top: 20px;
-    padding: 20px;
+    display: none;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.seccion-desplegable.activo {
+    display: block;
 }
 
 .icono {
-    width: 20px; 
-    height: 20px;
-    margin-right: 8px; 
-    vertical-align: middle; 
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    margin-bottom: 2%;
+    width: 1.5rem;
+    height: auto;
+    margin-right: 0.5rem;
+    vertical-align: middle;
 }
 
-
-.seccion-desplegable {
-    display: block;
-    margin-top: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: max; 
-    box-sizing: border-box;
-}
 .oculto {
-display: none; 
+    display: none;
 }
 
 .row {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    gap: 20px;
-    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .label {
-flex: 1; 
-color: #333;
+    flex: 1;
+    color: #333;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
 }
 
 .input-container {
-    display: flex; 
-    align-items: center; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    overflow: hidden; 
-    width: 150px; 
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 200px;
     background-color: #f9f9f9;
 }
 
 input[type="number"] {
-flex: 1;
-border: none;
-text-align: center;
-font-size: 16px;
-padding: 5px;
-outline: none; 
-background-color: transparent; 
+    flex: 1;
+    border: none;
+    text-align: center;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+    padding: 0.5rem;
+    outline: none;
+    background-color: transparent;
 }
 
 .input-btn {
-background-color: #f4f4f4;
-border: none;
-padding: 10px;
-cursor: pointer;
-font-size: 16px;
-color: #0078d4;
-transition: background-color 0.3s ease;
+    background-color: #f4f4f4;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+    color: #0078d4;
+    transition: background-color 0.3s ease;
+    min-width: 44px;
+    min-height: 44px;
 }
 
 .input-btn:hover {
-background-color: #e6f7ff;
+    background-color: #e6f7ff;
 }
 
 #decrement {
-border-right: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 #increment {
-border-left: 1px solid #ccc; 
+    border-left: 1px solid #ccc;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none; 
-  margin: 0; 
+    -webkit-appearance: none;
+    margin: 0;
 }
 
-.select-provincia {
+.select-provincia,
+.select-meses,
+.select-vivienda {
     flex: 2;
-    padding: 10px;
+    padding: 0.8rem;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
-    background-color: #f9f9f9;
-    width: 100%; 
-    box-sizing: border-box;
-}
-.select-meses {
-    flex: 2;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
     background-color: #f9f9f9;
     width: 100%;
     box-sizing: border-box;
 }
-.select-vivienda {
-    flex: 2;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    background-color: #f9f9f9;
-    width: 100%; 
-    box-sizing: border-box;
-}
-
-
-
 
 .aviso {
-    display: none; 
+    display: none;
     background-color: #ffdddd;
     border: 1px solid #ff5c5c;
     color: #b30000;
-    padding: 10px 15px;
-    margin-top: 15px;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: clamp(0.8rem, 2.5vw, 0.9rem);
 }
-  
+
 .aviso p {
     margin: 0;
     font-weight: bold;
 }
-  
+
 .aviso.activo {
-    display: block; 
+    display: block;
 }
 
 .boton-centro {
     display: flex;
     justify-content: center;
-    margin-top: 20px; 
+    margin-top: 1.5rem;
 }
 
 .boton-calcular {
     background-color: rgb(131, 15, 15);
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 0.8rem 1.5rem;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    
+    min-width: 44px;
+    min-height: 44px;
 }
 
 .boton-calcular:hover {
     background-color: darkred;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
 
+    .encabezado-contenido {
+        margin: 3% auto 0;
+    }
 
-/* -------------------- */
+    .encabezado-contenido h1 {
+        font-size: clamp(1.5rem, 6vw, 2rem);
+    }
 
+    .datos_consumo_luz {
+        width: 95%;
+        padding: 1rem;
+        margin: 3% auto;
+    }
+
+    .botones {
+        grid-template-columns: 1fr;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input-container {
+        max-width: 100%;
+    }
+
+    .select-provincia,
+    .select-meses,
+    .select-vivienda {
+        flex: 1;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .encabezado-contenido3 h1 {
+        font-size: clamp(1.2rem, 5vw, 1.8rem);
+    }
+
+    .boton,
+    .input-btn,
+    .boton-calcular {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .label,
+    input[type="number"],
+    .select-provincia,
+    .select-meses,
+    .select-vivienda {
+        font-size: 0.9rem;
+    }
+}
 
