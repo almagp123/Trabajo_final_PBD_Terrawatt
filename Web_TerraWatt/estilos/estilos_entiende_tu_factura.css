@@ -74,8 +74,8 @@ body {
 ========================== */
 .factura {
     position: relative;
-    width: 500px;
-    height: 700px;
+    width: 100%; 
+    height: auto; 
     background: #fff url('../images/factura_alba-1_tachado-1.svg') no-repeat center / calc(100% - 40px) calc(100% - 40px);
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -127,10 +127,9 @@ body {
 ========================== */
 
 @media screen and (min-width: 391px) and (max-width: 835px) {
-
     .encabezado {
         min-height: 50vh;
-        background:#264f59 ;
+        background: #264f59;
         padding-bottom: 9rem;
     }
 
@@ -140,7 +139,7 @@ body {
         gap: 10px;
         padding: 6vh;
         width: 100%;
-        zoom: 150%;
+
     }
 
     .factura-pagina-1 .factura,
@@ -159,22 +158,21 @@ body {
     }
 
     .factura-section.datos_personales { top: 1%; left: 48%; width: 48%; height: 10%; }
-    .factura-section.resumen { top: 22%; left: 8%; width: 88%; height: 13%; }
+    .factura-section.resumen { top: 22%; left: 8%; width: 84%; height: 13%; }
     .factura-section.consumo_total { top: 36%; left: 8%; width: 44%; height: 18%; }
-    .factura-section.evolucion_consumo { top: 36%; left: 54%; width: 42%; height: 28%; }
-    .factura-section.datos { top: 1%; left: 8%; width: 86%; height: 14.5%; }
+    .factura-section.evolucion_consumo { top: 36%; left: 54%; width: 38%; height: 28%; }
+    .factura-section.datos { top: 1%; left: 8%; width: 84%; height: 14.5%; }
     .factura-section.detalles { top: 16%; left: 8%; width: 44%; height: 22%; }
-    .factura-section.informacion_consumo { top: 28%; left: 52%; width: 44%; height: 11%; }
-    .factura-section.detalles_de_la_factura { top: 2%; left: 8%; width: 86%; height: 18%; }
-    .factura-section.resumen_total { top: 22%; left: 8%; width: 86%; height: 9%; }
-    .factura-section.graficos { top: 3%; left: 8%; width: 86%; height: 34%; }
+    .factura-section.informacion_consumo { top: 28%; left: 52%; width: 40%; height: 11%; }
+    .factura-section.detalles_de_la_factura { top: 2%; left: 8%; width: 84%; height: 18%; }
+    .factura-section.resumen_total { top: 22%; left: 8%; width: 84%; height: 9%; }
+    .factura-section.graficos { top: 3%; left: 8%; width: 84%; height: 34%; }
 }
 
 @media screen and (max-width: 391px) {
-
     .encabezado {
         min-height: 50vh;
-        background:#264f59 ;
+        background: #264f59;
         padding-bottom: 9rem;
     }
 
@@ -184,7 +182,7 @@ body {
         gap: 10px;
         padding: 6vh;
         width: 100%;
-        zoom: 80%;
+
     }
 
     .factura-pagina-1 .factura,
@@ -194,7 +192,7 @@ body {
         width: 100%;
         height: auto;
         aspect-ratio: 8.5 / 11;
-        min-height: 550px;
+        min-height: 400px; 
         margin: 0;
         padding: 5px;
         background-size: contain;
@@ -203,18 +201,16 @@ body {
     }
 
     .factura-section.datos_personales { top: 1%; left: 48%; width: 48%; height: 10%; }
-    .factura-section.resumen { top: 22%; left: 8%; width: 88%; height: 13%; }
+    .factura-section.resumen { top: 22%; left: 8%; width: 84%; height: 13%; }
     .factura-section.consumo_total { top: 36%; left: 8%; width: 44%; height: 18%; }
-    .factura-section.evolucion_consumo { top: 36%; left: 54%; width: 42%; height: 28%; }
-    .factura-section.datos { top: 1%; left: 8%; width: 86%; height: 14.5%; }
+    .factura-section.evolucion_consumo { top: 36%; left: 54%; width: 38%; height: 28%; }
+    .factura-section.datos { top: 1%; left: 8%; width: 84%; height: 14.5%; }
     .factura-section.detalles { top: 16%; left: 8%; width: 44%; height: 22%; }
-    .factura-section.informacion_consumo { top: 28%; left: 52%; width: 44%; height: 11%; }
-    .factura-section.detalles_de_la_factura { top: 2%; left: 8%; width: 86%; height: 18%; }
-    .factura-section.resumen_total { top: 22%; left: 8%; width: 86%; height: 9%; }
-    .factura-section.graficos { top: 3%; left: 8%; width: 86%; height: 34%; }
+    .factura-section.informacion_consumo { top: 28%; left: 52%; width: 40%; height: 11%; }
+    .factura-section.detalles_de_la_factura { top: 2%; left: 8%; width: 84%; height: 18%; }
+    .factura-section.resumen_total { top: 22%; left: 8%; width: 84%; height: 9%; }
+    .factura-section.graficos { top: 3%; left: 8%; width: 84%; height: 34%; }
 }
-
-
 
 
 /* ==========================
@@ -343,3 +339,7 @@ body {
 #modal-subinfo a:hover {
     text-decoration: underline;
 }
+
+
+
+
