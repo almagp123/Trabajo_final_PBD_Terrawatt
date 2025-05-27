@@ -35,7 +35,7 @@ while fecha_actual <= fecha_fin:
         response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
     except requests.exceptions.RequestException as e:
-        print(f"❌ Error en {fecha_str}: {e}")
+        print(f"Error en {fecha_str}: {e}")
         fecha_actual += timedelta(days=1)
         continue
 
@@ -58,7 +58,7 @@ while fecha_actual <= fecha_fin:
         if posible_clave:
             entries = data[posible_clave]
         else:
-            print(f"❌ Sin clave reconocible de precios en {fecha_str}")
+            print(f"Sin clave reconocible de precios en {fecha_str}")
             fecha_actual += timedelta(days=1)
             continue
 
@@ -69,7 +69,7 @@ while fecha_actual <= fecha_fin:
         precios_horarios = [float(e["PCB"].replace(",", ".")) for e in entries if "PCB" in e]
 
     if not precios_horarios:
-        print(f"⚠️ Sin precios horarios válidos en {fecha_str}")
+        print(f"Sin precios horarios válidos en {fecha_str}")
         fecha_actual += timedelta(days=1)
         continue
 
